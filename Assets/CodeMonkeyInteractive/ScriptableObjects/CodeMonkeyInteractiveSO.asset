@@ -13,15 +13,197 @@ MonoBehaviour:
   m_Name: CodeMonkeyInteractiveSO
   m_EditorClassIdentifier: 
   currentVersion: 1.14
-  quizStateList: []
-  frequentlyAskedQuestionStateList: []
+  quizStateList:
+  - quizSO: {fileID: 11400000, guid: 482501a535acc754c93fba3af2777554, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 5fe1dc39eb0dc9d47b89fc358593632a, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: ab34ea94f4bd90a4b97e56ea85cf558c, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: ec199d7bffd9e7e419723e594da7a8c7, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 9ee4b4ad8056b314ba9c0914912aefce, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 2b5eb30a66e3f234e958495a56223470, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 92b9ba1bb1084f449917d13df8ad8701, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 92f1fc7cdaa5e7f45aa2aa8c648986dd, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: a926fcb659cb38444b2d4489be52e929, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 11c3c23a7bc70a14ead4e49a9c64c6cf, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 183d076f8c575004a9d8f5f3e1c17761, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 7d2f7420610ae5f489a1b4d8d80bd859, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: fb79fe11cde08224cbf86816a5e2efc6, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 878b1e35b81b6bb4abeb54e2ec7a778f, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 056681deea9a4e44287ff6aa8205a908, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 667029900fc89cb4a93501e06ecd4324, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 42a94ea5feb2a8d47a1155cb7380295c, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 70787be20c700c749b157c93255de137, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 87711572273c2274bb03dd0092b09df0, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 208ff0c095ec5a0429cba2cdef96cfe6, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: a419b534ca759254084e43ae3abdfab5, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 4afc484a4196ae74e9d6dba56f94b8e8, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 4d15dc54a5ff073468f5f231a20d3b9b, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 2e85008014141c74a9f2bc075d7d6f14, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 762a1348c6f789f4da4927fab8c14ab5, type: 2}
+    state: 2
+  frequentlyAskedQuestionStateList:
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: fb4e12c59579fd647a6b5e66c27b0437,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: f1bbb88384ad1fe49a4fb037de7e86f1,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 11ba19479a7c18a488f08b6ed1c4ae96,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: f2304190a47122e458f1012cf156761e,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 8e087eef69ccb7642ae5f4437e32cea8,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 10c4ce56192bd0045a027ab2aab3d4e6,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 614bffb2e8c64e94e8b1b527bbf34929,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 7be06a10fd937f5449d0be0f0970c1d1,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: e6fc9bb026de5c144b99788e0a1f9c47,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: c1e23f4372bdf424684d3a1766648bac,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 0e1cdb1698de06f4fa39e5dd418e6beb,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: cc8fa194f357fe943b40e8d5f38e9d32,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: f1a50d5ff51f6be49aaab1e8f944fcd1,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 0bd40308169b3284a900d0ddf0666352,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 8ee4317498beb6c4f8cf5de05bc43369,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 4b4c7a278637f0e41bed95a6ace24a74,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: e9845652af58376478f3bd79f703e4c1,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 8d47a2fde702e6a49a315aac72fd936f,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: cc54d757c37f29f4ab6faa90d4c63b88,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 3aa0caaf3dd74cf4f8327bc0c755a3ec,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 79368dbc5d9a25c4b96518532f226b83,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: f594e6b3615fb424db55a4f6e6f217cf,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 4101b6ae87f020748b1129b755c6eebc,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: b233112767be51245ab82b912bec5345,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 7a84186fe44b22649a98469086fb3cd7,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 2647aa5a842f93b4a8f787321cf03fd3,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 751c28738542e0343baed8eba3bbaeba,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 00745ee77de2edc4884e97be1f050552,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 9743dff38225273449f70ecc578d7a49,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 878d9c471d384484a87182f2064beb0b,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 8a9c483c595477e44afdf85693ac46ca,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 6c595d54ee3cd1347a5259b1b2bd77a3,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 51f9bce542e8f2345be72cebc81f4e5f,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 5d2f6ad05d4166047b42ffd29500aacc,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 1471f37b151bd304aab7f6b5ca425d25,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: e8e7bc87f8f510544b18481e22b1b83e,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: ff91e9ea0823c0541b4d31d2a4d2569b,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: f962d15222365e34485a4c18d300b855,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: f7a50e200cefcdc448ea944862e19512,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 7d6de4b54d2748d4dbcc96d26da25d32,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 7ee5808e2babf4946ab4e6bb8083b73c,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: a728920cdada0254e822c2a15b2e5b1c,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 2f241020777fa024a968492a98a84a15,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: a0fe082cfb5cc2746a7f0046b9bd83f3,
+      type: 2}
+    state: 2
   exerciseStateList: []
   lectureListSO: {fileID: 11400000, guid: c1af4d7cadebe754fa5ac3880e0890f9, type: 2}
   defaultScene: {fileID: 102900000, guid: bb81c32a07e112643ac0b41e5f2d830a, type: 3}
   activeExerciseSO: {fileID: 0}
-  lastSelectedLectureSO: {fileID: 11400000, guid: 9d9cb879b53f6a54e8e03167da5d65d4,
+  lastSelectedLectureSO: {fileID: 11400000, guid: e4cd3a5bd0af82942b53a278f8e1fb41,
     type: 2}
-  checkedLastUpdateTimestamp: 1747364122
+  checkedLastUpdateTimestamp: 1747367931
   lastUpdateVersion: 1.14
   lastQOTDResponse:
     questionId: 181
@@ -31,7 +213,7 @@ MonoBehaviour:
     answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1747364122
+  lastQotdTimestamp: 1747367931
   websiteLatestMessage:
     text: 'Hi there!
 
@@ -49,11 +231,11 @@ MonoBehaviour:
 
       (and
       join the Discord)'
-  websiteLatestMessageTimestamp: 1747364122
+  websiteLatestMessageTimestamp: 1747367931
   websiteDynamicMessage:
     text: <u>Fresh Assets on Sale!</u>
     url: https://cmonkey.co/unityassetstore
-  websiteDynamicMessageTimestamp: 1747364122
+  websiteDynamicMessageTimestamp: 1747367931
   websiteLatestVideos:
     videos:
     - youTubeId: XbtsbS7EfWM
@@ -64,7 +246,7 @@ MonoBehaviour:
       title: CHEAT SHEET for BOOSTING your GAMES!
     - youTubeId: G9TfMVURn2U
       title: Get FREE Awesome Assets EVERY WEEK! Do you know about this?
-  websiteLatestVideosTimestamp: 1747364122
+  websiteLatestVideosTimestamp: 1747367931
   lastChatAIQuestionAsked: What is the difference between Delegates and Events?
   lastChatAIQuestionAnswer: "### Difference between Delegates and Events in C#\n\n####
     Delegates\n- **Definition**: A delegate is a type that defines a method signature.
