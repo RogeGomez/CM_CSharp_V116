@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1210_08
+  m_EditorClassIdentifier: 
+  title: What are some common mistakes beginners make with regards to naming conventions?
+    Not being consistent
+  text: 'The biggest mistake is simply not following any rules.
+
+    If you write
+    one variable using PascalCase and the next variable using camelCase and another
+    one using snake_case (or even worse just make it all lowercase)
+
+    If you
+    do that then the code becomes really hard to understand since there''s no logic
+    to anything.
+
+    The other big mistake is simply not being consistent.
+
+    If
+    you follow one set of rules for one file and another set of rules for another
+    file, then it becomes really hard to quickly switch back and forth.
+
+    So
+    pick a set of naming rules and follow them all the time.
+
+'

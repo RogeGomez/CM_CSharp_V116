@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2150_09
+  m_EditorClassIdentifier: 
+  title: What does it mean to prefer composition over inheritance?
+  text: 'It means rather than having very complex inheritance trees where something
+    like a Dog inherits from Animal which inherits from LivingThing, etc.
+
+    Instead
+    of that you compose an object with various behaviours, possibly by implementing
+    interfaces or just having different components.
+
+    Like perhaps a Dog class
+    would have a Legs component that defines how it walks, then a Heart component
+    that defines how it lives, a Mouth component that defines how it talks/eats,
+    etc.
+
+    For example Unity is entirely based on a composition pattern. What
+    defines the behaviours of some game object in Unity is based on the components
+    attached to that game object. If it has a SpriteRenderer component it will render
+    a sprite, if it has a MeshRenderer component it will render a mesh, if it has
+    a Rigidbody it will have physics, etc.
+
+'

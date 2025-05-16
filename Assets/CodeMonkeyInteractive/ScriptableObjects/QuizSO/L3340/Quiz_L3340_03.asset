@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3340_03
+  m_EditorClassIdentifier: 
+  question: Which of the following statements about asynchronous programming in C#
+    is true?
+  optionList:
+  - Asynchronous programming is always multithreaded.
+  - Asynchronous programming allows tasks to run in parallel without blocking the
+    main thread, but it does not mean multithreading.
+  - Asynchronous programming blocks the main thread until all tasks are complete.
+  - Asynchronous programming is slower than synchronous programming.
+  correctOptionIndex: 1
+  answer: Async is a great way to keep your program responsive while doing other
+    tasks, but it does NOT make your program multithreaded by default. Although it
+    can be combined with multithreading.

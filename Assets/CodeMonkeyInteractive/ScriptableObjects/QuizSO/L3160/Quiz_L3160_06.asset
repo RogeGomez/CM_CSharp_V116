@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3160_06
+  m_EditorClassIdentifier: 
+  question: What is a valid use case for a Span in game development?
+  optionList:
+  - Creating a temporary array to store sliced data.
+  - Displaying items per page in an inventory system.
+  - Storing data for the entire game session.
+  correctOptionIndex: 1
+  answer: 'One great use case is for some kind of pagination system in some inventory.
+    You can have a function that displays the contents of an inventory based on a
+    span, then by grabbing different slices of the entire inventory array you can
+    show different pages.
+
+'

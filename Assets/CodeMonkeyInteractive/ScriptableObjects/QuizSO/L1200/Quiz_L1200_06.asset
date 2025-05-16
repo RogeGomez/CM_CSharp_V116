@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1200_06
+  m_EditorClassIdentifier: 
+  question: What is the effect of applying the 'public' access modifier to a class?
+  optionList:
+  - The class can only be instantiated publicly.
+  - The class and all its members become accessible from other parts of the program.
+  - The class becomes static.
+  - All members of the class are automatically public.
+  correctOptionIndex: 1
+  answer: 'You can access a public class from anywhere in your code base.
+
+    Making
+    a class public or private does not change the access modifier of any of its members.
+
+'

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3080_06
+  m_EditorClassIdentifier: 
+  title: Why use default instead of specifying a literal value like 0 or null?
+  text: 'Using default makes your code more maintainable and less error-prone. It
+    automatically adapts if the type of the variable changes. For example, if you
+    change a variable from int to float, default will still provide the correct zero-equivalent
+    value without needing to change your code.
+
+    However when you don''t want
+    a zero-equivalent value it''s perfectly fine to use any value you define yourself,
+    like -1 on an int to represent some invalid value.'

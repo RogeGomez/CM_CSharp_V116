@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2090_02
+  m_EditorClassIdentifier: 
+  title: How do you declare and initialize a Dictionary?
+  text: 'You just need to define the types you want to use for the key and the value,
+    for example you can use an enum for a Key and an int for the Value
+
+    ##REF##code,
+
+    Dictionary<ResourceType,
+    int> inventoryDictionary; // ResourceType is an enum with various resource types
+
+    inventoryDictionary
+    = new Dictionary<ResourceType, int>(); // Create dictionary
+
+    inventoryDictionary[ResourceType.Wood]
+    = 5; // Assign the value 5 to the key ResourceType.Wood
+
+    ##REF##'

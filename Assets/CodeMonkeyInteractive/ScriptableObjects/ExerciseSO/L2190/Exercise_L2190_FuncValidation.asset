@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2190_FuncValidation
+  m_EditorClassIdentifier: 
+  exerciseName: FuncValidation
+  exerciseTitle: Pass in a Func to validate a number
+  exerciseText: Call ValidateElements(); and pass in a function to validate if a
+    number is below 10 and above 0.
+  hintText: Remember Func
+  solutionText: ValidateElements((int number) => number < 10 && number > 0);
+  completedText: Here you learned a very common use case for delegates, using them
+    for validation so the calling function can decide what type of validation to
+    use.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=ft0vXXI9X04

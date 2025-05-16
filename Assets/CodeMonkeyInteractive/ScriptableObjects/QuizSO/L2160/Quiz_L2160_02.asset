@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2160_02
+  m_EditorClassIdentifier: 
+  question: Which of the following statements about interfaces is TRUE?
+  optionList:
+  - An interface can contain static methods with implementations.
+  - An interface can declare fields and auto-implemented properties.
+  - A class can implement multiple interfaces.
+  - Interfaces can contain constructor definitions.
+  correctOptionIndex: 2
+  answer: 'One big difference between inheritance and interfaces is how a class can
+    only inherit from another class but it can implement as many interfaces as you
+    want.
+
+    Interfaces cannot actually hold any data so you cannot have fields,
+    they are not actual types that can be constructed so they have no constructor
+    and no static functions.
+
+'

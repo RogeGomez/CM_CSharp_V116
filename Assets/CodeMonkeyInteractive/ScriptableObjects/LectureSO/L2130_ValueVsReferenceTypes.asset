@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L2130_ValueVsReferenceTypes
+  m_EditorClassIdentifier: 
+  lectureCode: 2130
+  lectureSectionNumber: 13
+  lectureName: ValueVsReferenceTypes
+  lectureTitle: Value Vs Reference Types
+  frequentlyAskedQuestionListSO: {fileID: 11400000, guid: cde1ef1333db0314da1484626459eac3,
+    type: 2}
+  quizListSO: {fileID: 11400000, guid: 5f25e20d87f1055499b5bae2dc1f1983, type: 2}
+  exerciseListSO: {fileID: 11400000, guid: 0da866219d91b3d49889e1effccc8e10, type: 2}

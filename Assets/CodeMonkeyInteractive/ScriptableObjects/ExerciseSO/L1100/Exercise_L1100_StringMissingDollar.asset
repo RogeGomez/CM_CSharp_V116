@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1100_StringMissingDollar
+  m_EditorClassIdentifier: 
+  exerciseName: StringMissingDollar
+  exerciseTitle: Make two strings the same
+  exerciseText: 'Edit Exercise.cs to make both strings exactly the same.
+
+    Play
+    the Unity scene to test.'
+  hintText: Remember the two string writing methods, string concatenation and string
+    interpolation.
+  solutionText: 'In order to use string interpolation so you can write variables
+    inside the quotation marks, you need to start the string with a $ symbol.
+
+    string
+    firstString = $"Money ${money}!";
+
+    string secondString = "Money $" + money
+    + "!";'
+  completedText: In this exercise you learned the two string writing methods, string
+    concatenation with + and string interpolation with $.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=jHhIGGoA7gs

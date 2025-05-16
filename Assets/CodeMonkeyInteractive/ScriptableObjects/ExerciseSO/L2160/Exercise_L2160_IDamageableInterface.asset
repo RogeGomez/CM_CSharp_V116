@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2160_IDamageableInterface
+  m_EditorClassIdentifier: 
+  exerciseName: IDamageableInterface
+  exerciseTitle: Create an IDamageable interface
+  exerciseText: 'Create an interface IDamageable with a function TakeDamage(int amount).
+
+    Then,
+    define two classes, Enemy and Barrel, that implement this interface.
+
+'
+  hintText: 'The syntax for an interface is you type in the ''interface'' keyword
+    and then inside the code blocks you define all the functions you want that interface
+    to implement.
+
+    Then to implement the interface in some class you use the
+    same syntax as inheritance.'
+  solutionText: "public interface IDamageable {\r\n\r\n    public void TakeDamage(int
+    damageAmount);\r\n\r\n}\r\n\r\n// Define a Enemy class that implements IDamageable\r\npublic
+    class Enemy : IDamageable {\r\n    public void TakeDamage(int damageAmount) {\r\n       
+    Debug.Log($\"Enemy.TakeDamage({damageAmount})\");\r\n    }\r\n}\r\n\r\n// Define
+    a Barrel class that implements IDamageable\r\npublic class Barrel : IDamageable
+    {\r\n    public void TakeDamage(int damageAmount) {\r\n        Debug.Log($\"Barrel.TakeDamage({damageAmount})\");\r\n   
+    }\r\n}"
+  completedText: 'Here you learned how to define and use an interface.
+
+    Interfaces
+    are my favorite feature of C#, they have so many awesome use cases and can really
+    help you make your code more modular.'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=pNPD0cL-eIA

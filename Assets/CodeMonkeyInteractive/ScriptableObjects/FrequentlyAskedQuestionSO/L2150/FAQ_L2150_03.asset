@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2150_03
+  m_EditorClassIdentifier: 
+  title: What is polymorphism?
+  text: 'This is how an object can act as a different type, as long as those types
+    are related.
+
+    ##REF##code,
+
+    public class Unit { }
+
+    public class Player
+    { }
+
+    -------------
+
+    Unit unit = new Unit();
+
+    Unit unitPlayer = new
+    Player(); // This is valid because Player inherits from Unit so it can be used
+    as a Unit
+
+    Player player = new Unit(); // This is NOT valid because Unit
+    does not have a direct relationship with Player
+
+    ##REF##
+
+
+    Then if you
+    have a function that takes in an object of type Unit, you can pass in a Player
+    object
+
+    ##REF##code,
+
+    public void DoSomething(Unit unit);
+
+    -----------
+
+    DoSomething(new
+    Player());
+
+    ##REF##'

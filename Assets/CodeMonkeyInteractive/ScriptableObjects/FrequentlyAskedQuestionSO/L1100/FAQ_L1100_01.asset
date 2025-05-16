@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1100_01
+  m_EditorClassIdentifier: 
+  title: What are data types, and why are they important in programming?
+  text: 'All data in programming has some kind of type, like a number or a string
+    of text.
+
+    Data Types are how you define what type of data you are working
+    with.
+
+    For example if you define a variable of type string then the compiler
+    knows that variable can only contain strings of text
+
+    If you define a variable
+    of type int then the compiler only lets you store whole numbers inside it. If
+    you try storing a string of text or a decimal number you get an error.
+
+'

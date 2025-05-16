@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2050_03
+  m_EditorClassIdentifier: 
+  question: How can you enforce that a property can be read from anywhere but only
+    set within its class?
+  optionList:
+  - By making the property public and the set accessor private.
+  - By declaring the property as static.
+  - By using the protected keyword on the property.
+  - By only providing a get accessor.
+  correctOptionIndex: 0
+  answer: 'You define the property as public, you can omit the accessor on the get
+    to keep it public, and define the set as private.
+
+    ##REF##code,
+
+    public
+    static Instance { get; private set; }
+
+    ##REF##
+
+    This makes it so that
+    the property can be set by that class, but other classes can only get it.
+
+'

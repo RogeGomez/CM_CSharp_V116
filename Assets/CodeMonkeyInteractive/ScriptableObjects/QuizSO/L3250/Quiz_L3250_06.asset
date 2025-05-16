@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3250_06
+  m_EditorClassIdentifier: 
+  question: Which of the following statements is true about anonymous types in C#?
+  optionList:
+  - They can contain methods.
+  - They can be used as fields in a class.
+  - They are intended for small, temporary data structures.
+  - They can inherit from other types.
+  correctOptionIndex: 2
+  answer: They are meant for small simple use cases. If you want to do something
+    complex you should define a proper type.

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3220_DynamicObject
+  m_EditorClassIdentifier: 
+  exerciseName: DynamicObject
+  exerciseTitle: Dynamic Object
+  exerciseText: Make a function called TestObject that receives a dynamic parameter.
+    Then inside it try to call a Test function inside that object. But make sure
+    it does NOT throw an exception if the object doesn't have a Test function.
+  hintText: Use the dynamic keyword on the parameter and call the function, but use
+    a try catch to ensure it doesn't throw an exception.
+  solutionText: "public void TestObject(dynamic objectDynamic) {\r\n    try {\r\n       
+    objectDynamic.Test();\r\n    } catch { }\r\n}"
+  completedText: In this exercise you learned how to use dynamic. Note how Visual
+    Studio did not give you auto-suggestions because by using dynamic it means the
+    type can be anything.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=b9LF8SB3P5U

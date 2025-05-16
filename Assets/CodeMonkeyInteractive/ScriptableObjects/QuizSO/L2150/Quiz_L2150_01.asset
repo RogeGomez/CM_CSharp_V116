@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2150_01
+  m_EditorClassIdentifier: 
+  question: What is inheritance in the context of C# classes?
+  optionList:
+  - Copying properties from one class to another.
+  - A class taking on the properties, methods, and fields of another class.
+  - A method of selectively hiding methods in a base class.
+  - Converting one class type to another.
+  correctOptionIndex: 1
+  answer: 'You can make a class inherit from a base class which will mean that class
+    contains all the behaviour and data of that base class and on top of it can have
+    more data and logic or override certain logic in the base class.
+
+'

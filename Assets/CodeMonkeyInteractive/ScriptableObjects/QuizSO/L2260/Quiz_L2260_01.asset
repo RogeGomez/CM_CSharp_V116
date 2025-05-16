@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2260_01
+  m_EditorClassIdentifier: 
+  question: What is the primary purpose of namespaces in C#?
+  optionList:
+  - To provide library functions like input/output operations
+  - To organize code into logical groups
+  - To increase the execution speed of programs
+  - To define new classes and methods
+  correctOptionIndex: 1
+  answer: 'The main goal of namespaces is code organization. For example you can
+    place all your Input logic in one namespace, all your UI logic in another one,
+    all your AI logic in another one and so on.
+
+'

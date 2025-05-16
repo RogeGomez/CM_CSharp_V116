@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1090_06
+  m_EditorClassIdentifier: 
+  question: Is it possible to declare multiple variables in one line?
+  optionList:
+  - Yes, by separating them with a comma.
+  - No, each variable must be declared on a separate line.
+  correctOptionIndex: 0
+  answer: 'Yup you can define multiple variables in one line like this:
+
+    int
+    age, int health, bool isPlayer, float moveSpeed;
+
+    Although while this is
+    valid code personally I tend to avoid doing this because I feel it makes the
+    code more confusing.
+
+    So while you can do it, personally I would always define
+    each variable in a separate line to keep the code nice and readable.'

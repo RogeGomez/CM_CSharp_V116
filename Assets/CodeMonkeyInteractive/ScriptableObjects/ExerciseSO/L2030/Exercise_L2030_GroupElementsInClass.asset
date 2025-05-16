@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2030_GroupElementsInClass
+  m_EditorClassIdentifier: 
+  exerciseName: GroupElementsInClass
+  exerciseTitle: Group elements in a Class
+  exerciseText: 'Refactor this code to use a proper class instead of separate fields
+    for each piece of data.
+
+    Data that is directly related, like multiple PlayerStats,
+    should be in its own type instead of separated.'
+  hintText: You can essentially 'group' data by just making a new class to hold that
+    type.
+  solutionText: "public class PlayerStats {\r\n    public int strength;\r\n    public
+    int wisdom;\r\n    public int dexterity;\r\n}\r\n\r\nprivate void Start() {\r\n   
+    PlayerStats playerStats = new PlayerStats();\r\n    playerStats.strength = 56;\r\n   
+    playerStats.wisdom = 12;\r\n    playerStats.dexterity = 33;\r\n}"
+  completedText: "Here you learned how to group related data in its own type. Doing
+    so helps make your code much more manageable. \nFor example instead of having
+    a function to set your stats which takes in 3 parameters, you just make it take
+    a single parameter of the type that goups all those elements."
+  videoWalkthroughLink: https://www.youtube.com/watch?v=m8J9C1oNZgk

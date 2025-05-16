@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1150_05
+  m_EditorClassIdentifier: 
+  question: What is a common beginner mistake regarding comments in C#?
+  optionList:
+  - Writing noisy useless comments.
+  - Placing comments in the wrong place.
+  - Using too many multi-line comments.
+  correctOptionIndex: 0
+  answer: "I remember when I started learning programming and someone told me I should
+    comment absolutely everything. So I would write comments after every single line
+    of code like:\n##REF##code,\r\n// Declare age\r\nint age = 35;\r\n// Test if
+    age under 40\r\nif (age < 40) {\r\n\t// Do something when age under 40\r\n}\n##REF##\r\nThese
+    are useless comments, they don't provide anything extra other than just noise.\r\nIn
+    general you should avoid using comments, meaning before you write a comment try
+    to see if your code could become more understandable by just using proper names
+    for variables and functions, in many cases just doing that will make the code
+    easy to understand.\r\nBut of course sometimes comments are excellent, usually
+    more to describe the WHY behind a piece of code as opposed to the WHAT is it
+    doing, the WHAT should be obvious by just reading the code.\r\n"

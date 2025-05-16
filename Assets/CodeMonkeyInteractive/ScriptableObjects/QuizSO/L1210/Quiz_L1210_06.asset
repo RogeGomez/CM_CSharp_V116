@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1210_06
+  m_EditorClassIdentifier: 
+  question: Is it okay to refactor and rename code?
+  optionList:
+  - No, code should be set in stone and should never change afterwards.
+  - Yes, you shoud refactor or rename code whenever you find a better way to do things.
+  correctOptionIndex: 1
+  answer: "Refactoring is a perfectly normal, and extremely important part of programming.
+    You should absolutely refactor your code any time you come up with a better way
+    of achieving the same result.\r\nThis is something that beginners need to learn,
+    usually they think once the code is written that it's done forever but that is
+    not the case. Code is a living breathing thing and should adapt as your project
+    grows.\r\nRefactoring is extremely important and something you must remember
+    to do if you want to write better code.\r\nThere is a dedicated lecture all about
+    Refactoring in the beginning of the Intermediate section. \r\n"

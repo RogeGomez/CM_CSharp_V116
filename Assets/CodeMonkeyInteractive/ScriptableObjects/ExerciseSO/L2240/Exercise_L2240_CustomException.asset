@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2240_CustomException
+  m_EditorClassIdentifier: 
+  exerciseName: CustomException
+  exerciseTitle: Define and Throw custom Exception
+  exerciseText: Define and throw a custom exception InvalidInputException if the
+    player parameter is set to null.
+  hintText: Exceptions are just classes that extend System.Exception;
+  solutionText: "public class InvalidInputException : Exception { }\r\n\r\n\r\npublic
+    void TestFunction(Player player) {\r\n    // Test if player is null, if so throw
+    an InvalidInputException\r\n    if (player == null) {\r\n        throw new InvalidInputException();\r\n   
+    }\r\n    player.DoSomething();\r\n}"
+  completedText: Here you learned how to create and throw a custom exception.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=0gl-3JG6LX4

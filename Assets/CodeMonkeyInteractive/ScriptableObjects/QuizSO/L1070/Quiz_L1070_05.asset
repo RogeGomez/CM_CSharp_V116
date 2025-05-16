@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1070_05
+  m_EditorClassIdentifier: 
+  question: What is the common cause of a 'NullReferenceException' error?
+  optionList:
+  - Trying to access a member of a null object.
+  - Missing semi-colon at the end of a statement.
+  - Incorrect capitalization of variable names.
+  - Forgetting to import the necessary namespace.
+  correctOptionIndex: 0
+  answer: 'This is the most common error you''re going to encounter, it is very common
+    for both beginners and advanced users.
+
+    It simply means you are trying to
+    access something on some object that is currently set to null.
+
+    The solution
+    will depend on what exactly you''re trying to do, I covered my 4 step process
+    in a video
+
+    ##REF##video_small, 5irv30-bTJw, How to Fix NullReferenceException
+    in C#!###REF##
+
+'

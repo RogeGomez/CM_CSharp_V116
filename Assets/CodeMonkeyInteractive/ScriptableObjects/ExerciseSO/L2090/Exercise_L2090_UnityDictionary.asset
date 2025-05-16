@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2090_UnityDictionary
+  m_EditorClassIdentifier: 
+  exerciseName: UnityDictionary
+  exerciseTitle: Unity Dictionary Workaround
+  exerciseText: Implement the workaround for Unity initialization of a Dictionary.
+    Define a class with a Key-value pair of types (ResourceType, int) then define
+    a List of that class, and finally implement the CreateDictionary(); function
+    to create and initialize the dictionary <ResourceType, int> then return it.
+  hintText: Define the class, then a list of that class, then on CreateDictionary();
+    cycle through the list and populate the dictionary.
+  solutionText: "// Define a class that can hold a ResourceType field and an int
+    field\r\npublic class ResourceTypeAmount {\r\n    public ResourceType resourceType;\r\n   
+    public int amount;\r\n}\r\n\r\n// Define a List of that class type\r\nprivate
+    List<ResourceTypeAmount> resourceTypeAmountList;\r\n\r\n\r\npublic Dictionary<ResourceType,
+    int> CreateDictionary() {\r\n    // Implement this function, create a Dictionary
+    based on the contents of the List field\r\n    Dictionary<ResourceType, int>
+    dictionary = new Dictionary<ResourceType, int>();\r\n\r\n    foreach (ResourceTypeAmount
+    resourceTypeAmount in resourceTypeAmountList) {\r\n        dictionary[resourceTypeAmount.resourceType]
+    = resourceTypeAmount.amount;\r\n    }\r\n\r\n    return dictionary;\r\n}"
+  completedText: Here you learned the workaround for how you can initialize a Dictionary
+    with values in Unity. This workaround is required because Unity does not automatically
+    serialize Dictionaries, meaning they do not show up in the inspector.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=1aDciBxuQck

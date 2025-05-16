@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2040_EnumsNotStrings
+  m_EditorClassIdentifier: 
+  exerciseName: EnumsNotStrings
+  exerciseTitle: Use Enums not strings
+  exerciseText: Refactor this code to work with an Enum type so we can avoid using
+    strings as identifiers.
+  hintText: Define an enum ObjectType
+  solutionText: "public enum ObjectType {\r\n    Player,\r\n    Enemy,\r\n    Barrel\r\n}\n\r\npublic
+    void HandleObject(ObjectType objectType) {\r\n    switch (objectType) {\r\n       
+    case ObjectType.Player:\r\n            // Do something with Player\r\n           
+    break;\r\n        case ObjectType.Enemy:\r\n            // Do something with
+    Enemy\r\n            break;\r\n        case ObjectType.Barrel:\r\n           
+    // Do something with Barrel\r\n            break;\r\n    }\r\n}"
+  completedText: "Here you learned how to refactor your code to avoid using strings
+    as identifiers. \r\nStrings are very brittle and very easy to make mistakes whereas
+    with Enums or direct object references, if you make a typing mistake the compiler
+    will help you."
+  videoWalkthroughLink: https://www.youtube.com/watch?v=_4OYhLVLZyc

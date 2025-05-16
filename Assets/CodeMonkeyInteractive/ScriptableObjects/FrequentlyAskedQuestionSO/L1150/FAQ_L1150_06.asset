@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1150_06
+  m_EditorClassIdentifier: 
+  title: Is it possible to add comments before a line of code?
+  text: 'With the single line method you can''t because anything after the double
+    slashes is considered a comment until a new line.
+
+    All of this is a comment,
+    there is no age variable defined:
+
+    ##REF##code,
+
+    // comment; int age
+    = 35;
+
+    ##REF##
+
+
+    But yes you can add comments before with the multi-line
+    method, like this:
+
+    ##REF##code,
+
+    /* comment */ int age = 35;
+
+    ##REF##
+
+
+    However
+    you should avoid this at all costs, making comments in the beginning of the line
+    can make the code really confusing and hard to read.
+
+    So usually you should
+    only write comments either on their own line or at the end of the line after
+    the code.
+
+'

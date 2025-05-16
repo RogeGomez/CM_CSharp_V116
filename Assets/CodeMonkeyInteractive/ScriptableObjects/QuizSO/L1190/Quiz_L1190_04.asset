@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1190_04
+  m_EditorClassIdentifier: 
+  question: What happens if you declare a class as static?
+  optionList:
+  - You can create multiple instances of the class.
+  - The class cannot contain any non-static members.
+  - The class can only contain private members.
+  - The class automatically becomes a subclass.
+  correctOptionIndex: 1
+  answer: 'If you mark a class as static then every member inside that class must
+    be marked as static.
+
+    If you want to mix static and non-static members then
+    don''t define the class itself as static.
+
+'

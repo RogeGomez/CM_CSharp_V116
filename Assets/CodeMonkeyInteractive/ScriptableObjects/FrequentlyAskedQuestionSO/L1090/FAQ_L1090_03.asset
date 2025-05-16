@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1090_03
+  m_EditorClassIdentifier: 
+  title: What is a good name for a variable?
+  text: "A good name is something that describes exactly what that variable represents.
+    Ideally just by reading the variable name you should be able to understand what
+    it represents and how it might be used.\r\nFor example, '<i>moveSpeed</i>' is
+    a good variable name, it clearly communicates that this variable is used as some
+    kind of movement speed.\r\nA bad name would be '<i>x</i>', just by reading it
+    you have no idea what it represents. \r\n(unless you're making some math equation
+    and x really is the correct name for that element)\r\nYou should also avoid abbreviations
+    and acronyms, those might be perfectly clear to one person and very confusing
+    to someone else.\r\nThere is a very important lecture later on in the course
+    all about Naming rules and how to choose good names.\r\n"

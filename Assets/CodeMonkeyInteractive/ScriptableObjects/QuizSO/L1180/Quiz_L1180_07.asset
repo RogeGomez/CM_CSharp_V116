@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1180_07
+  m_EditorClassIdentifier: 
+  question: What is a common use for constructors with parameters?
+  optionList:
+  - To set initial values for class fields.
+  - To define the size of the class.
+  - To create multiple instances of the class simultaneously.
+  - To override methods of the class.
+  correctOptionIndex: 0
+  answer: "One common use is for the constructor to receive the data the class needs
+    to work and store that data in class fields which will persist that data instead
+    of being lost when the constructor ends.\n##REF##code,\r\npublic class Player
+    {\r\n    private string playerName;\r\n    public Player(string playerName) {\r\n       
+    this.playerName = playerName;\r\n    }\r\n}\r\n##REF##"

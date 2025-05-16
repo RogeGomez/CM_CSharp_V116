@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2030_06
+  m_EditorClassIdentifier: 
+  question: Why is it okay to write "semi-dirty" code on the first attempt?
+  optionList:
+  - Because clean code is not necessary for small projects.
+  - Because initial focus should be on functionality rather than cleanliness.
+  - Because users cannot see the code quality.
+  correctOptionIndex: 1
+  answer: 'Your primary purpose at first should be to get the system working. Once
+    it''s working then you can clean it up.
+
+    However I would advise you to at
+    least take some care with your first try, don''t make it intentionally dirty.
+    Try to use good practices and follow clean code guidelines.
+
+'

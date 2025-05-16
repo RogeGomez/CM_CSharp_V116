@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2220_CreateBoxItems
+  m_EditorClassIdentifier: 
+  exerciseName: CreateBoxItems
+  exerciseTitle: Create Box for Items
+  exerciseText: 'Define a class Box<T> that can store an item of type T
+
+    Implement
+    Put() and Get() and functions to be able to place an item on the box and get
+    it.
+
+    Then on the Start() function, create a box that can store a Weapon and
+    one that can store a Potion
+
+    Call ExerciseValidate(); and pass in the boxes.
+
+'
+  hintText: 'To define a class to use generics you just need to include angled brackets
+    with the type <T>
+
+    Then when creating an instance of that class you can use
+    whatever type you want.'
+  solutionText: "public class Box<T> {\r\n\r\n    private T item;\r\n\r\n    public
+    void Put(T item) {\r\n        this.item = item;\r\n    }\r\n\r\n    public T
+    Get() {\r\n        return item;\r\n    }\r\n\r\n}\n----------------------\nBox<Weapon>
+    weaponBox = new Box<Weapon>();\r\nBox<Potion> potionBox = new Box<Potion>();\r\n\r\n//
+    Then pass in those objects to ExerciseValidate();\r\nExerciseValidate(weaponBox,
+    potionBox);"
+  completedText: In this exercise you learned how to create a generic class and how
+    to use it with different types. This is a great example of how generics help
+    you write more reusable code.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=LksDF7WVKa8

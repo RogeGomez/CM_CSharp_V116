@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2250_04
+  m_EditorClassIdentifier: 
+  title: How does the yield return statement work?
+  text: 'It returns a value and pauses the execution of that function at that point,
+    then when the function is called again it will resume executing from the last
+    place where it stopped.
+
+    You can implement just IEnumerable without defining
+    a IEnumerator if you just use yield return on the IEnumerable function.
+
+'

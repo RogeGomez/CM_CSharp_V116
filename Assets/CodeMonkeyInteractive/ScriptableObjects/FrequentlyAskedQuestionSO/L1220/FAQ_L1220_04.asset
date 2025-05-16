@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1220_04
+  m_EditorClassIdentifier: 
+  title: What does minimizing complexity mean? What is minimizing access?
+  text: 'As your code base grows and you have more and more classes naturally it
+    becomes more and more complex. Minimizing complexity is simply exactly what it
+    says, try to keep complexity at a minimum as your project grows.
+
+    The simplest
+    way to do that is to minimize access.
+
+    If you mark some variable as public
+    then any code anywhere in your entire codebase can modify it, so if that variable
+    causes some bug you need to keep the entire project (which might be hundreds
+    or thousands of classes) in your brain in order to debug the problem.
+
+    Whereas
+    if you mark a variable as private, if there is a bug you know for certain the
+    bug has to be coming from that class itself since nothing else can access it.
+
+    In
+    that example by minimizing access you are minimizing complexity by minimizing
+    the number of things you have to keep in your head as you''re working with that
+    code.
+
+    It does not matter if your codebase has 10 or 1000 classes, if a
+    variable is private then all that matters is just that one class.
+
+    This
+    is why you should always default to making everything private, and only make
+    it public if you have a very good reason to.
+
+'

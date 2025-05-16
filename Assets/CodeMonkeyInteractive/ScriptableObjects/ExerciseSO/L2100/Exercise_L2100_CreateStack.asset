@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2100_CreateStack
+  m_EditorClassIdentifier: 
+  exerciseName: CreateStack
+  exerciseTitle: Create a Stack
+  exerciseText: 'Create a Stack and add the strings "Code Monkey", "Iron Man" and
+    "Black Widow" in order.
+
+    Call the ExerciseValidate();'
+  hintText: Remember how a Stack is created, how it uses the stack type inside angled
+    brackets. Then remember the function to Add elements to a stack (which is not
+    named Add();)
+  solutionText: 'Stack<string> nameStack = new Stack<string>();
+
+    nameStack.Push("Code
+    Monkey");
+
+    nameStack.Push("Iron Man");
+
+    nameStack.Push("Black Widow");
+
+    ExerciseValidate(nameStack);'
+  completedText: Here you learned how to create and work with a Stack. This can be
+    a useful data structure when you need a FILO collection (First In Last Out)
+  videoWalkthroughLink: https://www.youtube.com/watch?v=rgLenzV8PCo

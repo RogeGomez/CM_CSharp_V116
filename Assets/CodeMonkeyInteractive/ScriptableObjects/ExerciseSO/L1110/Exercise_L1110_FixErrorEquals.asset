@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1110_FixErrorEquals
+  m_EditorClassIdentifier: 
+  exerciseName: FixErrorEquals
+  exerciseTitle: Fix the error (equals)
+  exerciseText: Fix the error
+  hintText: Remember the different symbols between assignment and comparison.
+  solutionText: "if (a == 0) {\r\n    // Do something\r\n}"
+  completedText: 'In this exercise you learned the difference between = and ==
+
+    =
+    is for assignment
+
+    == is for equality'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=22QgUqEC1Js

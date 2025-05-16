@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2220_01
+  m_EditorClassIdentifier: 
+  question: What is the purpose of generics in C#?
+  optionList:
+  - To allow methods to perform arithmetic operations.
+  - To enable classes, methods, and interfaces to operate with any data type.
+  - To restrict the data type used in a program to integers.
+  - To automatically generate code for different data types.
+  correctOptionIndex: 1
+  answer: 'Generics allow you to write code that can work with a multitude of types.
+
+    The
+    simplest example is List<T> which because it is made to work with generics you
+    can create lists of any type, there''s no need to make a separate class for each
+    type ListInt, ListString, ListFloat, etc.
+
+'

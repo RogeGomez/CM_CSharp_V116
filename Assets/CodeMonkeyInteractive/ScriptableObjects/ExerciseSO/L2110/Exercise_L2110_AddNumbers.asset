@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2110_AddNumbers
+  m_EditorClassIdentifier: 
+  exerciseName: AddNumbers
+  exerciseTitle: Write a function to Add any Numbers
+  exerciseText: Write a function, AddNumbers() that has a params parameter for ints
+    and returns the total sum of all of them.
+  hintText: 'The syntax for using params is like any other parameter type, except
+    it must be an array type, in this case an array of int[]
+
+    Then for the adding
+    logic, just a simple ''for'' or ''foreach'' loop cycling through all the elements
+    and adding them together'
+  solutionText: "private int AddNumbers(params int[] intArray) {\r\n    int result
+    = 0;\r\n    foreach (int i in intArray) {\r\n        result += i;\r\n    }\r\n   
+    return result;\r\n}"
+  completedText: Here you learned how to define a params parameter which allows a
+    function to take in any number of parameters which can be really useful when
+    you have some logic that you want to work with any number of parameters.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=Vco2f7N5j90

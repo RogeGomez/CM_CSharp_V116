@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2240_10
+  m_EditorClassIdentifier: 
+  question: Why is it important to catch exceptions in a program?
+  optionList:
+  - To prevent the compiler from detecting errors.
+  - To ensure that the program can gracefully handle errors and potentially recover
+    from them.
+  - Catch blocks are mainly used for debugging purposes and can be omitted in production
+    code.
+  - To improve the program's performance by avoiding unnecessary checks.
+  correctOptionIndex: 1
+  answer: 'The goal of exception handling is to know when something went wrong and
+    gracefully handle that error in a way that, if possible, allows the program to
+    continue executing without crashing.
+
+'

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2220_05
+  m_EditorClassIdentifier: 
+  question: How can you apply a constraint that a generic type must have a parameterless
+    constructor?
+  optionList:
+  - 'where T : new()'
+  - 'T() : new'
+  - new T()
+  - 'T : constructor()'
+  correctOptionIndex: 0
+  answer: 'To ensure the type has a parameterless constructor you add the new() constraint.
+
+    This
+    means that within that class you can do new T(); and it will create an object
+    of type T
+
+'

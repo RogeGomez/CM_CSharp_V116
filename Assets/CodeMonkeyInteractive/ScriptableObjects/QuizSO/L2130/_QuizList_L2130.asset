@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e71068ba88905b40a4058340f5af003, type: 3}
+  m_Name: _QuizList_L2130
+  m_EditorClassIdentifier: 
+  quizSOList:
+  - {fileID: 11400000, guid: a68c7c5927a3f8744bc5ec361ffc4539, type: 2}
+  - {fileID: 11400000, guid: f9243587a8192744fa48932fedbf3dd4, type: 2}
+  - {fileID: 11400000, guid: 45107c25b579ed241b023a5b24970ca9, type: 2}
+  - {fileID: 11400000, guid: 3cf37fdc7c1a00241982ac929aa879a4, type: 2}
+  - {fileID: 11400000, guid: c9ce82c1c648ccf4f888d2b058bdb6d2, type: 2}
+  - {fileID: 11400000, guid: 7bbbaf878e7d57e45a3cdf6b3660836e, type: 2}
+  - {fileID: 11400000, guid: 052398482e18d0a41b8ae60c41b1ccdb, type: 2}

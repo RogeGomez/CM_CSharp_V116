@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1130_06
+  m_EditorClassIdentifier: 
+  question: 'Look at this function declaration: int AddNumbers(int x, int y)
+
+    What
+    do you assume this function will do?'
+  optionList:
+  - The function will add two numbers and print the result.
+  - The function will return the value of 'x' and ignore 'y'.
+  - The function defines two new integer variables 'x' and 'y'.
+  - The function takes two integer parameters and returns their sum as an integer.
+  correctOptionIndex: 3
+  answer: 'This is a great example of a function with a very clear name that when
+    combined with the parameters and return type makes it very clear what the function
+    will do without having to inspect the function itself.
+
+'

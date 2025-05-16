@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1100_StringWithQuote
+  m_EditorClassIdentifier: 
+  exerciseName: StringWithQuote
+  exerciseTitle: Write a string with a quote " inside it
+  exerciseText: 'Edit the string value to include a quote " inside it.
+
+    Play
+    the Unity scene to test.'
+  hintText: 'In order to write a quotation mark " inside text you need to escape
+    it with another special symbol behind it.
+
+    Also keep in mind how many " you
+    have, don''t forget to start and terminate the string'
+  solutionText: 'You need to escape the quotation mark with a backslash in order
+    for the code to treat it as text and not as a special quotaion mark symbol
+
+    For
+    example: "Code \"Monkey\"";'
+  completedText: Here you learned how to escape symbols which in this case lets you
+    use a quotation mark inside a string as just text.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=qXtiWbRygJw

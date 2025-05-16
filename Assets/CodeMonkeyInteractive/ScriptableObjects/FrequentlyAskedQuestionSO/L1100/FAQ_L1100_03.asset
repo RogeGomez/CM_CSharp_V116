@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1100_03
+  m_EditorClassIdentifier: 
+  title: What happens if I try to assign a decimal value to an int variable?
+  text: "If you just write this code\n##REF##code, \nfloat f = 35.9f;\nint i = f;\n##REF##\nYou
+    get an error because it cannot be converted automatically\nBut if you force the
+    conversion with a cast:\n##REF##code, \nfloat f = 35.9f;\nint i = (int)f;\n##REF##\nThis
+    will indeed convert the value onto an int and the result will be the whole number
+    with everything after the decimal point ignored.\nImportantly it does <b>NOT</b>
+    round the number, so if you cast 35.9f onto an int the result is 35 and NOT 36.\n"

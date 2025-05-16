@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1010_01
+  m_EditorClassIdentifier: 
+  question: How many classes should your game have?
+  optionList:
+  - Less than 100
+  - At least 100
+  - As many as needed and no more
+  - Just one
+  correctOptionIndex: 2
+  answer: 'There''s no set number of classes a game should have, go for as many as
+    needed to keep your code clean and organized.
+
+
+    If you have 300 classes of
+    20 lines each and it takes you 10 minutes to find what you need, you might have
+    too many.
+
+
+    If you have 50 classes of 1000 lines each you can probably break
+    them into several smaller classes that each do one thing and one thing only.
+
+
+    The
+    main goal for any of the many clean code guidelines is managing complexity.
+
+
+    So
+    the correct number of classes is whatever number is needed to make sure your
+    code is as clear and understandable as possible in order to make your job easier
+    and let you focus on making the actual game instead of fighting your codebase.
+
+
+    The
+    answer is the same with regards to number of functions, variables, interfaces,
+    events, etc. All of those should be used in whatever quantity helps you manage
+    the complexity of your code base.
+
+
+    This is why
+
+    ##REF##video_small,
+    KGFAnwkO0Pk, What are Value Types and Reference Types in C#? (Class vs Struct)##REF##
+
+    something
+
+    ##REF##code,
+    Console.WriteLine("Qwe,rty");##REF##
+
+    and more'

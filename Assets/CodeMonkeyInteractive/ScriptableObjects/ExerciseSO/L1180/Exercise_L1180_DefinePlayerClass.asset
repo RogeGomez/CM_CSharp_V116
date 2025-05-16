@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1180_DefinePlayerClass
+  m_EditorClassIdentifier: 
+  exerciseName: DefinePlayerClass
+  exerciseTitle: Define Player Class
+  exerciseText: 'Edit Exercise.cs and define a class named Player (inside the Exercise
+    class) with a SayHello(); function that calls ExerciseSceneTester.Instance.Result("Hello!");
+
+    Then
+    in the Start() function create a Player and call SayHello();
+
+'
+  hintText: 'The class syntax is with the keyword ''class'' and then the class name,
+    and then the class code block { }
+
+    Then you define a function as usual.
+
+    Remember
+    how in order to call a function from outside that class the function needs to
+    be marked as public.'
+  solutionText: "private class Player {\r\n    public void SayHello() {\r\n       
+    ExerciseSceneTester.Instance.Result(\"Hello!\");\r\n    }\r\n}\n------------------------\nprivate
+    void Start() {\r\n    // Then here on Start, create a Player and call SayHello();
+    on it\r\n    Player pl = new Player();\r\n    pl.SayHello();\r\n}"
+  completedText: Great job! You learned how to define a simple class with a function,
+    construct the object and call it.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=r-m98bjDijY

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1220_10
+  m_EditorClassIdentifier: 
+  question: What should you do if you find a better name for a variable or function
+    later in the development process?
+  optionList:
+  - Keep the original name to avoid confusion.
+  - Refactor and rename it for clarity.
+  - Comment out the old name and add the new one.
+  correctOptionIndex: 1
+  answer: 'Remember that code is a living thing, it is not set in stone. So if later
+    on you come up with a better name for some symbol, take the time to rename it.
+
+    Using
+    modern IDEs this is usually super simple, in Visual Studio the shortcut is Ctrl
+    + R + R, so it takes literally no effort.
+
+    If you find a better name take
+    some time to rename that symbol.
+
+'

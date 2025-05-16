@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L3100_Records
+  m_EditorClassIdentifier: 
+  lectureCode: 3100
+  lectureSectionNumber: 10
+  lectureName: Records
+  lectureTitle: Records
+  frequentlyAskedQuestionListSO: {fileID: 11400000, guid: 816ba3f25dd334f46a7c10605f9b71a0,
+    type: 2}
+  quizListSO: {fileID: 11400000, guid: ee6a528c5149ab448bf54e0b023014b3, type: 2}
+  exerciseListSO: {fileID: 11400000, guid: 5382a1f8eb7b7e044bada9c1d3b380ad, type: 2}

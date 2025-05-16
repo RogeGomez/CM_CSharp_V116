@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3110_06
+  m_EditorClassIdentifier: 
+  question: Which of the following is true about chaining null conditional operators?
+  optionList:
+  - You can chain multiple operators to perform multiple null checks in a single
+    statement.
+  - You can only use one operator per statement.
+  - Chaining operators increases the chance of throwing a NullReferenceException.
+  - Chaining operators is only possible with the Invoke method.
+  correctOptionIndex: 0
+  answer: 'You can chain as many null conditional operators as you want, they will
+    be evaluated left to right and either stop executing when it reaches something
+    null or continue executing the entire line.
+
+    ##REF##code,
+
+    myPlayer?.target?.healthSystem?.TakeDamage();
+
+    ##REF##'

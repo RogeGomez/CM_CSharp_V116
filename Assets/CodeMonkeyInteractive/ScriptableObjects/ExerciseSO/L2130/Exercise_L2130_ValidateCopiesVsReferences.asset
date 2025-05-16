@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2130_ValidateCopiesVsReferences
+  m_EditorClassIdentifier: 
+  exerciseName: ValidateCopiesVsReferences
+  exerciseTitle: Validate copies vs References
+  exerciseText: 'Edit the second parameter on ExerciseValidate(); to what matches
+    the score inside each object.
+
+    Note what the ModifyScore(); function does'
+  hintText: Remember the differences between value types and reference types. How
+    if you pass in a value type onto a function you pass in a copy, so if you modify
+    that value inside that function you are modifying the copy value and not the
+    original value.
+  solutionText: 'ExerciseValidate(myStruct.score, 5);
+
+    ExerciseValidate(myClass.score,
+    12);'
+  completedText: Here you learned the difference between value and reference types
+    and how they behave very differently, especially when passed in as a parameter
+    onto a function.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=J--M8S-PpK8

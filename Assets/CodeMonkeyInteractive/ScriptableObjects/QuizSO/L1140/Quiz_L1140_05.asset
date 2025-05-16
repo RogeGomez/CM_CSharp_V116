@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1140_05
+  m_EditorClassIdentifier: 
+  question: What is a class variable in C#?
+  optionList:
+  - A variable that can be used in any part of the program.
+  - A variable defined in a class code block.
+  - A variable that defines the properties of a class.
+  correctOptionIndex: 1
+  answer: 'Class variables (also known as fields) are defined within a class code
+    block and as such are accessible from any function defined within that class.
+
+    Although
+    in this case they can also be accessed outside it if the variable is marked as
+    public.
+
+    I cover Classes and Access Modifiers in detail in future lectures.
+
+'

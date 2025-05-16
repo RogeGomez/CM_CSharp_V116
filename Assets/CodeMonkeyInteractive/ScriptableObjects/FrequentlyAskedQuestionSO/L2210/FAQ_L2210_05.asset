@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2210_05
+  m_EditorClassIdentifier: 
+  title: What are the differences between using delegates and events? Why use the
+    event keyword?
+  text: 'The event keyword applies several limitations that help protect you from
+    yourself.
+
+    Without the ''event'' keywrod then any class can subscribe +=
+    unsubscribe -= and also invoke the event() or even set it to = null clearning
+    all the listeners.
+
+    Whereas if you add the keyword, the only class that
+    can invoke or set it to null is the class that defines the event, other classes
+    can only subscribe or unsubscribe.
+
+'

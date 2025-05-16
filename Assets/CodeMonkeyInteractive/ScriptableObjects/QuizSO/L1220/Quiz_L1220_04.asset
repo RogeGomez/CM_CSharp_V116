@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1220_04
+  m_EditorClassIdentifier: 
+  question: What is the principle of 'information hiding' in clean code?
+  optionList:
+  - Keeping the implementation details of a class hidden from other classes.
+  - Writing code that only the author can understand.
+  - Encrypting source code files.
+  correctOptionIndex: 0
+  answer: 'A class should only expose as much as is absolutely necessary, and usually
+    that does not mean expose the entire inner workings of the class.
+
+    For example
+    when working with a List, when you call Add(); you do not know and do not want
+    to know how it works in the background, you just want to know that it achieves
+    the desired result of adding an element onto the list.
+
+    So as usual by default
+    keep all your class members private and only expose them when needed. Hide as
+    much as you can.
+
+'

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3110_06
+  m_EditorClassIdentifier: 
+  title: What's the most common use case for the Null conditional operator?
+  text: "The most common use case is simply for invoking events in a compact manner.\r\nWith
+    events you have to first check if the event it not null which will be the case
+    if there are no listeners.\r\nSo you can either use a normal if to do a null
+    check, or just simply use the null conditional operator to do the same thing
+    in a more compact manner.\r\nBoth of these do the exact same thing:\n##REF##code,\r\nif
+    (OnDamaged != null) {\r\n    OnDamaged(this, EventArgs.Empty);\r\n}\r\n----------------------\r\nOnDamaged?.Invoke(this,
+    EventArgs.Empty);\r\n##REF##"

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3100_CreatePerson
+  m_EditorClassIdentifier: 
+  exerciseName: CreatePerson
+  exerciseTitle: Create a Person
+  exerciseText: Create a Person record with the name "Code", "Monkey", and another
+    one named "Code", "Gorilla", and call the ExerciseValidate() function.
+  hintText: The syntax for creating a record is similar to any constructor. Remember
+    how you can also use the 'with' keyword if you want to build a new record from
+    another one with some overrides.
+  solutionText: 'Person person1 = new Person("Code", "Monkey");
+
+    Person person2
+    = person1 with { LastName = "Gorilla" };
+
+
+
+    ExerciseValidate(person1, person2);'
+  completedText: In this exercise you learned how to instantiate a record object
+    where you can define the properties with whatever data you want.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=Rhh-0J5wyKo

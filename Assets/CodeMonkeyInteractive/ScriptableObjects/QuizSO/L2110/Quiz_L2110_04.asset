@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2110_04
+  m_EditorClassIdentifier: 
+  question: What are the restrictions on using the params keyword in a function signature?
+  optionList:
+  - It must be the first parameter in the function.
+  - It can be used with any data type, including non-array types.
+  - There can be multiple params keywords in a function signature.
+  - It must be the last parameter, and the type must be an array.
+  correctOptionIndex: 3
+  answer: 'There can only be one params parameter, it must come after all the other
+    parameters and it must be an array of some type.
+
+'

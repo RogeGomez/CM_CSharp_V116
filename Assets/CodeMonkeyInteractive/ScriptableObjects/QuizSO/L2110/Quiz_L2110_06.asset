@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2110_06
+  m_EditorClassIdentifier: 
+  question: In which scenario is using the params keyword particularly useful?
+  optionList:
+  - When the number of arguments a function can accept is fixed and known.
+  - When you need to enforce that at least one argument is always provided.
+  - When a function needs to accept a variable number of arguments of the same type.
+  - When all function parameters need to be passed by reference.
+  correctOptionIndex: 2
+  answer: 'The params keyword is useful when you want your function to accept any
+    number of arguments.
+
+'

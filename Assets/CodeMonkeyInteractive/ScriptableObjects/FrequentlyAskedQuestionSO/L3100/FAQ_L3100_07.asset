@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3100_07
+  m_EditorClassIdentifier: 
+  title: Can records inherit from other records?
+  text: 'Yes, records can inherit from other records. This allows you to create a
+    hierarchy of records, where derived records inherit properties from their base
+    records, just like normal class inheritance:
+
+    ##REF##code,
+
+    public record
+    Vehicle(int Wheels);
+
+    public record Car(int Doors, int Wheels) : Vehicle(Wheels);
+
+    ##REF##'

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3330_04
+  m_EditorClassIdentifier: 
+  title: How do you enable unsafe code in a C# project?
+  text: To enable unsafe code, you must configure your C# project settings. This
+    is done by going to the project properties, finding the "Build" tab, and checking
+    the "Allow unsafe code" box. Additionally, the compilation of unsafe code can
+    be enabled with the /unsafe option in the C# compiler.

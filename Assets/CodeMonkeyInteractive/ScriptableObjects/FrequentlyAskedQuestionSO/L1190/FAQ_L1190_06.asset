@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1190_06
+  m_EditorClassIdentifier: 
+  title: How are static fields shared across all instances of a class?
+  text: 'If you have a static field then it does not matter how many instances of
+    that class you create, there is only ever one instance of that static field.
+
+    Any
+    of those objects can access the static field and they will all be accessing the
+    same data in memory.
+
+'

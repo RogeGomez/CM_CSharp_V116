@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3080_06
+  m_EditorClassIdentifier: 
+  question: Why would you use the default operator in the definition of optional
+    function parameters?
+  optionList:
+  - To specify the maximum value allowed
+  - To ensure the parameter is never null
+  - To assign a zero equivalent value if no argument is provided
+  - To check the type safety of the parameter
+  correctOptionIndex: 2
+  answer: 'Using default on your optional parameters is a simple way to default that
+    parameter to its zero-equivalent value.
+
+'

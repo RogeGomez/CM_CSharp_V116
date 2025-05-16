@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L1110_IfStatementsConditions
+  m_EditorClassIdentifier: 
+  lectureCode: 1110
+  lectureSectionNumber: 11
+  lectureName: IfStatementsConditions
+  lectureTitle: If Statements, Conditions
+  frequentlyAskedQuestionListSO: {fileID: 11400000, guid: a626b8fb5e17b1e4f98252daf6c88b34,
+    type: 2}
+  quizListSO: {fileID: 11400000, guid: a3917c00a879da2459e4f31caf206aef, type: 2}
+  exerciseListSO: {fileID: 11400000, guid: 71f01168dd9113245b22b4c2949435f4, type: 2}

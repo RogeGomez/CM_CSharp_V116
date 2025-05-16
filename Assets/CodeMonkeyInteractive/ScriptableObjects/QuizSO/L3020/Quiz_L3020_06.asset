@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3020_06
+  m_EditorClassIdentifier: 
+  question: What is a practical use of Reflection mentioned in the lecture?
+  optionList:
+  - Writing new code at runtime
+  - Checking if classes and functions exist to validate exercises dynamically
+  - Increasing runtime performance
+  - Automatically writing code comments
+  correctOptionIndex: 1
+  answer: 'The way the interactive exercises in this companion project work is all
+    thanks to Reflection.
+
+    By using it I can write the validation code that
+    checks for functions/classes that you need to implement yourself and write that
+    validation code before those functions/classes exist.
+
+'

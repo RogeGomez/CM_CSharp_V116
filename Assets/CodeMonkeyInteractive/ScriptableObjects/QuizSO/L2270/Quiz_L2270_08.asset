@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2270_08
+  m_EditorClassIdentifier: 
+  question: What is the correct way to handle Singleton instantiation in a multithreaded
+    environment to avoid issues?
+  optionList:
+  - Using lock statements to ensure thread safety during instantiation.
+  - Instantiating the Singleton instance in the global scope.
+  - Relying on automatic thread-safe Singleton instantiation provided by C#.
+  - Creating a new Singleton instance for each thread.
+  correctOptionIndex: 0
+  answer: 'You can use the lock keyword to lock an object while it is being used
+    to prevent other code from using it at the same time.
+
+    Multithreading is
+    a very advanced topic, there''s a dedicated lecture on it in the Advanced section.
+
+'

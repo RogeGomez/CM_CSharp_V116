@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2150_07
+  m_EditorClassIdentifier: 
+  question: When would you use the sealed keyword on a class?
+  optionList:
+  - When you want to prevent the class from being used as a base class.
+  - When you want to ensure that the class can be extended by any other class.
+  - To seal a method so that it cannot be modified.
+  - To make sure that all methods in the class are final and cannot be overridden.
+  correctOptionIndex: 0
+  answer: 'Adding the sealed keyword prevents any class to extend from that base
+    class.
+
+'

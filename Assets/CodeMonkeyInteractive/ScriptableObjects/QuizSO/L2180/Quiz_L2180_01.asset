@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2180_01
+  m_EditorClassIdentifier: 
+  question: What does switch pattern matching allow you to do in C#?
+  optionList:
+  - Compare multiple values of a variable in a concise way.
+  - Execute different blocks of code based on the type of an object.
+  - Perform arithmetic operations based on variable values.
+  - Match patterns in strings and regular expressions.
+  correctOptionIndex: 1
+  answer: 'Switch pattern matching lets you do different logic based on the type
+    of the object, rather than the value like in a regular switch.
+
+'

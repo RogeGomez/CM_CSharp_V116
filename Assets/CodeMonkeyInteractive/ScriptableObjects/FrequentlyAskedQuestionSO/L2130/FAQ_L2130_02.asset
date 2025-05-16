@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2130_02
+  m_EditorClassIdentifier: 
+  title: What are some examples of value types and reference types?
+  text: 'The built-in types, like int, bool, float, are value types. If you pass
+    them into a function they are passed in as a copy, if you modify that copy inside
+    the function it does not affect the original data.
+
+    Classes are reference
+    types, so if you pass in a Player class object to a function you are passing
+    in a reference to the original object. Changes made to that player object inside
+    the function modify the actual object outside the function.
+
+'

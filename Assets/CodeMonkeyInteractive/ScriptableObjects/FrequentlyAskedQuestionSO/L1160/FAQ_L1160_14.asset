@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1160_14
+  m_EditorClassIdentifier: 
+  title: How do you find elements in a list using Contains and IndexOf?
+  text: 'You can check if a list contains an element with list.Contains();
+
+    And
+    you can get the index of the first occurence of that element with list.IndexOf();
+
+    If
+    the list does not contain the element then IndexOf(); returns -1
+
+    ##REF##code,
+
+    List<string>
+    nameList = new List<string>() { "Code Monkey", "Iron Man", "Spider-Man" };
+
+    Console.WriteLine(nameList.Contains("Code
+    Monkey")); // true
+
+    Console.WriteLine(nameList.IndexOf("Spider-Man")); //
+    2
+
+    Console.WriteLine(nameList.IndexOf("Black Widow")); // -1
+
+    ##REF##'

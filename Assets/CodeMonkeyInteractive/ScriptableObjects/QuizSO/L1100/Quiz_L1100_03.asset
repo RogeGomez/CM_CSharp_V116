@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1100_03
+  m_EditorClassIdentifier: 
+  question: What happens if you forcefully cast a float into an int?
+  optionList:
+  - The value is rounded to the nearest whole number
+  - The value is truncated to remove the decimal part
+  - An error occurs
+  correctOptionIndex: 1
+  answer: 'If you forcefully cast a decimal value onto an int then it will ignore
+    anything after the decimal point.
+
+    Importantly it will NOT round the value,
+    it ignores everything after the dot.
+
+    ##REF##code,
+
+    int i = (int)35.7f;
+    // 35
+
+    ##REF##'

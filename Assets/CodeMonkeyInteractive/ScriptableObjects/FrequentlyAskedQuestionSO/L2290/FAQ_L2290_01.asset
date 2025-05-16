@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2290_01
+  m_EditorClassIdentifier: 
+  title: Should I take some time to inspect and modify the project?
+  text: 'YES!
+
+    As I''ve said many times, you learn by doing, so take some time
+    to modify some things in this project. Inspect the code in your own time to see
+    how it all works, how it all connects, how all the classes relate to one another.
+
+    Then
+    change something, change the player speed to see what it does, try making another
+    weapon or enemy type.
+
+    A complete working project like this one is great
+    for taking it apart to see how it all works.
+
+'

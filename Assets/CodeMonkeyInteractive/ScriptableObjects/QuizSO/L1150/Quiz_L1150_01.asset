@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1150_01
+  m_EditorClassIdentifier: 
+  question: What is the purpose of comments in C# code?
+  optionList:
+  - To modify the behavior of the code during execution.
+  - To provide explanations or annotations within the code.
+  - To declare variables.
+  - To create a new type.
+  correctOptionIndex: 1
+  answer: 'Comments are completely ignored by the compiler so they do not impact
+    code execution in any way.
+
+    They are used for writing plain text within your
+    code to provide extra clarification on whatever it is you''re trying to do.
+
+    However
+    before you write any comments you should first ask yourself if the code can be
+    readable by just using proper names for your variables and  functions.
+
+    Comments
+    are useful and they have their place, but if you have tons of them it''s probably
+    a sign that you should write your code more properly.
+
+'

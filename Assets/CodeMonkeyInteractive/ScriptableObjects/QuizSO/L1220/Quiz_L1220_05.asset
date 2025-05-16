@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1220_05
+  m_EditorClassIdentifier: 
+  question: What is the single responsibility principle?
+  optionList:
+  - Each class or function should perform a single, well-defined task.
+  - A programmer should only be responsible for one module.
+  - Each line of code should only perform one operation.
+  correctOptionIndex: 0
+  answer: 'The single responsibility principle states that something should do one
+    thing and one thing only.
+
+    So if a Player class has a TakeDamage(); function
+    then all it should do is take damage. It should not be responsible for doing
+    saving and loading or changing the scene to the main Menu.
+
+'

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3060_02
+  m_EditorClassIdentifier: 
+  title: How do you use the nameof operator?
+  text: 'You use it as if it were a function, type nameof and then the symbol you
+    want to convert into a string. It works with anything like class names, fields,
+    functions, etc.
+
+    ##REF##code,
+
+    nameof(Player); // "Player" returns the
+    Player class name
+
+    nameof(playerField); // "playerField" returns the playerField
+    string name
+
+    nameof(HandleMovement); // "HandleMovement" returns the HandleMovement
+    function name
+
+    ##REF##'

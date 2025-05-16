@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1170_19
+  m_EditorClassIdentifier: 
+  title: How do I write some safety code to prevent infinite loops?
+  text: "This code tries to find a target for the player, but if that never succeeds
+    you would end up with an infinite loop.\r\nSo you can define a safety variable
+    that will make sure the code only runs at most 100 times and guarantees you never
+    have an infinite loop.\n##REF##code,\r\nint safety = 0;\r\nwhile (!PlayerHasTarget()
+    && safety < 100) {\r\n    PlayerFindTarget();\r\n    safety++;\r\n}\r\n##REF##"

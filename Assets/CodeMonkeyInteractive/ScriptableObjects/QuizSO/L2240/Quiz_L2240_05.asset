@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2240_05
+  m_EditorClassIdentifier: 
+  question: Which of the following statements about throwing exceptions is true?
+  optionList:
+  - Exceptions can only be thrown from within a catch block.
+  - Custom exceptions cannot be thrown and are for informational purposes only.
+  - Throwing an exception creates an error condition that can be caught by a catch
+    block.
+  correctOptionIndex: 2
+  answer: 'Throwing an exception with throw new Exception(); will throw an exception
+    that can then be caught with a catch.
+
+    You can also define your own custom
+    exceptions, just define a class that inherits from Exception.
+
+'

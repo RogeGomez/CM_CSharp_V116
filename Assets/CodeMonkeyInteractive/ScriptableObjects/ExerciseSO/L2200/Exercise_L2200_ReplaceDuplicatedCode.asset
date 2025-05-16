@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2200_ReplaceDuplicatedCode
+  m_EditorClassIdentifier: 
+  exerciseName: ReplaceDuplicatedCode
+  exerciseTitle: Replace duplicate code with local function
+  exerciseText: Replace the duplicated copy pasted code with multiple calls to a
+    local function.
+  hintText: Local functions are just like normal functions, except defined inside
+    another function and can only be used within that function.
+  solutionText: "DoLogic();\r\nDoLogic();\r\nDoLogic();\r\nDoLogic();\r\n\r\nvoid
+    DoLogic() {\r\n    position += new Vector3(10, 0, 0);\r\n    rotation += 90;\r\n   
+    count++;\r\n    ExerciseValidate(position, rotation, count);\r\n}"
+  completedText: Here you learned how to define a local function, this can sometimes
+    be a great way to make some function code more readable, assuming that function
+    code is only ever used within that function.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=lSDmIC1bhHM

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2060_DefineJaggedArray
+  m_EditorClassIdentifier: 
+  exerciseName: DefineJaggedArray
+  exerciseTitle: Define a Jagged Array
+  exerciseText: Define a Jagged array of type Seat to represent theatre seating,
+    make the first row have 9 seats, the second with 12 and the third one with 15
+    seats.
+  hintText: Jagged arrays are arrays of arrays.
+  solutionText: "public Seat[][] GetSeatingDataStructure() {\r\n    // Define a jagged
+    array of type Seat, make the first row with 9 seats, the second with 12 and the
+    third with 15\r\n    Seat[][] seatingDataStructure = new Seat[3][];\r\n\r\n   
+    seatingDataStructure[0] = new Seat[9];\r\n    seatingDataStructure[1] = new Seat[12];\r\n   
+    seatingDataStructure[2] = new Seat[15];\r\n\r\n    return seatingDataStructure;\r\n}"
+  completedText: Here you learned how to define a jagged array, which for some specific
+    cases (like theater seating) can be the best data structure.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=WPCHGTwbAx4

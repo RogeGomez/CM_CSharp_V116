@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3050_UseTypeof
+  m_EditorClassIdentifier: 
+  exerciseName: UseTypeof
+  exerciseTitle: Use typeof
+  exerciseText: Call the ExerciseValidate(); function with the Player Type
+  hintText: Remember how the operator is used just like a function
+  solutionText: ExerciseValidate(typeof(Player));
+  completedText: Here you learned how to use typeof to get the System.Type of any
+    type. With that object you can then do all kinds of things, like reflection.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=LZZ-z14F4yI

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3110_05
+  m_EditorClassIdentifier: 
+  title: How does the null conditional operator handle multiple operations in a single
+    statement?
+  text: 'You can chain multiple operations with the null conditional operator.
+
+    For
+    example:
+
+    ##REF##code,
+
+    player?.target?.TakeDamage();
+
+    ##REF##
+
+    This
+    statement will check ''player'' for nullity, then if ''player'' is not null,
+    it checks ''target'' for nullity, and if ''target'' is also not null, it calls
+    TakeDamage().
+
+    If any part is null, the statement short-circuits and returns
+    null safely without throwing any errors.'

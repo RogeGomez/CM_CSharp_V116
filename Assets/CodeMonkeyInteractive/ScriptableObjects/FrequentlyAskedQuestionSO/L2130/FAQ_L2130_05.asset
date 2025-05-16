@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2130_05
+  m_EditorClassIdentifier: 
+  title: Can value types be null?
+  text: 'No, value types always have to have a value, so you cannot do int i = null;
+
+    However
+    there is a special type called Nullables which can make any type able to support
+    null, so this is valid code:
+
+    ##REF##code,
+
+    int? i = null;
+
+    ##REF##
+
+    I
+    cover Nullables in detail in a lecture in the Advanced section.
+
+'

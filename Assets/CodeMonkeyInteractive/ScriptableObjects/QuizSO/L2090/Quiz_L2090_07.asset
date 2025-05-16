@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2090_07
+  m_EditorClassIdentifier: 
+  question: Which method allows you to try to get a value from a Dictionary without
+    throwing an error if the key does not exist?
+  optionList:
+  - dictionary.TryGet(key, out value);
+  - dictionary.TryGetValue(key, out value);
+  - dictionary.GetKeyValue(key, out value);
+  - dictionary.PeekValue(key, out value);
+  correctOptionIndex: 1
+  answer: 'TryGetValue(); returns true if the key exists, and false if not.
+
+    The
+    second parameter is an output parameter, which is why it has the out keyword,
+    if the key exists the value will be stored within the variable used in the parameter.
+
+    I
+    cover the out and ref keywords in detail in a lecture on the Advanced section.
+
+'

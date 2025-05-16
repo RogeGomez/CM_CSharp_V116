@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3120_ChainOperators
+  m_EditorClassIdentifier: 
+  exerciseName: ChainOperators
+  exerciseTitle: Chain Operators
+  exerciseText: Chain multiple null-coalescing operators to return primaryColor or
+    secondaryColor or defaultColor
+  hintText: Remember how the logic runs left to right.
+  solutionText: return primaryColor ?? secondaryColor ?? defaultColor;
+  completedText: In this exercise you chained multiple null-coalescing operators
+    to simplify some complex null-check logic to get a default value or a defined
+    value.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=lUUFVx3DnwQ

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1180_04
+  m_EditorClassIdentifier: 
+  title: What is an instance of a class?
+  text: 'That is when you create an object of that class.
+
+    The class is basically
+    a blueprint, and you can create objects or instances of that class using that
+    blueprint.
+
+    It''s important to keep in mind that objects created from the
+    same class are independent. They come from the same blueprint but they are completely
+    separate objects.
+
+    In this code Player1 and Player2 are two completely separate
+    objects, they have the same data structure but each has their own data in memory.
+
+    ##REF##code,
+
+    Player
+    player1 = new Player();
+
+    Player player2 = new Player();
+
+    ##REF##'

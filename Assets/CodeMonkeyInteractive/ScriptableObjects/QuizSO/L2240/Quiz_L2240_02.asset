@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2240_02
+  m_EditorClassIdentifier: 
+  question: Which of the following correctly describes a try block in C#?
+  optionList:
+  - It is used to define the code that must be executed after an exception is caught.
+  - It defines the code that might throw an exception.
+  - It is used to manually throw exceptions.
+  correctOptionIndex: 1
+  answer: 'You use a try block when you think the code inside it might throw an exception.
+    Then you can write a catch block to catch and do something with that exception.
+
+'

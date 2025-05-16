@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1100_FixIntMath
+  m_EditorClassIdentifier: 
+  exerciseName: FixIntMath
+  exerciseTitle: Fix int Math
+  exerciseText: 'Fix dividing these two ints to make the result a float.
+
+    Press
+    Play in Unity to test your code.'
+  hintText: 'If you divide an int by another int the result will be an int.
+
+    If
+    you want a float result then at least one of the elements involved in the calculation
+    need to be a float'
+  solutionText: 'Cast one of the elements onto a float to ensure the final result
+    is a float.
+
+    float healthNormalized = (float)healthAmount / healthAmountMax;'
+  completedText: 'Here you learned to solve one very common problem, if you divide
+    two ints you will get an int result which might not be what you want.
+
+    I''ve
+    encountered this error myself many times, so always remember what types you are
+    doing math with.'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=Db5GOdNRUaQ

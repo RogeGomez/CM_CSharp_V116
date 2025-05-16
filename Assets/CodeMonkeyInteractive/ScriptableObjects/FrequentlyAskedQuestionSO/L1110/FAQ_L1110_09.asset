@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1110_09
+  m_EditorClassIdentifier: 
+  title: What is the conditional short circuit?
+  text: "This is how the evaluation of if conditions will only happen if they are
+    needed.\nFor example, if you have two conditions with an OR between them (which
+    means the result is true if either element is true) and the first one evaluates
+    to true (code executes left to right) it does not matter what the second one
+    evaluates to because whether it's true or false the result when combined with
+    a 'true OR' will always be true\n##REF##code,\nif (true || ReallyExpensiveFunction())
+    {\n  // This code runs, ReallyExpensiveFunction() is never called\n}\n##REF##\nAlternatively
+    if you're doing an AND operation (which means the result will be true only if
+    both are true) and the first one evaluates to false, then it won't evaluate the
+    second condition because regardless of the result when combined with a false
+    && it will end up false\n##REF##code,\nif (false && ReallyExpensiveFunction())
+    {\n  // This code does not run, and ReallyExpensiveFunction() is never called\n}\n##REF##"

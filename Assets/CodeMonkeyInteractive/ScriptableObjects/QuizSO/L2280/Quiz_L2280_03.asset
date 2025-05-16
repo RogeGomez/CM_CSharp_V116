@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2280_03
+  m_EditorClassIdentifier: 
+  question: 'The Observer Pattern is best described as a system where:'
+  optionList:
+  - One object sends actions to modify the state of other objects.
+  - An object maintains a list of dependents, automatically notifying them of any
+    state changes.
+  - Multiple objects are created from a template object.
+  - Objects are created based on a required functionality rather than exposing the
+    creation logic.
+  correctOptionIndex: 1
+  answer: 'The observer pattern, which in C# is implemented through events, is how
+    you can have one class as a publisher that notifies subscribers/listeners when
+    some event happened.
+
+'

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3180_CreateFlag
+  m_EditorClassIdentifier: 
+  exerciseName: CreateFlag
+  exerciseTitle: Create Flag Enum
+  exerciseText: Define a valid Flags Enum named Powers with the values None, Fire,
+    Ice, Shock, Ground and also define a FireAndIce value that combines both Fire
+    and Ice.
+  hintText: Remember the requirements for it, you need the Flags attribute and the
+    values need to have the proper numeric value set.
+  solutionText: "[Flags]\r\npublic enum Powers {\r\n    None        = 0,\r\n    Fire       
+    = 1 << 0,\r\n    Ice         = 1 << 1,\r\n    Shock       = 1 << 2,\r\n    Ground     
+    = 1 << 3,\r\n    FireAndIce  = Fire | Ice\r\n}"
+  completedText: Here you learned how to properly create an Enum Flag which you can
+    then use to do all kinds of combinations.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=gGxPBZXc7Fw

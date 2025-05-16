@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2020_07
+  m_EditorClassIdentifier: 
+  question: What is the primary advice given for becoming proficient with shortcuts
+    in Visual Studio?
+  optionList:
+  - Memorize all shortcuts immediately and use them all the time.
+  - Focus on memorizing how to move the cursor quickly and periodically review the
+    lecture for more shortcuts.
+  - Avoid using the mouse entirely when coding.
+  - Only use shortcuts for commenting and uncommenting code.
+  correctOptionIndex: 1
+  answer: "You're not expected to memorize all these shortcuts at once, I've been
+    writing code for decades, it took me a long time to learn and remember to use
+    all these shortcuts.\r\nSo just memorize the cursor movement shortcuts and then
+    come back to this lecture every once in a while and slowly over time you will
+    begin to memorize all the other ones. \r\n"

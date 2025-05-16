@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3110_AddNullConditional
+  m_EditorClassIdentifier: 
+  exerciseName: AddNullConditional
+  exerciseTitle: Add Null Conditional Operator
+  exerciseText: Add a Null Conditional Operator to make sure the event does not throw
+    a NullReferenceException
+  hintText: The syntax is just a question mark, at that point it will test the left
+    side for null, and only execute the right side if not null.
+  solutionText: OnDamaged?.Invoke(this, EventArgs.Empty);
+  completedText: Here you learned how to use the Null Conditional Operator, it's
+    pretty simple.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=nVRZl2E16Fk

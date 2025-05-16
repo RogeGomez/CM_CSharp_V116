@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2210_EventUI
+  m_EditorClassIdentifier: 
+  exerciseName: EventUI
+  exerciseTitle: Update UI with events
+  exerciseText: Listen to the event and update the health bar.
+  hintText: Subscribe to the event on += then do whatever you want when the event
+    is called.
+  solutionText: "public void SetHealthSystem(HealthSystem healthSystem) {\r\n   
+    this.healthSystem = healthSystem;\r\n\r\n    healthSystem.OnDamaged += HealthSystem_OnDamaged;\r\n}\r\n\r\nprivate
+    void HealthSystem_OnDamaged(object sender, EventArgs e) {\r\n    SetHealthBarSize(healthSystem.GetHealthAmountNormalized());\r\n}\r\n\r\nprivate
+    void SetHealthBarSize(float healthAmountNormalized) {\r\n    healthBarImage.fillAmount
+    = healthAmountNormalized;\r\n}"
+  completedText: Here you learned how to subscribe to an event and do some logic
+    when that event is fired.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=NrLdU4wmojg

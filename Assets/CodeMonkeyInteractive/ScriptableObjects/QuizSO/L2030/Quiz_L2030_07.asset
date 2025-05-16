@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2030_07
+  m_EditorClassIdentifier: 
+  question: What mindset is encouraged for beginners transitioning to intermediate
+    programmers?
+  optionList:
+  - Striving for perfection in the first code draft.
+  - Understanding that code rewriting is a normal and essential part of development.
+  - Avoiding refactoring to save time.
+  - Writing code that never needs to be reviewed or changed.
+  correctOptionIndex: 1
+  answer: 'If you''re going from beginner to intermediate then it is absolutely crucial
+    for you to understand that rewriting code is a perfectly normal part of the process.
+
+    Even
+    the most experienced coders don''t write everything perfect the first time.
+
+    Refactoring
+    is meant to be a constant activity, you''re always meant to be analyzing your
+    own code to see if something could be done in a better way. And if you do come
+    up with a better way then take some time to refactor that code.
+
+'

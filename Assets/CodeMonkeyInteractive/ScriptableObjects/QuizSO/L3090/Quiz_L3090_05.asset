@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3090_05
+  m_EditorClassIdentifier: 
+  question: Which of the following statements about expression-bodied members is
+    true?
+  optionList:
+  - They can contain multiple lines of code if needed.
+  - They allow for complex conditional logic.
+  - They are used to enhance the performance of multi-threaded applications.
+  - They can be used for functions that pass through calls to other functions.
+  correctOptionIndex: 3
+  answer: You can add a layer of abstraction to some class by making it pass through
+    some function calls to an underlying class that the original calling class does
+    not need to know exists.

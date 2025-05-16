@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2210_09
+  m_EditorClassIdentifier: 
+  question: What is the significance of event publishers being decoupled from subscribers?
+  optionList:
+  - It allows events to be reused across different applications.
+  - It ensures that subscribers can directly invoke events.
+  - It enables the publisher to execute subscriber methods directly.
+  - It allows the publisher to notify subscribers of changes without knowing the
+    details of the subscribers.
+  correctOptionIndex: 3
+  answer: 'This is one of the main benefits of events, it''s how the publisher does
+    not know anything about any subscribers, it is completely decoupled from them.
+    It works whether there are 0 subscribers or 1000, it works whether those subscribers
+    do something really complex with the event or nothing at all.
+
+'

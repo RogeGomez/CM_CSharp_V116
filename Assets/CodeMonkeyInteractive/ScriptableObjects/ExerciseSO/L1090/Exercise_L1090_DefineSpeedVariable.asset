@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1090_DefineSpeedVariable
+  m_EditorClassIdentifier: 
+  exerciseName: DefineSpeedVariable
+  exerciseTitle: Define Speed Variable
+  exerciseText: 'Edit the script Exercise.cs
+
+    Declare a variable of type ''<b>int</b>''
+    with the name ''<b>speed</b>'' and assign the value <b>5</b> to it.
+
+    Pay
+    close attention to where you write the code, Hint: Write inside the <b>Main()</b>
+    function.'
+  hintText: "Remember the syntax for how variables are declared. First the type,
+    then the name, then optionally assign some value. \nRemember how code is case
+    sensitive, define the variable named exactly '<b>speed</b>' not '<b>Speed</b>'
+    or anything else."
+  solutionText: 'The goal is to define a variable of type int named ''speed'' with
+    the value 5, so the solution is this:
+
+    int speed = 5;'
+  completedText: In this exercise you applied what you learned about how variables
+    are defined, how they have a type, a name, and a value.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=jqTZ_DfOdP8

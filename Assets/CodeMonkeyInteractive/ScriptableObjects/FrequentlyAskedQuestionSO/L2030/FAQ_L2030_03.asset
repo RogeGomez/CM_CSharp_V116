@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2030_03
+  m_EditorClassIdentifier: 
+  title: What are some common refactoring techniques?
+  text: 'The most straightforward one is simply renaming symbols to use a better
+    name. This applies to variables, functions, classes, etc.
+
+    Then another
+    important one is knowing how to split functions/classes. Remember how ideally
+    they should only do one thing, so if a function is doing 5 different things it
+    would likely be better to split it into 5 separate functions, same thing for
+    classes.
+
+    Same logic also applies to super huge classes/functions. Maybe
+    it''s ok, there''s no hard limit on the size but if something is way too big
+    that is a sign that there might be a better way to do things by splitting the
+    logic into various components.
+
+'

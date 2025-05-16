@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2070_SumArrayArrays
+  m_EditorClassIdentifier: 
+  exerciseName: SumArrayArrays
+  exerciseTitle: Sum all elements in Array of Arrays
+  exerciseText: Cycle through this Array of Arrays and return the sum of all elements.
+  hintText: Remember how arrays of arrays are different from multidimensional arrays,
+    and cycle through it.
+  solutionText: "public int GetSumOfAllElements(int[][] intArrayArrays) {\r\n   
+    int sum = 0;\r\n\r\n    for (int i = 0; i < intArrayArrays.Length; i++) {\r\n       
+    for (int j = 0; j < intArrayArrays[i].Length; j++) {\r\n            sum += intArrayArrays[i][j];\r\n       
+    }\r\n    }\r\n\r\n    return sum;\r\n}"
+  completedText: In this exercise you learned to cycle through an array of arrays
+    and do some logic with each element.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=UoMSq7Oy4qw

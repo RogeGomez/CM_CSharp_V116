@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2060_CreateArrayArrays
+  m_EditorClassIdentifier: 
+  exerciseName: CreateArrayArrays
+  exerciseTitle: Create Array of Arrays
+  exerciseText: Create an Array of Arrays with 3 rows and 4 columns, then set the
+    value on index [0, 2] to 56. Return the array from the function.
+  hintText: Remember the difference between Multidimensional array and array of arrays.
+  solutionText: "public int[][] GetArrayArrays() {\r\n    int[][] intArrayArrays
+    = new int[3][];\r\n\r\n    for (int i = 0; i < intArrayArrays.Length; i++) {\r\n       
+    intArrayArrays[i] = new int[4];\r\n    }\r\n\r\n    return intArrayArrays;\r\n}"
+  completedText: Here you learned how to create an array of arrays, which can sometimes
+    make more sense than multidimensional arrays.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=0dCbYlShSCQ

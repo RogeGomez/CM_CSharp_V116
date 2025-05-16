@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L3170_BitwiseOperations
+  m_EditorClassIdentifier: 
+  lectureCode: 3170
+  lectureSectionNumber: 17
+  lectureName: BitwiseOperations
+  lectureTitle: Bitwise Operations
+  frequentlyAskedQuestionListSO: {fileID: 11400000, guid: acb2c0892be4d4149b5752e78c5facdb,
+    type: 2}
+  quizListSO: {fileID: 11400000, guid: 321486dbd0670dc46a657233627bba1a, type: 2}
+  exerciseListSO: {fileID: 11400000, guid: 44a1d0e80e1d9ce4c9f2e7fb8d7c6f7f, type: 2}

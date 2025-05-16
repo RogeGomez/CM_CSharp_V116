@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3230_01
+  m_EditorClassIdentifier: 
+  question: What is the purpose of a custom class indexer in C#?
+  optionList:
+  - To convert a class into a list.
+  - To allow a class to be accessed using an index similar to an array or list.
+  - To override the default constructor of a class.
+  - To define a new type of property.
+  correctOptionIndex: 1
+  answer: If you implement the custom class indexer you can access your custom type
+    as if it were a list or array.

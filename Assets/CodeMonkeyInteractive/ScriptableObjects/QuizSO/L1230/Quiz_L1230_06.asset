@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1230_06
+  m_EditorClassIdentifier: 
+  question: What challenge is proposed for intermediate users based on this beginner
+    project?
+  optionList:
+  - To add more levels to the game.
+  - To refactor the code for improved quality and readability.
+  - To translate the code into another programming language.
+  - To integrate the game with an online leaderboard.
+  correctOptionIndex: 1
+  answer: 'If you''re an intermediate/advanced user you can take some time to try
+    to improve the code quality and readibility of this mini project.
+
+    The player
+    class should really only be responsible for the player itself and not the entire
+    game logic.
+
+    The collisions would work better with physics.
+
+    The UI
+    logic should be handled using an event.
+
+'

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c605b6cbf8362a4ba238d0dfe3b7a89, type: 3}
+  m_Name: _FAQList_L3110
+  m_EditorClassIdentifier: 
+  frequentlyAskedQuestionSOList:
+  - {fileID: 11400000, guid: d12fb2645f653ab428fefd2ba779ce9f, type: 2}
+  - {fileID: 11400000, guid: bb4a77a9221d98a4ba34aaa2905858d6, type: 2}
+  - {fileID: 11400000, guid: 2aff51bd180e37546bebd015f2870909, type: 2}
+  - {fileID: 11400000, guid: 589f2b56d8a56ae4bbf3343304d1564b, type: 2}
+  - {fileID: 11400000, guid: 088ebf04a5b44664a909a738b3891045, type: 2}
+  - {fileID: 11400000, guid: aecf8dfa6f3f0ce48aa30666bd57a6f6, type: 2}

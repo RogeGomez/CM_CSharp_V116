@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3340_01
+  m_EditorClassIdentifier: 
+  title: What is asynchronous programming and why is it used?
+  text: 'Asynchronous programming allows you to perform resource-intensive operations
+    without blocking the main thread of your application, thus allowing you to keep
+    the UI responsive.
+
+    In C#, async and await are used to simplify the process
+    of writing asynchronous code, which is especially useful in applications involving
+    contacting a web server or doing some I/O tasks, your program doesn''t freeze
+    while waiting for those to complete.
+
+'

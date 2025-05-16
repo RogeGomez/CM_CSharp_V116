@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2060_04
+  m_EditorClassIdentifier: 
+  title: What are the differences between a 2D array and an array of arrays?
+  text: "To define a 2D array you define it with int[,] and an array of arrays with
+    int[][]\r\nTo create a 2D array you do\n##REF##code,\r\nint[,] int2DArray = new
+    int[2, 3];\n##REF##\r\nFor create an array of arrays you need to create the main
+    array, then cycle through it and create each individual array\n##REF##code,\r\nint[][]
+    intArrayArrays = new int[2][];\r\nfor (int i=0; i<intArrayArrays.Length; i++)
+    {\r\n    intArrayArrays[i] = new int[3];\r\n}\n##REF##\r\nBecause of this it
+    also means that if you just create a 2D array it will create it with all positions
+    set to 0\r\nBut an array of arrays will have all it's positions set to null\n##REF##code,\r\nint[,]
+    int2DArray = new int[2, 3]; // All set to 0\r\nint[][] intArrayArrays = new int[2][];
+    // All set to null\r\n##REF##"

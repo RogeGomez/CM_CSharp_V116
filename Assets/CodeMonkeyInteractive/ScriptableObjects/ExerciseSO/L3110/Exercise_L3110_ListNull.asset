@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3110_ListNull
+  m_EditorClassIdentifier: 
+  exerciseName: ListNull
+  exerciseTitle: List Null
+  exerciseText: Use the Null Conditional Operator to make sure this code does not
+    throw a NullReferenceException
+  hintText: The syntax is just like the one for accessing functions or fields, except
+    for array/list access you use ?[]
+  solutionText: targetList?[0].Damage();
+  completedText: 'In this exercise you learned how to use the Null Conditional Operator
+    to safely and quickly test if a list or array is null before accessing some index
+    element.
+
+    Although remember how this only tests for null, if the element
+    on that index does not exist it will still throw an IndexOutOfRangeException'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=UDRUHyIteKs

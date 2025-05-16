@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1100_07
+  m_EditorClassIdentifier: 
+  title: How many possible values does bool have?
+  text: 'Only 2, <b>true</b> or <b>false</b>
+
+    Or sometimes referred to as 0 or
+    1 since the boolean type is essentially just binary.
+
+    This type is used especially
+    when working with ifs and conditions like we will see in a future lecture.
+
+'

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2280_06
+  m_EditorClassIdentifier: 
+  question: Which pattern is particularly useful for managing resources in game development
+    to minimize the overhead of creating and destroying objects frequently?
+  optionList:
+  - Adapter Pattern
+  - Singleton Pattern
+  - Object Pool Pattern
+  - Dependency Injection Pattern
+  correctOptionIndex: 2
+  answer: "Object Pooling is one of the best ways of making your games much more
+    performant. \r\nIf you have something like a Bullet hell shooter then the game
+    will be almost unplayable if you're constantly spawning and destroying thousands
+    of bullets.\r\nBy using an object pool, which means reusing objects, you will
+    get a massive performance boost.\r\n"

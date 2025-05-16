@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2260_03
+  m_EditorClassIdentifier: 
+  question: Which of the following statements about nested namespaces is correct?
+  optionList:
+  - Nested namespaces increase the compilation time of a program
+  - Nested namespaces cannot contain classes
+  - You can access nested namespaces by using the dot notation
+  - Nested namespaces are discouraged in C#
+  correctOptionIndex: 2
+  answer: "Nested namespaces give you more options for how to organize your code.
+    \r\nFor example a lot of general classes, like Console, exist inside the System
+    namespace, and then Input Output classes exist inside the System.IO namespace.\r\n"

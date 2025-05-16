@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2220_04
+  m_EditorClassIdentifier: 
+  title: What are type constraints in generics, and how do you apply them?
+  text: 'This is how you can limit what types can be used in the generic. You can
+    limit it to only work with classes, only work with types that have a constructor,
+    or only work with types that implement some sort of interface.
+
+    By adding
+    these constraints you can then make some assumptions on your objects of type
+    T
+
+    For example if you make a class with a T generic type that has the constraint
+    where it must implement an IDamageable interface, then you can write code inside
+    that class and you can call any IDamageable functions in the T type because you
+    have a guarantee that class will always be used with types that do implement
+    that interface.
+
+'

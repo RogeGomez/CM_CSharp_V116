@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1140_FunctionVariable
+  m_EditorClassIdentifier: 
+  exerciseName: FunctionVariable
+  exerciseTitle: Function Variable
+  exerciseText: Fix the error, modify the function to receive the variable as a parameter
+    so it can be used in that scope.
+  hintText: Local variables are local to their function, so if you want to use a
+    variable in multiple functions you need to pass it in as a parameter (or class
+    variable)
+  solutionText: 'PrintAge(age);
+
+    ----------------
+
+    private void PrintAge(int
+    age)'
+  completedText: Here you learned how to fix the most common scope error that beginners
+    make, assuming a local variable is usable anywhere in the code.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=ZJtL2Z9fXlE

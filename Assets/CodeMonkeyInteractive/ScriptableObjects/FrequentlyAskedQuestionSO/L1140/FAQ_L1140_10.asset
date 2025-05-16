@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1140_10
+  m_EditorClassIdentifier: 
+  title: What are some common mistakes beginners make related to variable scope?
+  text: 'They simply do not understand how scope works and they try accessing a function
+    local variable from another function and do not understand why it does not work.
+
+    So
+    remember scope, always look at the code blocks to see if the symbol you''re trying
+    to access is accessible from within where you are writing the code.
+
+'

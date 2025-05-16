@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3220_02
+  m_EditorClassIdentifier: 
+  question: How does dynamic differ from var in C#?
+  optionList:
+  - var defines the type at runtime, while dynamic defines the type at compile time.
+  - dynamic defines the type at runtime, while var defines the type at compile time.
+  - Both var and dynamic define the type at runtime.
+  - Both var and dynamic define the type at compile time.
+  correctOptionIndex: 1
+  answer: var is evaluated at compile time, the compiler infers the type based on
+    the usage. Whereas dynamic only evaluates the type at runtime when the program
+    is running.

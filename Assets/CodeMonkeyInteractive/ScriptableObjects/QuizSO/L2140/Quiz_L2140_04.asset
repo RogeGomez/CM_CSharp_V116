@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2140_04
+  m_EditorClassIdentifier: 
+  question: Why might structs be more memory efficient than classes?
+  optionList:
+  - Because they are always stored on the heap.
+  - Because they are stored on the stack, leading to more efficient memory access.
+  - Because they cannot contain as much data as classes, thus using less memory.
+  correctOptionIndex: 1
+  answer: 'Structs are usually stored in the stack (unless they are huge or hold
+    reference types) and working with the stack is more memory efficient than the
+    heap.
+
+'

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1180_08
+  m_EditorClassIdentifier: 
+  question: What is the result of defining two variables of the same class type?
+  optionList:
+  - They will share the same values and behavior.
+  - They are completely independent instances with their own data.
+  - It is not possible to have more than one instance of a class.
+  - They will automatically merge into a single instance.
+  correctOptionIndex: 1
+  answer: 'Separate objects/instances of one class are completely separate and have
+    no inherent connection to one another.
+
+    Each object has their own data.
+
+    However
+    you can define static data/behaviour which means it belongs to the class itself
+    and not any instance of a class, I cover static in detail in a future Lecture.
+
+'

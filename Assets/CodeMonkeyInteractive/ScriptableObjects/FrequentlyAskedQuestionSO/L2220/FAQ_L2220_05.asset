@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2220_05
+  m_EditorClassIdentifier: 
+  title: What are some real world use cases for generics?
+  text: 'One example that I''ve used a lot myself is making a Grid System. I built
+    one a long time ago and made it work with generics, because of that I was then
+    able to reuse that same base class in multiple systems: Pathfinding, Factory
+    Game, Grid Building System, House Building System, Turn Based Strategy, etc.
+
+    Those
+    all require some grid structure and different data on each grid position, so
+    all of those use the same base class but with custom GridObject types.
+
+    I
+    only wrote the base class once and reused it in tons of completely different
+    systems using different types.
+
+'

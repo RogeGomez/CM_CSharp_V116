@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3240_DefineUseAttribute
+  m_EditorClassIdentifier: 
+  exerciseName: DefineUseAttribute
+  exerciseTitle: Define and Use Attribute
+  exerciseText: Define a custom attribute named IsPlayer and apply it to the Player
+    class.
+  hintText: Remember to inherit from Attribute and the syntax for applying an Attribute
+    to a class.
+  solutionText: '[IsPlayer]
+
+    public class Player {
+
+    }
+
+    
+
+    public
+    class IsPlayerAttribute : Attribute {
+
+    }'
+  completedText: Here you learned how to define and use an attribute. Then you can
+    use reflection to get attributes for your custom types and do whatever logic
+    you want.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=XrfQr3I_r4Y

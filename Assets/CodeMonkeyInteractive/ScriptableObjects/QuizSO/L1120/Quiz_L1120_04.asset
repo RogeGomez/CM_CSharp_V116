@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1120_04
+  m_EditorClassIdentifier: 
+  question: Can you add a code block in a switch case?
+  optionList:
+  - Yes
+  - No
+  correctOptionIndex: 0
+  answer: "While it is not required you can still add it if you want.\r\nThis can
+    be helpful for organizing code if you have a variable that you want to define
+    in multiple cases. Without the code block it will throw an error but with it
+    you can separate the logic.\n##REF##code,\r\nswitch (weapon) {\r\ncase WoodenSword:\r\n 
+    int damage = 10;\r\n  DamageEnemy(damage);\r\n  break;\r\ncase IronSword:\r\n 
+    int damage = 30; <color=#aa0000>// Error! Variable 'damage' already exists</color>\r\n 
+    DamageEnemy(damage);\r\n  break;\r\n}\r\n--------------------------\r\nswitch
+    (weapon) {\r\ncase WoodenSword:\r\n  {\r\n    int damage = 10;\r\n    DamageEnemy(damage);\r\n 
+    }\r\n  break;\r\ncase IronSword:\r\n  {\r\n    int damage = 30; // No error since
+    it's on a separate code block\r\n    DamageEnemy(damage);\r\n  }\r\n  break;\r\n}\n##REF##\r\nWhich
+    by the way this is something you can do pretty much anywhere, you can always
+    add code blocks anywhere in your code.\r\n"

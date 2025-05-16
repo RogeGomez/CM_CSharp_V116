@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1220_FunctionManyThings
+  m_EditorClassIdentifier: 
+  exerciseName: FunctionManyThings
+  exerciseTitle: Function too many things
+  exerciseText: This function is doing 3 separate things, refactor the code into
+    3 separate functions instead, then call those 3 functions inside TestExercise().
+  hintText: Look at the code to identify the 3 things the function is doing, then
+    define separate functions for that code.
+  solutionText: 'SetupPlayer();
+
+    InitializeWorld();
+
+    SpawnEnemies();'
+  completedText: Here you learned to refactor your code to keep your functions short
+    and doing one thing and one thing only.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=_0ynlwjyGIo

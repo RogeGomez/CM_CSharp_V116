@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3140_DefineMain
+  m_EditorClassIdentifier: 
+  exerciseName: DefineMain
+  exerciseTitle: Define Main function with custom logic
+  exerciseText: Define a Main function that receives arguments and it should return
+    the number 0 when called with a string parameter "Code Monkey". But if the first
+    parameter is the string "add" then it should instead return the second parameter
+    + 10. If I run MyProgram.exe add 12 it should return 22.
+  hintText: Remember all the rules for a valid main function. static, return void
+    or int, named exactly Main and receive either no parameters or string[]
+  solutionText: "public static int Main(string[] args) {\r\n    if (args.Length >
+    0) {\r\n        if (args[0] == \"Code Monkey\") {\r\n            return 0;\r\n       
+    }\r\n    }\r\n    if (args.Length > 1) {\r\n        if (args[0] == \"add\") {\r\n           
+    int number = int.Parse(args[1]);\r\n            return number + 10;\r\n       
+    }\r\n    }\r\n    return 0;\r\n}"
+  completedText: Here you learned how to define a valid Main function that takes
+    in arguments and does different logic depending on those arguments.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=_bP5M6qtnR4

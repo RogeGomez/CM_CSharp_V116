@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2020_03
+  m_EditorClassIdentifier: 
+  title: What are the steps you took to quickly copy an entire line?
+  text: 'Use all the cursor shortcuts to quickly place the cursor on the line
+
+    Then
+    to select the entire line, press on End to place the cursor at the end. Then
+    hold shift and press Up, this selects most of the line but also some part of
+    the line above.
+
+    Then while still holding shift press Home, this will make
+    it so only the line you want is fully selected, it will also include a new line
+    in the beginning which is important.
+
+    Then press Ctrl + X to cut that line.
+    Meaning delete and copy at the same time.
+
+    Then again use all cursor shortcuts
+    to go somewhere else.
+
+    On the target line, press End to go to the end, then
+    press Ctrl + V to paste it.
+
+    If you''re just now starting to use shortcuts
+    than this whole process might seem tricky, but after you learn it and it becomes
+    muscle memory it comes automatically. I never manually think about all these
+    steps, I just do them.
+
+'

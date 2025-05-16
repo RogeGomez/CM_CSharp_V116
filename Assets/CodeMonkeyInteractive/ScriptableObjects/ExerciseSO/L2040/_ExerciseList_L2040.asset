@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 341615c53ec1fcd45a8e1a079fecef71, type: 3}
+  m_Name: _ExerciseList_L2040
+  m_EditorClassIdentifier: 
+  exerciseSOList:
+  - {fileID: 11400000, guid: b0a4153fe90b9b14ca53f964c42f880d, type: 2}
+  - {fileID: 11400000, guid: 2791cb11d4f78d94b9235cc77703ccc9, type: 2}
+  - {fileID: 11400000, guid: 1f6d90978ab540a40ae2dc5a44f3693d, type: 2}
+  - {fileID: 11400000, guid: cb10b9af56284b14cbfa2d120bf9fbae, type: 2}
+  - {fileID: 11400000, guid: 12631447800aa204dbadf084a5432edb, type: 2}
+  - {fileID: 11400000, guid: 7e24dbc06698edb499912dc6f73993cc, type: 2}

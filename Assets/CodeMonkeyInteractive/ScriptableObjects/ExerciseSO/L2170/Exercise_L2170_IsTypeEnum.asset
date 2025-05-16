@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2170_IsTypeEnum
+  m_EditorClassIdentifier: 
+  exerciseName: IsTypeEnum
+  exerciseTitle: Is type checking Enum
+  exerciseText: Edit the function GetUnitType(unit); check the type using 'is' and
+    return the appropriate UnitType enum value.
+  hintText: You can check the type of something using the 'is' keyword and comparing
+    with a type.
+  solutionText: "public UnitType GetUnitType(Unit unit) {\r\n    if (unit is Player)
+    {\r\n        return UnitType.IsPlayer;\r\n    }\r\n    if (unit is Enemy) {\r\n       
+    return UnitType.IsEnemy;\r\n    }\r\n    if (unit is NPC) {\r\n        return
+    UnitType.IsNPC;\r\n    }\r\n    return UnitType.IsUnit;\r\n}"
+  completedText: Here you learned how to use the 'is' keyword to check if an object
+    is of a certain type.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=pGaHW_aWZjo

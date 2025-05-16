@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3100_06
+  m_EditorClassIdentifier: 
+  title: Are records reference types or value types?
+  text: 'Defining a record using just the ''record'' keyword is equivalent to ''record
+    class'' which makes it a reference type. As opposed to ''record struct'' which
+    makes it a value type.
+
+    However if you define a ''record class'' it will
+    be a reference type but behave like a value type in terms of equality. Two record
+    instances are considered equal if all their properties are equal, not based on
+    their reference.
+
+    ##REF##code,
+
+    Person person1 = new Person("Code", "Monkey");
+
+    Person
+    person2 = new Person("Code", "Monkey");
+
+    Console.WriteLine(person1 == person2);
+    // true
+
+    // If person was a normal class it would be false
+
+    ##REF##'

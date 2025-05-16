@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1160_08
+  m_EditorClassIdentifier: 
+  title: What are lists and how do they differ from arrays?
+  text: 'Lists are built on top of Arrays and provide extra functionality.
+
+    Main
+    difference is how arrays are fixed and cannot be resized, whereas Lists have
+    a dynamic size where you can Add(); or Remove(); elements.
+
+    In the background
+    what the list is doing is simply keeping track of an internal array, and when
+    you Add(); an element to the list it will resize the internal array with length+1
+    and copy all the elements to the new array and add your new element.
+
+'

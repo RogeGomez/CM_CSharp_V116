@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1100_FixErrors
+  m_EditorClassIdentifier: 
+  exerciseName: FixErrors
+  exerciseTitle: Fix Errors
+  exerciseText: Fix all Errors in Exercise.cs
+  hintText: Remember how different types are written. For example a float needs a
+    'f' appended to it, a string needs to be inside "quotation marks", a double has
+    no appendix, etc.
+  solutionText: 'int can only store whole numbers, not decimals like 20.2 so:
+
+    int
+    myInt = 20;
+
+    double has no appendix, the ''m'' appendix is for the decimal
+    type, so just remove it:
+
+    double myDouble = 45;
+
+    If you type a decimal
+    value like 12.2 then it represents a double, if you want a float it needs the
+    ''f'' appendix.
+
+    float myFloat = 12.2f;
+
+    String text needs to be defined
+    within quotation marks:
+
+    string myString = "Code Monkey";
+
+    Boolean values
+    are case sensitive, so it''s true not True and false not False
+
+    bool myBool
+    = true;'
+  completedText: Here you learned the various rules behind how each type value is
+    written.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=60DjX_Ld-Ko

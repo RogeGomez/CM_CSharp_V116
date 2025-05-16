@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3100_07
+  m_EditorClassIdentifier: 
+  question: What must be done to use records in Unity, considering its current C#
+    version limitations?
+  optionList:
+  - Records cannot be used in Unity at all.
+  - A special namespace and an empty class must be defined as a workaround.
+  - Unity must be updated to the latest version.
+  - A plugin must be installed to support records.
+  correctOptionIndex: 1
+  answer: "You need to explicitly define the class IsExternalInit and place it in
+    the namespace System.Runtime.CompilerServices\r\nIt does not need to have any
+    data or functions, it just needs to exist.\n##REF##code,\r\nnamespace System.Runtime.CompilerServices
+    {\r\n\tpublic class IsExternalInit {\r\n\t}\r\n}\r\n##REF##"

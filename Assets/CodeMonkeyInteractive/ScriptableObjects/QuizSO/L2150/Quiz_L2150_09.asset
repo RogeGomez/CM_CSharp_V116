@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2150_09
+  m_EditorClassIdentifier: 
+  question: What is one major guideline to remember when using inheritance in C#?
+  optionList:
+  - Inheritance should be used in all classes to ensure code reusability.
+  - Prefer composition over inheritance to avoid complexity and ensure code flexibility.
+  - All classes should inherit from at least one other class.
+  - Inheritance is deprecated in the latest versions of C# and should be avoided.
+  correctOptionIndex: 1
+  answer: 'Ineritance is a powerful tool that has its use cases however it can also
+    be very easy to abuse and end up with really confusing code.
+
+    So in general
+    you should prefer composition over inheritance, meaning instead of having a complex
+    web of base classes and derived classes, you should have your objects composed
+    of various individual separate parts.
+
+'

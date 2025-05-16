@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1220_08
+  m_EditorClassIdentifier: 
+  question: Why are descriptive names important in clean code?
+  optionList:
+  - They help the compiler optimize the code.
+  - They make the code easier to understand and maintain.
+  correctOptionIndex: 1
+  answer: "If your code is written with very descriptive names then reading the code
+    should be as simple as reading English. \r\nCode that has good names for variables
+    and functions while also having a good straightforward structure takes no effort
+    to understand what it is doing, that's the goal.\r\n"

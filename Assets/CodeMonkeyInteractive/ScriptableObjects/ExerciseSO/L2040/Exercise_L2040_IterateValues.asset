@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2040_IterateValues
+  m_EditorClassIdentifier: 
+  exerciseName: IterateValues
+  exerciseTitle: Iterate Values
+  exerciseText: Iterate through every value in the enum, call ExerciseEnumValue();
+    for each of them.
+  hintText: Enum.GetValues();
+  solutionText: "foreach (Weapon weapon in Enum.GetValues(typeof(Weapon))) {\r\n   
+    ExerciseEnumValue(weapon);\r\n}"
+  completedText: In this exercise you learned something extremely important, how
+    to cycle through all the Values of an Enum. This is great for making your code
+    more dynamic by easily supporting modifications to your Value list without breaking
+    everything.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=WmZ_uWj3fTg

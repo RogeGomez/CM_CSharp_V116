@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1140_04
+  m_EditorClassIdentifier: 
+  question: Can a function access a variable defined in another function directly?
+  optionList:
+  - Yes, always.
+  - Only if the variable is declared as global.
+  - No, functions can't access each other's local variables.
+  - Yes, but only if both functions are static.
+  correctOptionIndex: 2
+  answer: 'Local variables defined within a function are local to that function and
+    are inaccessible from any other separate function.
+
+    Technically you can
+    define Lambda Anonymous functions inside a function which can access local variables,
+    but that''s a more advanced topic that I cover in the lecture on Delegates in
+    the Intermediate section.
+
+'

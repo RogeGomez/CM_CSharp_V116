@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2090_AddGetResource
+  m_EditorClassIdentifier: 
+  exerciseName: AddGetResource
+  exerciseTitle: Add and Get Resource
+  exerciseText: Implement the functions AddResource(); and GetResource(); make sure
+    to not throw errors.
+  hintText: Check if the value exists to avoid throwing errors.
+  solutionText: "public void AddResource(ResourceType resourceType, int amount) {\r\n   
+    // Implement this function to Add resources, don't throw any errors\r\n    if
+    (resourceAmountDictionary == null) {\r\n        resourceAmountDictionary = new
+    Dictionary<ResourceType, int>();\r\n    }\r\n    if (resourceAmountDictionary.ContainsKey(resourceType))
+    {\r\n        resourceAmountDictionary[resourceType] += amount;\r\n    } else
+    {\r\n        resourceAmountDictionary[resourceType] = amount;\r\n    }\r\n}\r\n\r\npublic
+    int GetResourceAmount(ResourceType resourceType) {\r\n    // Implement this function
+    to Get the resource amount, don't throw errors\r\n    if (resourceAmountDictionary.ContainsKey(resourceType))
+    {\r\n        return resourceAmountDictionary[resourceType];\r\n    } else {\r\n       
+    return 0;\r\n    }\r\n}"
+  completedText: Here you learned something very common, building some kind of ResourceManager
+    and exposing some functions to work with it.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=KV15qJC6JbY

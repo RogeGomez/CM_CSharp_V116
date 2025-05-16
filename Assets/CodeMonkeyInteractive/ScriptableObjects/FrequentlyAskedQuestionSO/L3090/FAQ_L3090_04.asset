@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3090_04
+  m_EditorClassIdentifier: 
+  title: What limitations do expression-bodied members have?
+  text: 'Expression-bodied members must consist of a single expression and cannot
+    contain multiple statements or a block of code.
+
+    This means they are typically
+    used for very simple operations, like returning a value or assigning a value,
+    but not for more complex logic.
+
+    This limitation is a very good thing because
+    it means you can only use them where it makes sense, you can''t abuse them in
+    scenarios where it would result in worse readability.'

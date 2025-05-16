@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1080_02
+  m_EditorClassIdentifier: 
+  title: What does it mean that C# is case sensitive?
+  text: "It means that for example <b>'int'</b> and <b>'Int'</b> are two completely
+    different symbols that refer to completely different things. Changing something
+    from lower case to upper case completely changes what the code is referring to.\nYou
+    cannot declare variables with the exact same name, this throws an error:\n\r##REF##code,
+    \nint age = 35;\nint age = 56; // Error!\n##REF##\nBut this is valid code:\n\r##REF##code, 
+    \nint age = 35;\nint Age = 56; // No error\n##REF##\nIt's valid because code
+    is case sensitive and they are slightly different, 'age' vs 'Age'.\nSo when writing
+    code always pay very close attention to how you write code and make sure you
+    are writing the capitalization perfectly. \nThis is the number one mistake that
+    beginners make so remember that."

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3070_03
+  m_EditorClassIdentifier: 
+  title: What is Marshal.SizeOf() used for?
+  text: 'Marshal.SizeOf() is a function used to get the size of a type or an instance
+    of a type in bytes, including reference types, albeit with some limitations.
+
+    The
+    entire Marshal class is all about handling data and converting it back and forth
+    between managed and unmanaged.'

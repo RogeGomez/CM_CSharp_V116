@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2070_WriteNestedLoop
+  m_EditorClassIdentifier: 
+  exerciseName: WriteNestedLoop
+  exerciseTitle: Write a basic Nested Loop
+  exerciseText: 'Write a basic nested loop where the outer loop runs 3 times and
+    the inner loop runs 2 times.
+
+    Call the ExerciseValidate(); function and pass
+    in the current i and j for every iteration of the inner loop.'
+  hintText: You can use any loop type, but for this case a 'for' loop is probably
+    the simplest. Be careful about how many times you run the outer and inner loops.
+  solutionText: "for (int i = 0; i < 3; i++) {\r\n    for (int j = 0; j < 2; j++)
+    {\r\n        ExerciseValidate(i, j);\r\n    }\r\n}"
+  completedText: 'In this exercise you learned how to make a nested loop (a loop
+    within another loop)
+
+    This is especially useful when working with 2D arrays
+    or arrays of arrays so you can cycle through every single element.'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=JomN5DQxJ2Y

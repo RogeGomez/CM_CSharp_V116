@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2190_DefineSimpleDelegate
+  m_EditorClassIdentifier: 
+  exerciseName: DefineSimpleDelegate
+  exerciseTitle: Define a simple delegate
+  exerciseText: 'Define a delegate that returns void and takes a string parameter.
+
+    Then
+    make a field of that delegate type and assign a function that should do a Debug.Log("Hello
+    {name}!"), so if I call that delegate with the parameter "Code Monkey" it should
+    say "Hello Code Monkey!"
+
+    Call ExerciseValidate(); and pass in that field
+
+'
+  hintText: 'Remember the syntax, write the delegate keyword and then define the
+    rest as if defining a function, with no implementation.
+
+    Then you can define
+    a field or local variable of that type, and assign it either with a function
+    or a lambda.'
+  solutionText: "public delegate void SayHelloDelegate(string str);\n--------------------\nSayHelloDelegate
+    sayHello = (string name) => {\r\n    Debug.Log($\"Hello {name}!\");\r\n};\r\n\r\n//
+    Call the ExerciseValidate(); function and pass in the variable\r\nExerciseValidate(sayHello);"
+  completedText: Here you learned how to define and use delegates. This is a really
+    awesome C# feature for storing logic inside a variable and then using it.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=vHJGi_aV45U

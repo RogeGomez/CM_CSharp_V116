@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2220_GenericNew
+  m_EditorClassIdentifier: 
+  exerciseName: GenericNew
+  exerciseTitle: Generic with new()
+  exerciseText: 'Define a generic class, ObjectFactory<T> that inside has a function
+    T CreateObject(); which does new T();
+
+    Remember which constraints you need
+    to make that happen.'
+  hintText: Remember how to apply constraints to your generics, and which one you
+    need in order to call 'new' on the type.
+  solutionText: "public class ObjectFactory<T> where T: new() {\r\n\r\n    public
+    T CreateObject() {\r\n        return new T();\r\n    }\r\n\r\n}"
+  completedText: Here you learned how to apply constraints which can allow you to
+    make some assumptions about your generic types which allow you to do more things
+    with them.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=QV1An5gaZ38

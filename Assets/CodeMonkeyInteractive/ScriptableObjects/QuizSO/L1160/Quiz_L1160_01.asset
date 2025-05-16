@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1160_01
+  m_EditorClassIdentifier: 
+  question: What is an array in C#?
+  optionList:
+  - A variable that can store multiple values of different data types.
+  - A collection of elements of the same data type with a fixed size.
+  - A function that returns multiple values.
+  - A data type that automatically adjusts its size.
+  correctOptionIndex: 1
+  answer: 'Arrays are a data structure that can hold multiple pieces of data of the
+    same type.
+
+    They can only store the data type they are defined with, and
+    arrays have a fixed size which cannot change.
+
+    ##REF##code,
+
+    int[] intArray
+    = new int[5]; // This array can only store ints and it has a fixed size of 5
+
+    string[]
+    stringArray = new string[7]; // This array can only store strings and it has
+    a fixed size of 7
+
+    ##REF##'

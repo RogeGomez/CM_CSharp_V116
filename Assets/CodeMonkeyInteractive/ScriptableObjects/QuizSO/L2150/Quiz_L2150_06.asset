@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2150_06
+  m_EditorClassIdentifier: 
+  question: What is the purpose of the override keyword?
+  optionList:
+  - To change the value of a base class field in a derived class.
+  - To indicate that a function replaces the implementation of a base class function.
+  - To mark a function in a base class that cannot be overridden.
+  - To explicitly call a function from the base class in a derived class.
+  correctOptionIndex: 1
+  answer: 'In order for a function to have a different implementation in a derived
+    class than a base class then the base class needs to mark that function as virtual
+    and the derived class can re-define it with override.
+
+'

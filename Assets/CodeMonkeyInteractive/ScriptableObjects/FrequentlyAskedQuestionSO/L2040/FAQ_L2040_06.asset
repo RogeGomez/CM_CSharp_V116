@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2040_06
+  m_EditorClassIdentifier: 
+  title: Are there any common pitfalls with Enums?
+  text: "The biggest one is related the Unity. The way Unity serializes data with
+    enums is by storing the int value which by default is based on the order that
+    you define the enum values.\r\nSo if you have some Weapon script with a WeaponType
+    enum\n##REF##code,\r\nenum WeaponType {\r\n    Sword,\r\n    Shield,\r\n}\r\n-------\r\n//
+    In weapon\r\n[SerializeField] private WeaponType weaponType;\r\nAnd in the editor
+    you assign it to WeaponType.Sword\r\nIf you then modify the enum value order:\r\nenum
+    WeaponType {\r\n    Shield,\r\n    Sword,\r\n}\n##REF##\r\nThen you look in the
+    editor and the Weapon will have WeaponType.Shield assigned to it.\r\nThat's because
+    Unity doesn't store the string name of the value, it stores the int. And by modifying
+    the structure of the enum you modify the underlying int value.\r\nBe aware of
+    this when modifying enums after you have assigned some values. Usually you want
+    to avoid modifying the order if possible, just add new values at the end.\r\n"

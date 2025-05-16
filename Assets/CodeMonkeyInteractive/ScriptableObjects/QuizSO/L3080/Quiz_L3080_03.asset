@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3080_03
+  m_EditorClassIdentifier: 
+  question: If you apply the default operator to a class, such as Player, what value
+    is returned?
+  optionList:
+  - 0
+  - false
+  - An instance of Player with default values set
+  - null
+  correctOptionIndex: 3
+  answer: The default operator returns the zero-equivalent of the type, which in
+    the case of a class is null.

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2150_05
+  m_EditorClassIdentifier: 
+  question: Which of the following is true about abstract classes?
+  optionList:
+  - They can be instantiated directly using the new keyword.
+  - They must be derived from another abstract class.
+  - They cannot be instantiated directly and can contain abstract methods that must
+    be implemented by derived classes.
+  correctOptionIndex: 2
+  answer: 'If a class is marked as Abstract then you cannot create instances of that
+    type, only classes that extend that abstract class.
+
+    Also abstract methods
+    must be implemented in derived classes.
+
+'

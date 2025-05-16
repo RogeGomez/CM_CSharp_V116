@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3220_01
+  m_EditorClassIdentifier: 
+  title: What is a dynamic type in C#?
+  text: 'The dynamic type is a data type that bypasses static type checking, meaning
+    it does not validate your code against any known type at compile time.
+
+    So
+    you can access any field or call any function and the code will compile. Then
+    during runtime it will try calling that function or accessing that field, and
+    if nothing matches inside that type then it will throw an exception.'

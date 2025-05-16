@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2080_05
+  m_EditorClassIdentifier: 
+  question: How does a recursive function typically handle its parameters to perform
+    iterative tasks?
+  optionList:
+  - By incrementing or modifying the parameters in each call to approach an exit
+    condition.
+  - By passing the same parameters to each call to maintain consistency.
+  - By using static parameters that do not change between calls.
+  - By randomly changing parameters to find the optimal solution.
+  correctOptionIndex: 0
+  answer: 'The parameters in a recursive function need to change in some way so that
+    it eventually leads to an exit condition.
+
+    If they never change then chances
+    are you have an undersired infinite loop.
+
+'

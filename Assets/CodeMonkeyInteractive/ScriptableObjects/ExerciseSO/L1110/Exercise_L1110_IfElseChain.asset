@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1110_IfElseChain
+  m_EditorClassIdentifier: 
+  exerciseName: IfElseChain
+  exerciseTitle: If Else Chain
+  exerciseText: 'Write an if else chain that tests if the number is positive or negative
+    or zero
+
+    Call the functions inside the if: ExercisePositive(); ExerciseNegative();
+    ExerciseZero();
+
+'
+  hintText: 'The syntax is if { } else if { } else { }
+
+'
+  solutionText: "if (number > 0) {\r\n    ExercisePositive();\r\n} else if (number
+    < 0) {\r\n    ExerciseNegative();\r\n} else {\r\n    ExerciseZero();\r\n}"
+  completedText: 'Here you learned to write a simple if else chain where you can
+    write a condition and then write another if within the first if''s else.
+
+'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=rk94sfMFzCA

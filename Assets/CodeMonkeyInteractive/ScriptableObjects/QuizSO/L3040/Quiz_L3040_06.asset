@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3040_06
+  m_EditorClassIdentifier: 
+  question: How can static constructors be beneficial in a multithreaded environment?
+  optionList:
+  - They can be called multiple times simultaneously.
+  - The .NET runtime ensures that the static constructor is executed only once.
+  - They allow for multiple instances of a class to be initialized at once.
+  - They prevent any instance of the class from being created.
+  correctOptionIndex: 1
+  answer: 'Static constructors are thread-safe, the .NET Runtime ensures that it
+    only ever runs once, regardless of how many threads try to access it at the same
+    time.
+
+'

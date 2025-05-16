@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2100_HashSet
+  m_EditorClassIdentifier: 
+  exerciseName: HashSet
+  exerciseTitle: Create a HashSet
+  exerciseText: Create a HashSet and add the strings "Code Monkey", "Iron Man" and
+    "Black Widow"
+  hintText: Use intellisense to help you see how to add elements to a HashSet.
+  solutionText: 'HashSet<string> nameHashSet = new HashSet<string>();
+
+
+
+    nameHashSet.Add("Code
+    Monkey");
+
+    nameHashSet.Add("Iron Man");
+
+    nameHashSet.Add("Black Widow");'
+  completedText: In this exercise you learned about another useful data structure,
+    the hash set. This one is great when you want to store unique values.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=5-5qrwg7u_A

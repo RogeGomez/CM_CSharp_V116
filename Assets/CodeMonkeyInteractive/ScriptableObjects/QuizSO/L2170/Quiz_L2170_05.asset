@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2170_05
+  m_EditorClassIdentifier: 
+  question: What does boxing refer to in C#?
+  optionList:
+  - Encapsulating a value type within a reference type to store it on the heap.
+  - Converting a reference type to a value type.
+  - Securing sensitive information in an object.
+  - Packaging multiple objects into a single container object.
+  correctOptionIndex: 0
+  answer: 'This is how in C# the base class for any type is the object or System.Object
+    class, and any type can be converted onto that type, even value types.
+
+    Doing
+    so will convert that value type onto a reference type as the boxed object will
+    store a reference that points to the value data.
+
+    There is a lecture on
+    boxing in the Advanced section.
+
+'

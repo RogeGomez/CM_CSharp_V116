@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2140_01
+  m_EditorClassIdentifier: 
+  title: What is a struct in C#, and how does it differ from a class?
+  text: 'A struct is a structure of data, and just like classes it can store data
+    in fields, it can have functions, implement interfaces and so on.
+
+    The main
+    difference is how structs are value types whereas classes are reference types.
+
+    Also
+    they cannot inherit from a base class or base struct.
+
+'

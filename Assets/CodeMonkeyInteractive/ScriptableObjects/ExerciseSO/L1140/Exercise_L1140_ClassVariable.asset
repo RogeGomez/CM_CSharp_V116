@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1140_ClassVariable
+  m_EditorClassIdentifier: 
+  exerciseName: ClassVariable
+  exerciseTitle: Class Variable
+  exerciseText: 'Define a class variable to fix the error where 2 functions are trying
+    to access it.
+
+    There''s a detailed lecture on Classes later on in the course.
+
+'
+  hintText: Class variables are defined within the class code block { } but outside
+    any function code block.
+  solutionText: "private int age;\r\n\r\nprivate void Test() {\r\n    age++;\r\n}\r\n\r\nprivate
+    void PrintAge() {\r\n    Debug.Log(age);\r\n}"
+  completedText: In this exercise you learned another method for solving scope issues,
+    if you want multiple functions to access one variable, either pass them in as
+    function parameters or make it a class variable which will be accessible by any
+    function.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=q-NOhwQ0A4Q

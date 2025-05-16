@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1090_04
+  m_EditorClassIdentifier: 
+  title: What happens if I write 'Int' instead of 'int'?
+  text: 'You get an error because there is no such type named ''Int''
+
+    Always
+    remember that code is case sensitive, the compiler doesn''t know English so as
+    far as the compiler is concerned ''Int'' and ''int'' are two completely separate
+    types with no relation between them.
+
+    Whenever you get an error the first
+    thing you should check is if you''re writing the code absolutely perfectly. Pay
+    very close attention to capitalization, this is something a lot of beginners
+    mistake.
+
+'

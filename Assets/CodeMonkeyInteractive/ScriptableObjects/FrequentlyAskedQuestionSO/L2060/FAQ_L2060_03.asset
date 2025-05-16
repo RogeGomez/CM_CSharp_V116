@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2060_03
+  m_EditorClassIdentifier: 
+  title: How do you access and modify elements in a 2D array?
+  text: 'You access it just like you would a normal array, but pass in 2 indexes
+
+    ##REF##code,
+
+    int2DArray[0,
+    2] = 3; // Set value on index 0, 2 to 3
+
+    ##REF##'

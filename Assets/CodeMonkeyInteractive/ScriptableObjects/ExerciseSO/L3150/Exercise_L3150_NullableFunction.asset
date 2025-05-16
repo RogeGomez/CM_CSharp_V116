@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3150_NullableFunction
+  m_EditorClassIdentifier: 
+  exerciseName: NullableFunction
+  exerciseTitle: Nullable Function
+  exerciseText: Define a bool HasAttackDamage function that should receive an int?
+    for a attackDamage, and when the function is called with null it should return
+    false, when it has a value > 0 it should return true.
+  hintText: Remember how to define a parameter as nullable, and how to check if it
+    has a value.
+  solutionText: "public bool HasAttackDamage(int? attackDamage) {\r\n    if (attackDamage
+    == null || attackDamage == 0) {\r\n        return false;\r\n    } else {\r\n       
+    return true;\r\n    }\r\n}"
+  completedText: In this exercise you learned how to use nullables. In various scenarios
+    they can be a great option for when you want to use null to better denote "lack
+    of value" rather than defining a special value like "-1" to represent "no value".
+  videoWalkthroughLink: https://www.youtube.com/watch?v=Ga4D4hwaVYQ

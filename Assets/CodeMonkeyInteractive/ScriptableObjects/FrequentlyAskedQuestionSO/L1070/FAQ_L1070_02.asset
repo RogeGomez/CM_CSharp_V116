@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1070_02
+  m_EditorClassIdentifier: 
+  title: Why is code case-sensitive, and how does it affect my program?
+  text: 'C# is a case-sensitive language, meaning it distinguishes between uppercase
+    and lowercase letters.
+
+    int and Int are two completely different things as
+    far as the compiler is concerned. ''int'' is a built-in type, whereas ''Int''
+    does not exist (unless you define it)
+
+    If a function is called MyFunction();
+    and you write myFunction(); you get an error because it does not perfectly match.
+
+    The
+    compiler does not know English, it only knows exact symbols, and a lower case
+    and upper case letter are two completely different things.
+
+    So always pay
+    very very close attention to how you write your code, changing the capitalization
+    even on just one tiny letter means you are suddenly referencing something completely
+    different.
+
+'

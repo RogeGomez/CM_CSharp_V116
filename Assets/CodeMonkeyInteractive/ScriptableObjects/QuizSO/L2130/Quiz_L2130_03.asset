@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2130_03
+  m_EditorClassIdentifier: 
+  question: Why can reference types be null while value types cannot?
+  optionList:
+  - Because reference types do not actually store data, only a reference to it.
+  - It's a limitation imposed by the C# compiler to optimize memory usage.
+  - Value types are always initialized to their default values, not null.
+  - Only reference types can be garbage collected.
+  correctOptionIndex: 0
+  answer: 'Since reference types store a reference to the original data, that reference
+    can be set to nothing/null if it''s not pointing to any data.
+
+    Whereas value
+    types store their data directly, so they have to have some kind of data.
+
+    Also
+    by the way if you need to make a value type null you can use the Nullable type,
+    I have a lecture on it in the Advanced section.
+
+'

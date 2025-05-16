@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2110_02
+  m_EditorClassIdentifier: 
+  title: What is an example of params being used?
+  text: 'An example is a function that returns the sum of any amount of numbers
+
+    ##REF##code,
+
+    void
+    AddNumbers(params int[] intArray);
+
+    ##REF##
+
+    Another example could be
+    a function that can take damage from multiple sources
+
+    ##REF##code,
+
+    void
+    TakeDamage(params DamageSource[] damageSourceArray);
+
+    ##REF##
+
+    Or maybe
+    a function to log multiple messages
+
+    ##REF##code,
+
+    void Log(params string[]
+    messageArray);
+
+    ##REF##
+
+    Any of these functons can be called with any
+    number of parameters.
+
+'

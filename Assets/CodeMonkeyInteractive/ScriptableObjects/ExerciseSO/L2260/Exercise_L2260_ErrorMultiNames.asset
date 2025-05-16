@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2260_ErrorMultiNames
+  m_EditorClassIdentifier: 
+  exerciseName: ErrorMultiNames
+  exerciseTitle: Fix the error (conflict)
+  exerciseText: Fix the error
+  hintText: If there is a naming conflict you can refer to that class by its full
+    name.
+  solutionText: float random = UnityEngine.Random.Range(0f, 12f);
+  completedText: In this exercise you learned that sometimes you need to use the
+    full name of a type, including the namespace, if you have multiple classes with
+    the exact same name in multiple namespaces that you are using.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=0SlKQB6I4DY

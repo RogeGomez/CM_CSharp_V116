@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1060_08
+  m_EditorClassIdentifier: 
+  title: Should I read all FAQs, do all Quizzes and Exercises for every lecture?
+  text: 'YES!
+
+    If you truly want to learn, which I assume you do, then yes take
+    your time and do all the content related to every single lecture.
+
+    Remember
+    that your goal is simply to learn, it is not to speed through the course. So
+    you should NOT sprint through this course in a few days, if you''re really trying
+    to learn then you should take your time and do everything related to every single
+    lecture.
+
+    I put my 10+ years of C# knowledge into this course, if you take
+    your time and do everything you will gain the knowledge that I have in just a
+    few months which is insanely fast.
+
+    So take your time, do all the content
+    related to every single lecture, and by the end you will have gained a massive
+    amount of knowledge!
+
+'

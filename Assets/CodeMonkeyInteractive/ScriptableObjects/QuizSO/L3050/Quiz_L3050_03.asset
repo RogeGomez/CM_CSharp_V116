@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3050_03
+  m_EditorClassIdentifier: 
+  question: For which purpose is the typeof operator commonly used?
+  optionList:
+  - To check if a variable exists
+  - To obtain the System.Type object for use in functions that require a type parameter
+  - To compare two different types
+  - To declare a new type
+  correctOptionIndex: 1
+  answer: 'Whenever you have a function that receives a System.Type, like this built-in
+    Unity function:
+
+    ##REF##code,
+
+    GetComponent(System.Type type);
+
+    ##REF##
+
+    In
+    order to use it you need the type parameter
+
+    ##REF##code,
+
+    GetComponent(typeof(Player));
+
+    ##REF##
+
+'

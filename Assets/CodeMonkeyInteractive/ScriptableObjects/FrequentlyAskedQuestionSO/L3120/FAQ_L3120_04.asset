@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3120_04
+  m_EditorClassIdentifier: 
+  title: What is the null-coalescing assignment operator and how is it used?
+  text: 'The null-coalescing assignment operator (??=) assigns a value to a variable
+    only if that variable is currently null.
+
+    ##REF##code,
+
+    List<Player>
+    playerList = null;
+
+    playerList ??= new List<Player>();
+
+    ##REF##
+
+    This
+    will initialize ''playerList'' with a new List<Player> only if ''playerList''
+    is currently null.
+
+    So it is great for handling initialization.'

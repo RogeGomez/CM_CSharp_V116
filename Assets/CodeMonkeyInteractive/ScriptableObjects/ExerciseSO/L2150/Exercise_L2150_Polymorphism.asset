@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2150_Polymorphism
+  m_EditorClassIdentifier: 
+  exerciseName: Polymorphism
+  exerciseTitle: Polymorphism
+  exerciseText: Define a function MoveUnit(); that has a parameter that should work
+    with either a Player or Enemy or anything that extends Unit.
+  hintText: If a function receives a parameter of a base type, then it will work
+    when called with any object of any type that extends that base type.
+  solutionText: public void MoveUnit(Unit unit) { }
+  completedText: Here you learned how polymorphism works, meaning how one object
+    can be used as being of a related type.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=OGkCflQyS1c

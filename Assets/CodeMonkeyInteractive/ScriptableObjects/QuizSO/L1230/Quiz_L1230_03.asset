@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1230_03
+  m_EditorClassIdentifier: 
+  question: How is the coin pickup logic implemented in the game?
+  optionList:
+  - Using a physics collision system.
+  - Through distance checks in a loop.
+  - By triggering an animation.
+  - By using a raycast to detect coins.
+  correctOptionIndex: 1
+  answer: 'One regular occurence in all of programming is how every problem has many
+    possible solutions.
+
+    In this project I used a simple distance check to test
+    for collisions in order to demonstrate loops in action.
+
+    However yup I could
+    have used physics for collision detection as well. One problem, multiple possible
+    solutions.
+
+'

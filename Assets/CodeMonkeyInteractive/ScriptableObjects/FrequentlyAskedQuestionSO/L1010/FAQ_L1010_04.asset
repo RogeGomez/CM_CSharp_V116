@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1010_04
+  m_EditorClassIdentifier: 
+  title: Why are public variables so bad?
+  text: 'When you make a variable public you are enabling both READ and WRITE access
+    from anywhere. So if you have 1000 classes that means you have 1000 possible
+    places that could be modifying that variable. Whereas if you keep it private
+    it doesn''t matter how big is your codebase, only the code in that class can
+    access that field.
+
+    Writing good clean code is all about minimizing complexity
+    and the more you limit access to your fields/functions/classes the fewer things
+    you need to keep in mind while writing code.
+
+    Definitely check out the related
+    video for more detail, following this one simple rule will massively increase
+    the quality of your code.'

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1120_SwitchNameCoins
+  m_EditorClassIdentifier: 
+  exerciseName: SwitchNameCoins
+  exerciseTitle: Switch on Name add Coins
+  exerciseText: Write a switch where if the Player is named "Code Monkey" it should
+    give 5 coins, and if named "Iron Man" it should only give 1 coin
+  hintText: Remember the switch syntax, how you switch on a variable and have various
+    cases for each possible value. Each case must also have a break;
+  solutionText: "switch (playerName) {\r\ncase \"Code Monkey\":\r\n    Add5Coins();\r\n   
+    break;\r\ncase \"Iron Man\":\r\n    Add1Coin();\r\n    break;\r\n}"
+  completedText: Here you learned how to write a switch and execute different code
+    depending on the value.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=8g0xG30mUz4

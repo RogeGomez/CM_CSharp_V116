@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3180_01
+  m_EditorClassIdentifier: 
+  question: What is the purpose of using the [Flags] attribute in an enum and adding
+    power of two numbers?
+  optionList:
+  - To allow the enum to hold multiple values simultaneously.
+  - To increase the number of possible enum values.
+  - To change the underlying data type of the enum.
+  - To prevent the enum from being modified.
+  correctOptionIndex: 0
+  answer: Making enum flags allows you to store combinations of enum values in a
+    single enum field.

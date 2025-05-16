@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2020_06
+  m_EditorClassIdentifier: 
+  title: How does auto-complete help?
+  text: 'Auto complete helps you by letting you write code faster by typing less.
+
+    You
+    just need to get used to how it works, remember just how little of each symbol
+    you need to write, so for example if you have a function TestFunction(); you
+    can just type ''testf'' and press Enter and it will write everything else.
+
+    Once
+    you get used to it you can write a 50 character line of code by just typing 10
+    characters.
+
+    Importantly is how auto complete also makes sure to write the
+    code perfectly with all the correct capitalization. This can be great for helping
+    beginners avoid the most common mistakes.
+
+'

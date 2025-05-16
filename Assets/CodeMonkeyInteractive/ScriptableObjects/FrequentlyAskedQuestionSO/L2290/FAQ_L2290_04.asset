@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2290_04
+  m_EditorClassIdentifier: 
+  title: Could some parts of this project be made differently?
+  text: 'Yup!
+
+    The structure for this project is just one of many many possible
+    ways to do it. You could have a dedicated class to handle the Money, you could
+    have a separate class to handle the shooting, you could have avoided using inheritance
+    for the weapons, you could have used direct references instead of the GameAssets
+    singleton, you could have used Scriptable Objects for the item types instead
+    of an enum, etc.
+
+    Whenever you picture a game in your head, keep in mind
+    there are many many ways to reach that goal, and as long as you reach that goal
+    then all those methods are valid.
+
+'

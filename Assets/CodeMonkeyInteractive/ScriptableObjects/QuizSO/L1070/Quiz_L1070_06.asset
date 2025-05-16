@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1070_06
+  m_EditorClassIdentifier: 
+  question: What error is indicated when you try to use a class or method from a
+    namespace that hasn't been imported?
+  optionList:
+  - ClassNotFound
+  - MethodMissing
+  - Missing namespace
+  - UndefinedSymbolException
+  correctOptionIndex: 2
+  answer: 'In order to use a type that exists in a namespace you need to import that
+    namespace with a ''using'' statement, if you don''t then you get this error.
+
+'

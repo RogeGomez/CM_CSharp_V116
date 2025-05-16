@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2190_01
+  m_EditorClassIdentifier: 
+  question: What is a delegate in C#?
+  optionList:
+  - A reference to a function with a specific signature.
+  - A way to define variables in a class.
+  - A method that directly executes another method.
+  - A class that stores multiple methods.
+  correctOptionIndex: 0
+  answer: 'A delegate is how you can store in a variable a reference to a function
+    as long as the function signature matches that delegates signature.
+
+'

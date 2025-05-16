@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3340_DefineAsyncFunction
+  m_EditorClassIdentifier: 
+  exerciseName: DefineAsyncFunction
+  exerciseTitle: Define an async Function
+  exerciseText: Modify the function DoSomethingHeavy(); to start ComplexTask(); but
+    not get stuck waiting for it to complete
+  hintText: Remember the syntax, you can grab a Task, then when you want to complete
+    it you can use await, then mark that function as async.
+  solutionText: "public async void DoSomethingHeavy() {\r\n    ExerciseCompleteBefore();\r\n           
+    \r\n    Task complexTask = ComplexTask();\r\n\r\n    ExerciseCompleteAfter();\r\n\r\n   
+    await complexTask;\r\n\r\n    ExerciseCompleteAfterWasteTime();\r\n}"
+  completedText: Here you learned how to make an async function, this way you can
+    call it without blocking the main thread.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=EsMePcqDVJA

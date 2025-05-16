@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2210_02
+  m_EditorClassIdentifier: 
+  title: How do you declare and fire an event in a C# class?
+  text: 'You declare an event with the ''event'' keyword, then a delegate type and
+    finally a name
+
+    ##REF##code,
+
+    public event Action OnDamaged;
+
+    ##REF##
+
+    To
+    fire the event you can just do
+
+    ##REF##code,
+
+    OnDamaged();
+
+    ##REF##
+
+    However
+    this will throw a NullReferenceException if there are no listeners, so you need
+    to test if the event is not null
+
+    ##REF##code,
+
+    OnDamaged?.Invoke();
+
+    ##REF##'

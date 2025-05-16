@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2200_04
+  m_EditorClassIdentifier: 
+  question: 'When would it be more appropriate to use a local function instead of
+    a lambda expression '
+  optionList:
+  - When the function needs to be named and possibly reused within the enclosing
+    method.
+  - When the function is simple and used immediately within its scope, particularly
+    for passing as an argument to a method.
+  - When you need to define a function that will be used across multiple classes.
+  correctOptionIndex: 0
+  answer: 'The main benefit of local functions is defining a name so they are great
+    when you want to run that logic multiple times. If you use a lambda you need
+    to store it in a delegate variable in order to reuse it.
+
+'

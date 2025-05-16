@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3200_UseRefOutIn
+  m_EditorClassIdentifier: 
+  exerciseName: UseRefOutIn
+  exerciseTitle: Use ref out in
+  exerciseText: Define a function with a ref, out and in parameters and then call
+    it.
+  hintText: Remember all the requirements, how out must be assigned in the function
+    and ref must be initialized beforehand.
+  solutionText: "public void DoSomething(ref int r, out int o, in int i) {\r\n   
+    o = 12;\r\n    ExerciseValidate();\r\n}\r\n\r\npublic Exercise() {\r\n    //
+    Call your function from here\r\n    int r = 0;\r\n    int i = 0;\r\n    DoSomething(ref
+    r, out int o, i);\r\n}"
+  completedText: Here you learned how to use these really useful keywords. They give
+    you a lot of control over what you can do with your functions.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=Ug2QCrwN5Qs

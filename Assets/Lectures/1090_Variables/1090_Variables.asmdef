@@ -1,0 +1,18 @@
+{
+    "name": "1090_Variables",
+    "rootNamespace": "",
+    "references": [
+        "GUID:debf5dc287f5337428821b670f9f0db9",
+        "GUID:bb21c5eebde4d2b48b32c6773314f7fd",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

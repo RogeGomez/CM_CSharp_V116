@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3120_DefaultPlayerName
+  m_EditorClassIdentifier: 
+  exerciseName: DefaultPlayerName
+  exerciseTitle: Default Player Name
+  exerciseText: Implement the GetPlayerName() function to return the playerName or
+    if null return "Unknown", using the Null-coalescing operator
+  hintText: The Null-coalescing operator is simply double question marks and then
+    on the right side what you want to return if the left side is null
+  solutionText: return playerName ?? "Unknown";
+  completedText: Here you learned how to use the Null-coalescing operator to very
+    quickly and easily make a null check and return a default value.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=XkIawR7JlrQ

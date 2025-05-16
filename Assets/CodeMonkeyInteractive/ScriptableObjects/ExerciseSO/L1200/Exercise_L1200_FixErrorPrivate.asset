@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1200_FixErrorPrivate
+  m_EditorClassIdentifier: 
+  exerciseName: FixErrorPrivate
+  exerciseTitle: Fix error (private)
+  exerciseText: Fix the error in the code.
+  hintText: If a function is marked as private it can only be accessed from that
+    class, it needs to be public in order to be accessed from other classes.
+  solutionText: public void DoSomething()
+  completedText: Here you learned how to use the proper access modifier. If you want
+    something to be accessible from outside that class it needs to be public.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=tm7qQZbmN3c

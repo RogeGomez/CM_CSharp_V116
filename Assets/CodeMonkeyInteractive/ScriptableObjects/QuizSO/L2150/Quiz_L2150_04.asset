@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2150_04
+  m_EditorClassIdentifier: 
+  question: What is polymorphism in C#?
+  optionList:
+  - The ability of different classes to provide a unique implementation of a method
+    that is defined in a base class or interface.
+  - A class's ability to take on many forms based on related types.
+  - Changing the type of an object after it has been instantiated.
+  - The process of converting an object of a base class to a derived class.
+  correctOptionIndex: 1
+  answer: 'This is how you can take a class and then use it in cases where the required
+    type is related to that class, like the base class or interface.
+
+    ##REF##code,
+
+    class
+    Player : BaseUnit, IAttackable {}
+
+    Player player = new Player();
+
+    BaseUnit
+    baseUnit = player; // Valid because Player extends BaseUnit
+
+    IAttackable
+    attackable = player; // Valid because Player implements IAttackable
+
+    ##REF##'

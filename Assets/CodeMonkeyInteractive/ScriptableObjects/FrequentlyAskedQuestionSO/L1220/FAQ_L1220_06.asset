@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1220_06
+  m_EditorClassIdentifier: 
+  title: Why is using strings as identifiers a bad thing?
+  text: 'Strings are very brittle, it is very easy to make a tiny mistake which then
+    is really difficult to debug.
+
+    Look at all these strings, they all look extremely
+    similar:
+
+    ##REF##code,
+
+    "PLAYER10"
+
+    "PLAY3R10"
+
+    "PLAYERl0"
+
+    "PLAYER1O"
+
+    ##REF##
+
+    At
+    a glance they all look similar but they all reference completely different things.
+    If you name some object like this and use the string to identify it then it is
+    really easy to make some mistake.
+
+    And since the string itself is valid it
+    won''t show up as a compile error so it will only break when you run your code.
+
+    Whereas
+    if you have a proper object reference, if you mistype the reference you get a
+    very clear compiler error to help you:
+
+    ##REF##code,
+
+    Player player10
+    = new Player();
+
+    Player10.DoSomething(); // ''Player10'' does not exist
+
+    playerl0.DoSomething();
+    // ''playerl0'' does not exist // lower case L instead of one 1
+
+    player1O.DoSomething();
+    // ''player1O'' does not exist // O instead of zero 0
+
+    ##REF##'

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2080_02
+  m_EditorClassIdentifier: 
+  question: What can cause a stack overflow error in recursion?
+  optionList:
+  - Using too many variables within the recursive function.
+  - Calling the recursive function with large numbers.
+  - The recursive function calling itself way too many times
+  correctOptionIndex: 2
+  answer: 'When you call a function the CPU stores a reference in the call stack.
+    Since that stack has limited memory, if you call a function too many times without
+    returning, like an infinite loop recursion, then at some point the call stack
+    will run out of memory and overflow leading to the famous error Stack Overflow.
+
+'

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3050_05
+  m_EditorClassIdentifier: 
+  question: "Why can\u2019t you pass just the class name as a parameter when a method
+    requires a Type object?"
+  optionList:
+  - Because the class name represents an object instance, not a type
+  - Because the class name is not recognized by the C# compiler
+  - Because the class name alone is not a System.Type
+  - Because the class name is a string, not a Type object
+  correctOptionIndex: 2
+  answer: 'If you do that you get a compiler syntax error because the class name
+    itself is not a System.Type, remember this difference.
+
+    ##REF##code,
+
+    GetComponent(Player);
+    // Error!
+
+    GetComponent(typeof(Player)); // Works!
+
+    ##REF##
+
+'

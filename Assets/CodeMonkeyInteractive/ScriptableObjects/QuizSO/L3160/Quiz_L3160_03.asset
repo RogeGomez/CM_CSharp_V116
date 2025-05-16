@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3160_03
+  m_EditorClassIdentifier: 
+  question: Which of the following is a characteristic of Span in C#?
+  optionList:
+  - It allocates new memory for the slice it creates.
+  - It does not allocate new memory for the slice it creates.
+  - It can only be used with string types.
+  - It automatically sorts the array it points to.
+  correctOptionIndex: 1
+  answer: The main benefit of Span is NOT costing extra memory, it doesn't actually
+    create any objects, it's just a pointer to the original data in memory.

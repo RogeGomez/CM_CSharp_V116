@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1120_07
+  m_EditorClassIdentifier: 
+  title: What is a real world example of where switch cases are commonly used?
+  text: "One common use case, in game development, is building a simple State Machine.\nThis
+    is widely used when making some AI code where you want different logic to run
+    depending on the state of the unit.\n##REF##code,\nswitch (state) {\n    case
+    State.Patrolling:\n       // Patrol logic\n       break;\n    case State.MovingTowardsTarget:\n      
+    // Move towards target\n        break;\n    case State.AttackingTarget:\n      
+    // Attack target\n       break;\n}\n##REF##\nIn this case state is an Enum, I
+    cover enums later on in the Intermediate section of the course.\n"

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3130_05
+  m_EditorClassIdentifier: 
+  title: Can you perform actions with the ternary conditional operator, or is it
+    only for value assignment?
+  text: 'The primary use of the ternary operator is for value assignment.
+
+    However
+    technically you can use functions or methods that return a value. But again while
+    this is technically possible it will likely lead to readability issues, so only
+    use the ternary conditional operator for simple conditions.'

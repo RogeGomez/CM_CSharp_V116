@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1170_09
+  m_EditorClassIdentifier: 
+  title: What is the difference between a while loop and a do while loop?
+  text: "The main difference is how the do while loop is guaranteed to run at least
+    once, because the condition is tested at the end.\r\nWhereas the while loop will
+    test the condition first and only run if the condition is true.\n##REF##code,\r\ndo
+    {\r\n    // This code will run\r\n} while (false);\r\nwhile (false) {\r\n   
+    // This code will NOT run\r\n}\r\n##REF##"

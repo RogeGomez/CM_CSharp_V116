@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3100_05
+  m_EditorClassIdentifier: 
+  title: How do you make a mutable record?
+  text: "You can make the properties of a record mutable by explicitly declaring
+    them with getters and setters:\r\n\r##REF##code,\npublic record MutablePerson
+    {\r\n    public string FirstName { get; set; }\r\n    public string LastName
+    { get; set; }\r\n    public MutablePerson(string FirstName, string LastName)
+    {\r\n        this.FirstName = FirstName;\r\n        this.LastName = LastName;\r\n   
+    }\r\n}\n##REF##\r\nHowever, this goes against the primary purpose of records,
+    which is to provide simple immutable data structures.\r\n"

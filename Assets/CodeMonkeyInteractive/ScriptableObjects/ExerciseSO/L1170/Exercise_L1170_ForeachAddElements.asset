@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1170_ForeachAddElements
+  m_EditorClassIdentifier: 
+  exerciseName: ForeachAddElements
+  exerciseTitle: Foreach add Elements
+  exerciseText: Write a foreach loop that cycles through all elements of the array,
+    adds them together and returns the result
+  hintText: Do a foreach on the array, then on the logic for each element just do
+    result += number; to add the number onto the result.
+  solutionText: "foreach (int number in numberArray) {\r\n    result += number;\r\n}"
+  completedText: In this exercise you learned to do a foreach and some logic on each
+    element of the collection.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=EohuKUUJ8A8

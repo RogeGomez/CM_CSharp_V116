@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3060_01
+  m_EditorClassIdentifier: 
+  question: What does the nameof operator in C# return?
+  optionList:
+  - The memory address of a variable
+  - The Type object of a variable
+  - The string name of a type, variable, or function
+  - The value of a variable
+  correctOptionIndex: 2
+  answer: 'It returns the string name which is a much better way of getting it as
+    opposed to having hardcoded strings. If you update the name of the class/variable/function
+    itself then the nameof returns the updated name string.
+
+'

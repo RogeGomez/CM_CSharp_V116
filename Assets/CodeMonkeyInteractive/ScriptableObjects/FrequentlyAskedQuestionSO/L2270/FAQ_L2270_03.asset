@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2270_03
+  m_EditorClassIdentifier: 
+  title: How do you implement a singleton in Unity?
+  text: "In Unity you have to do things a little bit differently because you cannot
+    use the constructor on classes that extend MonoBehaviour.\r\nSo in Unity you
+    still define the usual property with a public get and private set, but for the
+    lazy initialization usually you set the instance on the scripts Awake();\r\nThen
+    optionally add some safety logic to prevent more than one singleton.\n##REF##code,\r\npublic
+    static Player Instance { get; private set; }\r\n\r\nprivate void Awake() {\r\n   
+    if (Instance != null) {\r\n        Debug.LogError(\"One instance already exists\");\r\n       
+    return;\r\n    }\r\n    Instance = this;\r\n}\r\n##REF##"

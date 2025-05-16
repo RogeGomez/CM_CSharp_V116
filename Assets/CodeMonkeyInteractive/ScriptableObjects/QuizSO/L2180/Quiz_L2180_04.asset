@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2180_04
+  m_EditorClassIdentifier: 
+  question: What happens if an object does not match any case in a switch statement
+    using pattern matching?
+  optionList:
+  - The program throws a runtime exception.
+  - The switch statement is skipped, and no code is executed.
+  - The code in the default case is executed if it is provided.
+  - The first case statement is executed as a fallback.
+  correctOptionIndex: 2
+  answer: 'If none of the cases match then it will run the code in the default block,
+    if no default is defined then it just continues running code after the switch.
+
+'

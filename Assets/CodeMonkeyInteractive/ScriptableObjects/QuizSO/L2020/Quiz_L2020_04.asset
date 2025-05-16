@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2020_04
+  m_EditorClassIdentifier: 
+  question: How can you quickly find and navigate to a class or file by its name
+    in Visual Studio?
+  optionList:
+  - Ctrl + ,
+  - Ctrl + Z
+  - Ctrl + G
+  correctOptionIndex: 0
+  answer: 'This is one of the most useful shortcuts, it brings up a code explorer
+    window and you can really easily find any symbol within your codebase.
+
+    I
+    use this one all the time to navigate between various .cs files.
+
+'

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1220_09
+  m_EditorClassIdentifier: 
+  question: What is a key aspect of managing complexity in large codebases?
+  optionList:
+  - Writing as much code as possible in a single class.
+  - Using advanced algorithms in all parts of the code.
+  - Limiting the accessibility and connections between different parts of the code.
+  - Using multiple programming languages.
+  correctOptionIndex: 2
+  answer: "The easiest way to manage complexity is by simply minimizing access. \r\nIf
+    something is only ever used in a single class then it should be private.\r\nIf
+    a class does not need another class to work then it should not depend on that
+    class at all, they should be completely decoupled.\r\nIf a class has tons of
+    exposed members and tons of coupling, that's a sign that you should probably
+    refactor the code in a better way.\r\n"

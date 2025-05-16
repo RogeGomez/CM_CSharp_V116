@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3250_01
+  m_EditorClassIdentifier: 
+  question: What is an anonymous type in C#?
+  optionList:
+  - A type defined without a name, allowing for the creation of a custom type on
+    the fly.
+  - A type that can change its definition at runtime.
+  - A type that cannot be serialized.
+  - A type that only exists in the .NET Framework.
+  correctOptionIndex: 0
+  answer: Anonymous types have no name, they are automatically created by the compiler
+    to hold whatever data you define it with.

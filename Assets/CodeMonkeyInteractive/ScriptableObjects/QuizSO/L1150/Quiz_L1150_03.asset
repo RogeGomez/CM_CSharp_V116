@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1150_03
+  m_EditorClassIdentifier: 
+  question: What is a multi-line comment in C#?
+  optionList:
+  - A comment that starts with /* and ends with */.
+  - A comment enclosed in parentheses ().
+  - A comment that uses hash symbols (#) on multiple lines.
+  correctOptionIndex: 0
+  answer: "You can write multi-line comments by putting any text you want within
+    the start /* and end */ symbols.\r\nThis can also be used in just a single line,
+    doesn't have to be multi-line.\n##REF##code,\r\n/*\r\n  This is a\r\n  multi
+    line\r\n  comment\r\n*/\r\n\r\n/* This is also a valid comment */\r\n\r\n// And
+    technically\r\n// this is also\r\n// a valid multi line comment\r\n##REF##"

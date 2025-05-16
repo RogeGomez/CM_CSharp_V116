@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3020_CallPrivateFunction
+  m_EditorClassIdentifier: 
+  exerciseName: CallPrivateFunction
+  exerciseTitle: Call Private Function
+  exerciseText: Call the private function player.SecretFunction(); using reflection
+  hintText: 'Remember the filters you need to find something that is not public.
+    Also remember how you can combine multiple filters with | (not ||)
+
+    And when
+    you explicitly define a filter you need to include all the filters, it won''t
+    default to Public and Instance, you need to be explicit.
+
+    If your GetMethod()
+    returns null then either the name is wrong or the filters are wrong.'
+  solutionText: 'MethodInfo secretFunctionMethodInfo = typeof(Player).GetMethod("SecretFunction",
+    BindingFlags.NonPublic | BindingFlags.Instance);
+
+
+
+    secretFunctionMethodInfo.Invoke(player,
+    null);'
+  completedText: Here you learned how to find private fields and functions using
+    reflection. This is very useful when making some testing code where you want
+    to make sure to also test the private logic.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=-0Ry8Xa2pPc

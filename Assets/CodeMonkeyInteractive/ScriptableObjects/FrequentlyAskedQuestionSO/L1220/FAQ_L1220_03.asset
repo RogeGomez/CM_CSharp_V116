@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1220_03
+  m_EditorClassIdentifier: 
+  title: How do naming conventions contribute to clean code?
+  text: "If you use proper names for all your symbols then understanding the code
+    is as easy as reading English. \r\nWhereas if you write your code following some
+    bad (or worse, no) naming rules, then you need to read and re-read your code
+    a ton of times in order to figure out exactly what the code is doing.\r\nIf you
+    have a variable named \"dfkjk\" then you have no clue what on earth that means
+    and how it might be used, whereas if the variable is named \"attackRange\" then
+    it's extremely clear what the variable represents and how it might be used.\r\n"

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2070_LoopBreak
+  m_EditorClassIdentifier: 
+  exerciseName: LoopBreak
+  exerciseTitle: Do a break in a Nested Loop
+  exerciseText: Loop through all elements of this array, but break out of the inner
+    loop if the element is Player
+  hintText: Remember the syntax for break; and how it only applies to the inner-most
+    loop.
+  solutionText: "for (int i = 0; i < gridPosition2DArray.GetLength(0); i++) {\r\n   
+    for (int j = 0; j < gridPosition2DArray.GetLength(1); j++) {\r\n        ExerciseValidate(i,
+    j, gridPosition2DArray[i,j]);\r\n\r\n        if (gridPosition2DArray[i, j] ==
+    GridPosition.Player) {\r\n            break;\r\n        }\r\n    }\r\n}"
+  completedText: Here you learned how to break out of a loop and specificly how it
+    only breaks out of the inner-most loop.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=166uTnLOzqQ

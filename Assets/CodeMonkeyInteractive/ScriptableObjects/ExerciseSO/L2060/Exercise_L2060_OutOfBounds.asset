@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2060_OutOfBounds
+  m_EditorClassIdentifier: 
+  exerciseName: OutOfBounds
+  exerciseTitle: Handle Out of Bounds
+  exerciseText: Edit the function to return -1 if the index is out of bounds instead
+    of throwing an error.
+  hintText: Check whether the values are > 0 and below the size of that dimension,
+    use GetLength(n).
+  solutionText: "public int GetValue(int x, int y) {\r\n    if (x < 0 || \r\n       
+    y < 0 ||\r\n        x >= int2DArray.GetLength(0) ||\r\n        y >= int2DArray.GetLength(1))
+    {\r\n        return -1;\r\n    }\r\n\r\n    return int2DArray[x, y];\r\n}"
+  completedText: In this exercise you learned to test the bounds of a multidimensional
+    array, this is very important to make your code robust and not break if you give
+    it an invalid value.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=CJKJsrb4E1Q

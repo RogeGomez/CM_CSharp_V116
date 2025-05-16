@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1090_02
+  m_EditorClassIdentifier: 
+  title: Why are data types important?
+  text: 'Each variable needs to have a data type, that data type defines what type
+    of data we can store inside that variable.
+
+    There are data types for storing
+    numbers, and if you define a variable of that type then you cannot store a string
+    of text inside that variable.
+
+    You always need to use the correct data type
+    for whatever data you''re trying to store.
+
+    The next lecture covers Data
+    Types in detail.
+
+'

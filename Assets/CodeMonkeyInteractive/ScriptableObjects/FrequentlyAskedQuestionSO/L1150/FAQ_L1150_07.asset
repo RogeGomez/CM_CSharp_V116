@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1150_07
+  m_EditorClassIdentifier: 
+  title: How can good variable and function names reduce the need for comments?
+  text: "Look at this code:\n##REF##code,\r\nfloat a = 5; // Attack distance\r\nif
+    (DsTrg() < a) { // If under the attack distance\r\n\tAt(); // Attack enemy\r\n}\n##REF##\r\nWithout
+    comments this code is pretty much impossible to understand\r\nHowever instead
+    of writing comments you can just use proper names for the variables and functions:\n##REF##code,\r\nfloat
+    attackDistance = 5;\r\nif (DistanceToTarget() < attackDistance) {\r\n\tAttackTarget();\r\n}\n##REF##\r\nThis
+    way the code is very clear about what it is doing with no need for comments.\r\n"

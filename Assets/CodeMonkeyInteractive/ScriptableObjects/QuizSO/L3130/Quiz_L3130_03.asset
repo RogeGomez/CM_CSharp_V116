@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3130_03
+  m_EditorClassIdentifier: 
+  question: Which of the following describes the ternary operator's functionality?
+  optionList:
+  - It runs a loop conditionally based on the truth of an expression.
+  - It checks a condition and evaluates one of two expressions based on the condition's
+    bool value.
+  - It replaces switch-case statements for multiple conditions.
+  - It is used to assign a value to a variable only if a condition is true.
+  correctOptionIndex: 1
+  answer: It is a quick way of doing a condition test and evaluating some code if
+    true and other if false.

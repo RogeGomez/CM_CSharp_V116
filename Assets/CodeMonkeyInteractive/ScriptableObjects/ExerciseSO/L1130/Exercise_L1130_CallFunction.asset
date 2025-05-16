@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1130_CallFunction
+  m_EditorClassIdentifier: 
+  exerciseName: CallFunction
+  exerciseTitle: Call a Function
+  exerciseText: Edit the Start() function and inside it call the ExerciseSuccess();
+    function
+  hintText: 'The syntax for calling a function is based on the name of the function
+    and the parameters within parenthesis ( ), if there are any. Terminated with
+    a semi colon ; as usual.
+
+    As always remember how code is case sensitive,
+    the function ''ExerciseSuccess'' exists, but there is no function named ''exerciseSuccess'''
+  solutionText: ExerciseSuccess();
+  completedText: Here you learned how to call/run a function, this is something you
+    will be doing all the time.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=jTn4Q5qQWw8

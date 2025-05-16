@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2160_08
+  m_EditorClassIdentifier: 
+  question: Given an IAttackable interface with a Damage function, which implementation
+    allows an object to be damaged?
+  optionList:
+  - A class that declares IAttackable in its namespace.
+  - A class that uses IAttackable as a type for one of its fields.
+  - A class that implements IAttackable and provides an implementation for the Damage
+    function.
+  - A struct that references IAttackable in its constructor.
+  correctOptionIndex: 2
+  answer: 'If you define an interface IAttackable with a Damage(); function then
+    you can write code that works with that interface and calls that function which
+    means that code will work with anything that implements that interface, it could
+    be a Player, an Enemy, a RedBarrel, etc.
+
+'

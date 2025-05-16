@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1100_09
+  m_EditorClassIdentifier: 
+  title: What are the pros and cons of using var instead of explicit data types?
+  text: 'The pro is it''s simpler to write and can make the code visually simpler.
+
+    The
+    con is how it can sometimes be tricky to know what type you''re working with,
+    you need to place the mouse over the variable to inspect the type.
+
+    In some
+    cases this is not a terrible problem like this one:
+
+    ##REF##code,
+
+    var
+    name = "Code Monkey";
+
+    ##REF##
+
+    It''s clear in this case that name will
+    be a string.
+
+    However in this following case:
+
+    ##REF##code,
+
+    var
+    result = SendBugReport();
+
+    ##REF##
+
+    What type is result? Is it a bool
+    whether the function succeeded or failed? Is it a string for some kind of message?
+    Or some other custom type?
+
+    There''s no way to know just by looking at the
+    code, you have to mouse over to see what type that function returns.
+
+    So
+    personally I like being as explicit as possible, like this:
+
+    ##REF##code,
+
+    BugReportResult
+    result = SendBugReport();
+
+    ##REF##
+
+    Now it is clear that the result variable
+    is of type BugReportResult, no need to mouse over.
+
+
+
+    But that''s very much
+    just personal preference, there''s nothing inherently wrong with var, lots of
+    people like using var, so if you like it go ahead and use it.
+
+'

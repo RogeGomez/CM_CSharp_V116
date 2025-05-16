@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1130_11
+  m_EditorClassIdentifier: 
+  title: Can you use the output of a function as input for another?
+  text: 'Yup! You can definitely call a function within the parameters of another
+    function.
+
+    ##REF##code,
+
+    MyFunction(AnotherFunction());
+
+    ##REF##
+
+    The
+    code will first run AnotherFunction(); and use the result of that function as
+    a parameter when calling MyFunction();
+
+    However again keep in mind the goal
+    to make your code easy to understand, while this next code is valid you probably
+    shouldn''t use anything like it:
+
+    ##REF##code,
+
+    MyFunction(AnotherFunction(YetAnotherOne()),
+    DoSomething(), SomethingElse(WithAnotherThing(AndMore(5))));
+
+    ##REF##
+
+    If
+    you need to do some really complex logic like this, consider storing the results
+    of some of those functions in local variables and then call the final function
+    using those variables as parameters.
+
+'

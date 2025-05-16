@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1090_FixErrorInt
+  m_EditorClassIdentifier: 
+  exerciseName: FixErrorInt
+  exerciseTitle: Fix error (Int)
+  exerciseText: Edit the script Exercise.cs and fix all compile errors
+  hintText: Remember how code is case sensitive.
+  solutionText: There is an error that says <b>Int</b> does not exist, that is because
+    code is case sensitive and the proper name for the type is <b>int</b>
+  completedText: 'In this exercise you learned how to solve the most common error
+    that beginners encounter, issues with capitalization.
+
+    Always remember how
+    code is case sensitive, int and Int are two completely different things, one
+    exists and one does not. Same thing for float vs Float, bool vs Bool, true vs
+    TRUE, etc'
+  videoWalkthroughLink: https://youtu.be/TYzka7Ov_74

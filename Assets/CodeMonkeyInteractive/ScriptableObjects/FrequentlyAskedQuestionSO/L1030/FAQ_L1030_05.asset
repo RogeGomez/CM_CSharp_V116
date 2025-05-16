@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1030_05
+  m_EditorClassIdentifier: 
+  title: What is the best way to ask a question to ensure I get a helpful answer?
+  text: "When asking questions, be as <b>specific</b> as possible. Describe <b>EXACTLY
+    </b>what you expected to happen versus what actually happened, include any <b>error
+    messages</b> and the lines of code where the errors occur. \n\r\nThe more detail
+    you provide, the easier it will be for me to help you solve whatever the problem
+    is.\n\r\nSo don't just say <i>\"it's not working\"</i> since there's nothing
+    I can do to help with such little information. Be <b>very specific</b> on what
+    exactly isn't working, any errors in the console or any unintended behaviour.\r\n"

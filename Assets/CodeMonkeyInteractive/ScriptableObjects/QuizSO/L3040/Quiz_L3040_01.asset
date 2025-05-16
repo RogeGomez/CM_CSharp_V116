@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3040_01
+  m_EditorClassIdentifier: 
+  question: What is a static constructor in C#?
+  optionList:
+  - A constructor that is called when an instance of the class is created.
+  - A constructor that is called before any instance of the class is created or before
+    any member is accessed.
+  - A constructor that can have parameters and multiple instances.
+  - A constructor that initializes instance fields.
+  correctOptionIndex: 1
+  answer: 'The static constructor is guaranteed to run before you do anything that
+    involves that class.
+
+    So it will run before you create an object of that
+    class, or even before you access a static function or field.
+
+'

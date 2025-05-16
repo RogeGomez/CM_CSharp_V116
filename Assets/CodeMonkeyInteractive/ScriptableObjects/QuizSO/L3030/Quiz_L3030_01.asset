@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3030_01
+  m_EditorClassIdentifier: 
+  question: What is the primary purpose of function extensions / extension methods
+    in C#?
+  optionList:
+  - To modify the source code of existing classes
+  - To add new methods to a class without altering its source code
+  - To create new classes that inherit from existing classes
+  - To override existing functions in a class
+  correctOptionIndex: 1
+  answer: 'The main goal is so you can add extra logic (functions) to a class without
+    having to modify it.
+
+    Like for example, you don''t have access to modify
+    Unity''s built-in Transform class, but you can definitely make a Function Extension
+    that extends the Transform class with some behaviour.
+
+'

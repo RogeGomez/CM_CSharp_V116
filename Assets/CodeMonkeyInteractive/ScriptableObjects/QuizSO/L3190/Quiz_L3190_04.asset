@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3190_04
+  m_EditorClassIdentifier: 
+  question: What will happen if the #error directive is encountered during the compilation
+    of a C# program?
+  optionList:
+  - The program will compile with warnings.
+  - The compilation will stop, and an error message will be shown.
+  - The line will be ignored.
+  - The compiler will automatically fix the error.
+  correctOptionIndex: 1
+  answer: If there is an #error that is involved in the compilation (meaning it's
+    not #if that is excluded) then it acts like a compile error and prevents compilation.

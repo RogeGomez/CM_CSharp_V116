@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2290_03
+  m_EditorClassIdentifier: 
+  question: Which classes are singletons?
+  optionList:
+  - GameManager, Player and GameAssets
+  - Enemy and Bomb
+  - Money
+  correctOptionIndex: 0
+  answer: 'The singleton pattern is great for anything of which there is only a single
+    instance.
+
+    So in this case, there is only ever a single Player, just one
+    GameManager and just one GameAssets class.
+
+'

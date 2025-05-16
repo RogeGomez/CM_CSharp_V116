@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1220_05
+  m_EditorClassIdentifier: 
+  title: What are 'magic numbers', and why should they be avoided?
+  text: 'Magic numbers are numbers that show up in the code that make it really tricky
+    to understand what exactly it represents.
+
+    For example in this code, what
+    does 5 mean?
+
+    ##REF##code,
+
+    if (Distance(playerPosition, enemyPosition)
+    < 5) { }
+
+    ##REF##
+
+    It''s hard to tell just by looking at it, you need
+    to read a bunch more code to understand what it represents.
+
+    Whereas on this
+    code:
+
+    ##REF##code,
+
+    int attackDistance = 5;
+
+    if (Distance(playerPosition,
+    enemyPosition) < attackDistance) { }
+
+    ##REF##
+
+    Now it''s absolutely clear
+    as to what the number represents.
+
+    So by using a properly named local variable
+    we made our code much more easy to understand instead of using a magic number.
+
+'

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1170_05
+  m_EditorClassIdentifier: 
+  question: What will happen if you try to modify the collection being iterated over
+    in a foreach loop?
+  optionList:
+  - The loop will adapt to the changes in the collection.
+  - The program will throw a runtime exception.
+  - The changes will be ignored until the loop completes.
+  - The loop will restart from the beginning.
+  correctOptionIndex: 1
+  answer: 'If you modify a collection while doing a foreach through it, you get an
+    exception "Collection was modified"
+
+    If you need to do this then consider
+    making a copy of the collection and iterating through that one, or using a regular
+    for loop.
+
+'

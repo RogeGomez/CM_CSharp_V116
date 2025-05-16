@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2140_08
+  m_EditorClassIdentifier: 
+  question: Why might you choose to use a struct instead of a class for certain types
+    of data in C#?
+  optionList:
+  - When you need to take advantage of inheritance.
+  - For simple data that is logically grouped together and should be treated as a
+    single unit.
+  - When you require the type to be nullable without using nullable value types.
+  - For defining main application types that require extensive logic and state management.
+  correctOptionIndex: 1
+  answer: 'Structs are great for defining structures of data.
+
+    For example if
+    you want to define a Vector3 it makes more sense to define a struct to hold its
+    X, Y and Z fields as opposed to having separate disconnected fields for those
+    3 values.
+
+'

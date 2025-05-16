@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2220_07
+  m_EditorClassIdentifier: 
+  question: Which statement is true regarding generic functions?
+  optionList:
+  - They cannot be defined within non-generic classes.
+  - They must return a value of the generic type parameter.
+  - Generic functions automatically infer the type parameter from the arguments passed
+    to them, without needing explicit type specification.
+  correctOptionIndex: 2
+  answer: 'You define a function to use a Generic, you can call that function by
+    just passing in the argument value and don''t have to explicitly define the type.
+
+    For
+    example in Unity I use TryGetComponent<T>(out T t); all the time and you don''t
+    need to explicitly define the <T>
+
+    ##REF##code,
+
+    TryGetComponent<Player>(out
+    Player player); // Works
+
+    TryGetComponent(out Player player); // Also works,
+    compiler will infer the type
+
+    ##REF##'

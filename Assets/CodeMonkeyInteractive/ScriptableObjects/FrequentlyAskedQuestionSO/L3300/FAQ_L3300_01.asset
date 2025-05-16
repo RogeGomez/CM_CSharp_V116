@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3300_01
+  m_EditorClassIdentifier: 
+  title: What is WinForms used for in C# development?
+  text: 'WinForms, short for Windows Forms, is used for building graphical user interfaces
+    (GUIs) in C# applications.
+
+    It provides a library of controls such as buttons,
+    text boxes, labels, and many others that can be dragged onto a form to build
+    a user interface.
+
+    The backend code is all the same, it''s all C#, but instead
+    of running it based on text input or command line arguments you can have visual
+    buttons.'

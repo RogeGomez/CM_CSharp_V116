@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2090_CreateDictionary
+  m_EditorClassIdentifier: 
+  exerciseName: CreateDictionary
+  exerciseTitle: Create a Dictionary
+  exerciseText: 'Create a Dictionary<ResourceType, int> and set Gold to 5 and Wood
+    to 12
+
+    Call ExerciseValidate(); and pass in the dictionary.'
+  hintText: 'Remember the syntax for how to define a dictionary (with key, value)
+    then remember how a Dictionary is an object which needs to be constructed with
+    ''new''
+
+    And in order to set values on certain keys you access it like an
+    array.'
+  solutionText: 'Dictionary<ResourceType, int> dictionary = new Dictionary<ResourceType,
+    int>();
+
+    dictionary[ResourceType.Gold] = 5;
+
+    dictionary[ResourceType.Wood]
+    = 12;
+
+    ExerciseValidate(dictionary);'
+  completedText: In this exercise you learned how to create a Dictionary. This is
+    one of the most useful data structures you can use, especially in games for things
+    like Inventories.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=z7jmZg3ygdw

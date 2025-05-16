@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2160_01
+  m_EditorClassIdentifier: 
+  title: What is an interface in C#?
+  text: 'An interface is like a contract, where you define an interface with a bunch
+    of elements (functions, properties, events) and then any class that implements
+    that interface MUST implement all the elements defined in the interface.
+
+    What
+    this means in practical terms is how you can write code that works with that
+    specific interface, and it will automatically work with any classes that implement
+    that interface.
+
+    So you can have an IDamageable interface to handle objects
+    that can take damage, and then you can implement that interface on a Player class,
+    an Enemy class, a Barrel class, and all the damage logic that works with that
+    interface will work on any of those types.
+
+'

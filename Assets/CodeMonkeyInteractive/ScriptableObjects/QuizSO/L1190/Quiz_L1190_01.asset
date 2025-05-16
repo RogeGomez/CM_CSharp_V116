@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1190_01
+  m_EditorClassIdentifier: 
+  question: What does the static keyword mean in C#?
+  optionList:
+  - The member belongs to an instance of the class.
+  - The member belongs to the class itself, rather than an instance.
+  - The member is constant and unchangeable.
+  - The member is private and cannot be accessed outside the class.
+  correctOptionIndex: 1
+  answer: "By making something static you are saying that symbol belongs to the class
+    itself and not any instance of that class.\r\nSo if you make a static function/field
+    you access it through the class name and not through any object instance of that
+    class.\n##REF##code,\r\npublic class Player {\r\n    public static int totalPlayerCount;\r\n}\r\n--------------------\r\nPlayer
+    player = new Player();\r\nplayer.totalPlayerCount++; // Error!\r\nPlayer.totalPlayerCount++;
+    // Correct!\r\n##REF##"

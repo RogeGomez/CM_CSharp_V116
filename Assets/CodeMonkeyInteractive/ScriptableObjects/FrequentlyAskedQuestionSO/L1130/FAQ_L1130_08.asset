@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1130_08
+  m_EditorClassIdentifier: 
+  title: How many parameters can I define in my function?
+  text: 'As many as you want.
+
+    Although remember the goal to keep your code as
+    readable and understandable as possible. The more parameters you add to a function
+    the harder it becomes to understand.
+
+    If you have a function that requires
+    a dozen parameters to work, perhaps consider defining a class or struct to hold
+    that parameter data and replace all those parameters with a single parameter
+    of that type.
+
+'

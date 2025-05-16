@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2070_04
+  m_EditorClassIdentifier: 
+  question: Which of the following is a common use case for nested loops?
+  optionList:
+  - To perform arithmetic operations faster.
+  - To cycle through elements of a multidimensional array.
+  - To create infinite loops for constant data monitoring.
+  - To replace conditional statements in a program.
+  correctOptionIndex: 1
+  answer: 'The most common use case is when working with multidimensional arrays.
+    By using nested loops you can have loops for each dimension in the array.
+
+'

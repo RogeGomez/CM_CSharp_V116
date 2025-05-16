@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2260_04
+  m_EditorClassIdentifier: 
+  question: What is one great benefit of using namespaces?
+  optionList:
+  - They allow for the use of identical class names within different namespaces
+  - They automatically make all classes within them public
+  - They reduce the memory usage of a program
+  - They enable multiple inheritance in classes
+  correctOptionIndex: 0
+  answer: 'By defining namespaces you can have multiple classes with the exact same
+    class name, as long as they exist on different namespaces.
+
+    For example
+    there is a Random class defined inside System and another one defined inside
+    UnityEngine.
+
+'

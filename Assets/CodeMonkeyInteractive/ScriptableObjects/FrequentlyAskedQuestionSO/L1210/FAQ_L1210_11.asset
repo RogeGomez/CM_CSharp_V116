@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1210_11
+  m_EditorClassIdentifier: 
+  title: What naming rules should I follow if I'm working in a team?
+  text: 'If this is a team you are joining then they likely have already defined
+    a code style so you should follow the rules they have already set.
+
+    Don''t
+    try to impose your own rules. Remember the most important thing is consistency,
+    so if you are joining an already existing project then adapt your code to their
+    rules.
+
+'

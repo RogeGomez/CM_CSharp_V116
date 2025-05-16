@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3180_05
+  m_EditorClassIdentifier: 
+  title: Do you need to use the [Flags] attribute to use bitwise operations on enums?
+  text: Technically, no. You can use bitwise operations without the [Flags] attribute.
+    However, using [Flags] improves code readability by making it so that if you
+    convert the enum to a string you get a list of enabled flags with their names
+    instead of a numeric value.

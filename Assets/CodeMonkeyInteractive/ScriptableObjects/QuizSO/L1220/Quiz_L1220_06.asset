@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1220_06
+  m_EditorClassIdentifier: 
+  question: How should functions be structured according to clean code guidelines?
+  optionList:
+  - Functions should be long and handle multiple tasks.
+  - Functions should be under 50 lines.
+  - Functions should be of medium length and not exceed 100 lines.
+  - Functions should be as short as possible and perform one well-defined task.
+  correctOptionIndex: 3
+  answer: 'Functions should do one thing and one thing only. And if they only do
+    one thing usually they are pretty small.
+
+    However there''s no inherent limit,
+    there are some "things" where it takes 100 lines of code to do that thing, if
+    so, if it''s all part of just a single "thing" then it''s perfectly fine for
+    all of it to belong in one function.
+
+    Same rules apply to classes themselves.
+
+'

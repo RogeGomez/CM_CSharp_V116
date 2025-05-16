@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3030_FixError
+  m_EditorClassIdentifier: 
+  exerciseName: FixError
+  exerciseTitle: Fix the Error
+  exerciseText: This function extension is firing an error, fix it.
+  hintText: Remember all the requirements to make a function extension.
+  solutionText: "public static class IntExtensions {\r\n\r\n    public static int
+    Double(this int i) {\r\n        return i * 2;\r\n    }\r\n\r\n}"
+  completedText: In this exercise you learned all the requirements to make a function
+    extension work.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=4H19auu4E04

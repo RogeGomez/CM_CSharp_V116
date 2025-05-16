@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3280_OverridePlus
+  m_EditorClassIdentifier: 
+  exerciseName: OverridePlus
+  exerciseTitle: Override Plus
+  exerciseText: Fix the error by overriding the plus operator.
+  hintText: Remember all the rules, needs to be static, return something, have the
+    operator keyword and the operator as the name.
+  solutionText: "public static PlayerStats operator +(PlayerStats a, PlayerStats
+    b) {\r\n    return new PlayerStats {\r\n        stat = a.stat,\r\n        amount
+    = a.amount + b.amount,\r\n    };\r\n}"
+  completedText: Here you learned how to override an operator. With this you can
+    make your own custom types much easier to use.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=7Va2FDi7nTU

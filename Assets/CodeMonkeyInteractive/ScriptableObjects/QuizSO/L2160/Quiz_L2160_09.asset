@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2160_09
+  m_EditorClassIdentifier: 
+  question: Which scenario exemplifies the use of interfaces for creating a flexible
+    interaction system in a game?
+  optionList:
+  - Defining an IInteractable interface with an Interact method, which different
+    game objects like NPCs, doors, and buttons implement.
+  - Creating a base class InteractableObject that game objects inherit from to become
+    interactable.
+  - Using a single, large class to handle all possible interactions in the game.
+  - Defining separate methods for each type of interaction possible with every game
+    object.
+  correctOptionIndex: 0
+  answer: 'This is one of the best use cases for interfaces. Just define a general
+    IInteractable interface and make your system work with that interface.
+
+    Then
+    that system will be able to work on anything like NPCs, Doors, Buttons, etc.
+
+'

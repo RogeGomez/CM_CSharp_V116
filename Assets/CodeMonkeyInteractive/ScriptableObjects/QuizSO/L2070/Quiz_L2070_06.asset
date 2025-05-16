@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2070_06
+  m_EditorClassIdentifier: 
+  question: How can you exit an outer loop from within an inner loop?
+  optionList:
+  - Use the break statement directly in the inner loop.
+  - Set a boolean flag in the inner loop and check it in the outer loop to decide
+    whether to break.
+  - Use the continue statement in the inner loop.
+  - Nested loops do not allow exiting the outer loop from the inner loop.
+  correctOptionIndex: 1
+  answer: 'Since you cannot exit an outer loop by just calling break; on an inner
+    loop, what you can do is set some boolean value in the inner loop and on the
+    outer one you check that boolean to decide whether to break; the outer loop or
+    not.
+
+'

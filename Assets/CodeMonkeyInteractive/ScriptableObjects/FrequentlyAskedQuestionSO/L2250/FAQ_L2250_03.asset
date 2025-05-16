@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2250_03
+  m_EditorClassIdentifier: 
+  title: Can you show an example of implementing IEnumerable and IEnumerator for
+    a custom collection?
+  text: "##REF##code,\npublic class PlayerStats : IEnumerable<Stat> {\r\n    public
+    Stat dex = new Stat { name = \"Dexterity\", value = 12 };\r\n    public Stat
+    str = new Stat { name = \"Strength\", value = 25 };\r\n    public Stat wis =
+    new Stat { name = \"Wisdom\", value = 56 };\r\n\r\n    public IEnumerator<Stat>
+    GetEnumerator() {\r\n        return new PlayerStatsEnumerator(this);\r\n    }\r\n\r\n   
+    IEnumerator IEnumerable.GetEnumerator() {\r\n        return GetEnumerator();\r\n   
+    }\r\n\r\n    public class PlayerStatsEnumerator : IEnumerator<Stat> {\r\n\r\n       
+    private PlayerStats playerStats;\r\n        private int index;\r\n\r\n       
+    public PlayerStatsEnumerator(PlayerStats playerStats) {\r\n            this.playerStats
+    = playerStats;\r\n            index = -1;\r\n        }\r\n\r\n        public
+    Stat Current {\r\n            get {\r\n                switch (index) {\r\n                   
+    default:\r\n                    case 0: return playerStats.dex;\r\n                   
+    case 1: return playerStats.str;\r\n                    case 2: return playerStats.wis;\r\n               
+    }\r\n            }\r\n        }\r\n\r\n        object IEnumerator.Current =>
+    Current;\r\n\r\n        public void Dispose() {\r\n        }\r\n\r\n        public
+    bool MoveNext() {\r\n            index++;\r\n            if (index > 2) {\r\n               
+    Reset();\r\n            }\r\n            return index != -1;\r\n        }\r\n\r\n       
+    public void Reset() {\r\n            index = -1;\r\n        }\r\n    }\r\n\r\n}\r\n\r\npublic
+    class Stat {\r\n    public string name;\r\n    public int value;\r\n\r\n    public
+    override string ToString() {\r\n        return name + \": \" + value;\r\n   
+    }\r\n}\n##REF##"

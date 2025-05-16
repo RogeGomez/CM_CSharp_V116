@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1110_IfAndJump
+  m_EditorClassIdentifier: 
+  exerciseName: IfAndJump
+  exerciseTitle: If And Jump
+  exerciseText: Write a condition that will run the jump only if the player is grounded
+    and the jump button is pressed.
+  hintText: Remember the symbol for doing an AND logical operation between two conditions.
+  solutionText: "if (isJumpInputPressed && isGrounded) {\r\n    ExerciseJump();\r\n}"
+  completedText: 'Here you learned how to use the AND && operator to combine two
+    conditions.
+
+    It''s the same thing with the OR || operator.
+
+'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=zHNmuBsiNvE

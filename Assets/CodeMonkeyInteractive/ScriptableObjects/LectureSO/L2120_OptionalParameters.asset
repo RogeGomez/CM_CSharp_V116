@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L2120_OptionalParameters
+  m_EditorClassIdentifier: 
+  lectureCode: 2120
+  lectureSectionNumber: 12
+  lectureName: OptionalParameters
+  lectureTitle: Optional Parameters
+  frequentlyAskedQuestionListSO: {fileID: 11400000, guid: eef452c532d1ec146b0b2a73d284fea6,
+    type: 2}
+  quizListSO: {fileID: 11400000, guid: 4e5a70d48e844b34bb47f228c9801c21, type: 2}
+  exerciseListSO: {fileID: 11400000, guid: 8fd04ccd012222b47868d9ced6962e38, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2210_09
+  m_EditorClassIdentifier: 
+  title: What are the best practices for managing event subscriptions to avoid memory
+    leaks?
+  text: 'You can simply remember to always unsubscribe from events, in Unity you
+    can use the OnDestroy function or in C# you can use the ~Class destructor.
+
+    Although
+    if both event publisher and listener have the same lifetime then technically
+    you don''t need to unsubscribe, since both objects will be destroyed at the same
+    time therefore there will be no dangling listeners.
+
+'

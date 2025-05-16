@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L1120_Switch
+  m_EditorClassIdentifier: 
+  lectureCode: 1120
+  lectureSectionNumber: 12
+  lectureName: Switch
+  lectureTitle: Switch
+  frequentlyAskedQuestionListSO: {fileID: 11400000, guid: c3264fcf81e0461478f27b8d639bd0dc,
+    type: 2}
+  quizListSO: {fileID: 11400000, guid: 74d144bde0fc046458a7eec4f7217e24, type: 2}
+  exerciseListSO: {fileID: 11400000, guid: cf39192eaacc9cd40a1880d18f95c8e9, type: 2}

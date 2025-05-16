@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1050_03
+  m_EditorClassIdentifier: 
+  title: How do I install Unity Editor?
+  text: 'You can install the Unity Editor through Unity Hub. After logging in, you
+    can go to the ''Installs'' section to add a new version of Unity Editor.
+
+    Alternatively,
+    you can go to the projects tab, add the Unity Project for this course, and if
+    you don''t have that version installed there should be a button where you can
+    install it.
+
+'

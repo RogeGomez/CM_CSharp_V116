@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1130_SimpleFunction
+  m_EditorClassIdentifier: 
+  exerciseName: SimpleFunction
+  exerciseTitle: Write a simple Function
+  exerciseText: Write the most basic function possible, name it "MyFunction", make
+    it return void and take no parameters.
+  hintText: 'Funtions have a return type, they have a name, and they have some or
+    no parameters.
+
+    Pay close attention to where you are writing code. Write
+    inside the class but not inside another function.'
+  solutionText: void MyFunction() { }
+  completedText: 'In this exercise you learned how to define the simplest function
+    possible, something that returns void and takes no parameters.
+
+    You will
+    build millions of functions in you programming career so memorize how the syntax
+    works.'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=k_xaquCpHh4

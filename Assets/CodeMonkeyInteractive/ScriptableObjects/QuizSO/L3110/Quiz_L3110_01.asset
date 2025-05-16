@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3110_01
+  m_EditorClassIdentifier: 
+  question: What does the null conditional operator ? do in C#?
+  optionList:
+  - It creates a new nullable type.
+  - It automatically throws a NullReferenceException if the left-hand operand is
+    null.
+  - It prevents the execution of further operations if the left-hand operand is null.
+  - It converts non-nullable types into nullable types.
+  correctOptionIndex: 2
+  answer: "It automatically checks the left side and if it is null it terminates
+    the instruction safely. \nIf it is not null it continues executing the right
+    side.\nFor example in this event invokation, it will not throw a NullReferenceException
+    if there are no listeners.\n##REF##code,\nOnDamaged?.Invoke(this, EventArgs.Empty);\n##REF##\n"

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1170_18
+  m_EditorClassIdentifier: 
+  title: What are some common mistakes that lead to infinite loops?
+  text: 'The main one is simply some mistake in the condition, usually mistaking
+    < instead of > or similar.
+
+    Alternatively forgetting to use some kind of
+    iterator variable in a while or do while
+
+    Or doing i--; instead of i++;
+
+    Always
+    pay very close attention to your condition and your iterator variable.
+
+    Or
+    simply prefer to use the foreach whenever possible since that one never has an
+    infinite loop.
+
+'

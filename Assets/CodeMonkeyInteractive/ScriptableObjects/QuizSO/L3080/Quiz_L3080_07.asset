@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3080_07
+  m_EditorClassIdentifier: 
+  question: How is default useful when working with generics?
+  optionList:
+  - It allows changing the type of generic parameters dynamically
+  - It can return the zero-equivalent value appropriate to the generic type parameter
+  - It automatically casts types to their derived classes
+  - It ensures that all generic methods are statically typed
+  correctOptionIndex: 1
+  answer: 'When working with Generics you don''t know what type will be used, so
+    if you have some code that is meant to initialize some value you cannot explicitly
+    make it 0 or false or null (unless you add constraints)
+
+    By using ''default''
+    you get the zero-equivalent value of that type, regardless of what generic type
+    is used.
+
+'

@@ -1,0 +1,87 @@
+#### v1.14 - 2024-07-26
+ * Added remaining Advanced Exercises
+ * Added all Advanced Exercises Video Walkthroughs
+
+
+#### v1.13 - 2024-07-24
+ * Added 22 more Advanced Lectures
+ * Fixed Clean Code Guidelines Exercise not showing error message
+ * Fixed typo
+
+
+#### v1.12 - 2024-05-08
+ * Added Next button to FAQ and Quiz
+ * Added Chat with AI window
+
+
+#### v1.11 - 2024-04-27
+ * Added 13 Advanced Lectures with FAQ, Quiz, Exercises
+
+
+#### v1.10 - 2024-04-07
+
+ * Fixed various typos
+ * Fixed various exercises text
+
+
+#### v1.09 - 2024-03-28
+
+ * Added remaining Video Walkthroughs
+
+
+#### v1.08 - 2024-03-27
+
+ * Added more Exercises
+ * Added Video Walkthroughs to many exercises
+ * Fixed various typos
+
+
+#### v1.07 - 2024-03-22
+
+ * Added 41 Exercises
+ * Fixed download new version link
+
+
+#### v1.06 - 2024-03-18
+
+ * Added missing hints to Intermediate Exercises
+ * Added Video Walkthrough to various exercises
+ * Fixed various typos
+
+
+#### v1.05 - 2024-03-09
+
+ * Clarified some Quiz questions
+ * Fixed various typos
+
+
+#### v1.04 - 2024-03-08
+
+ * Added Intermediate Project
+
+
+#### v1.03 - 2024-03-04
+
+ * Fixed various typos and missing code samples
+ * Fixed Access Modifiers Exercise Fix Error Private not completing
+ * Fixed Scope exercises not completing right away
+ * Moved one exercise using Enums from Clean Code lecture to Enums lecture
+
+
+#### v1.02 - 2024-03-01
+
+ * Added version indicator in main window
+ * Added missing Loop exercises
+ * Added various exercise video walkthroughs
+
+
+#### v1.01 - 2024-02-29
+
+ * Main window now updates completion stats when something changes
+ * Fixed Code blocks being white in Dark mode
+ * Fixed some missing video links
+
+
+#### v1.00 - 2024-02-28
+
+ * First Version

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3100_06
+  m_EditorClassIdentifier: 
+  question: How do records handle equality comparison?
+  optionList:
+  - Records compare memory locations.
+  - Records cannot be compared directly.
+  - Records compare their underlying data values.
+  - Records use reference equality by default.
+  correctOptionIndex: 2
+  answer: 'Records are classes by default but in terms of equality comparison they
+    behave like value types comparing the underlying data values.
+
+    ##REF##code,
+
+    Person
+    person1 = new Person("Code", "Monkey");
+
+    Person person2 = new Person("Code",
+    "Monkey");
+
+    Debug.Log(person1 == person2); // true, but if Person was a class
+    it would be false
+
+    ##REF##'

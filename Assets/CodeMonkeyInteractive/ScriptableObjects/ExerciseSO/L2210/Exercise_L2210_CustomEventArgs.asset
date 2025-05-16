@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2210_CustomEventArgs
+  m_EditorClassIdentifier: 
+  exerciseName: CustomEventArgs
+  exerciseTitle: Define Custom EventArgs
+  exerciseText: Define custom EventArgs for the OnDamaged event, inside it store
+    an int for the damage amount, then fire the event and include the damage amount.
+  hintText: Define a class, remember to extend System.EventArgs then create an instance
+    of that class when invoking the event.
+  solutionText: "public class OnDamagedEventArgs : EventArgs {\r\n\r\n    public
+    int damageAmount;\r\n\r\n}\r\n\r\npublic event EventHandler<OnDamagedEventArgs>
+    OnDamaged;\r\n\r\n\r\npublic void Damage(int damageAmount) {\r\n    // Refactor
+    this code to fire the event using custom event args with the damage amount\r\n   
+    OnDamaged?.Invoke(this, new OnDamagedEventArgs { \r\n        damageAmount = damageAmount\r\n   
+    });\r\n}"
+  completedText: In this exercise you learned how to define and use custom event
+    args. This is how you can pass in custom extra data for any event you define
+    while using EventHandler. Alternatively you could also use something like Action<int>
+    if you prefer.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=ZYrCJp2rq0Q

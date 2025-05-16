@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2250_01
+  m_EditorClassIdentifier: 
+  question: What must a class implement to be used in a foreach loop in C#?
+  optionList:
+  - IEnumerator
+  - IEnumerable
+  - ICollection
+  - IList
+  correctOptionIndex: 1
+  answer: 'In order to work with a foreach it needs to implement IEnumerable. Doing
+    so requires implementing a function that will return a IEnumerator which you
+    can build explicitly or in simple cases you can just do yield return;
+
+'

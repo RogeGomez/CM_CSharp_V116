@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1200_FieldWithPublicGetSet
+  m_EditorClassIdentifier: 
+  exerciseName: FieldWithPublicGetSet
+  exerciseTitle: Field with public Get Set
+  exerciseText: Edit Exercise.cs and make a private field int speed, with public
+    getter and setter functions GetSpeed(); and SetSpeed();
+  hintText: Use the keywords 'private' and 'public' to define the level of access
+    for each element (field, function, class) in your code.
+  solutionText: "private int speed;\r\n\r\npublic int GetSpeed() {\r\n    return
+    speed;\r\n}\r\n\r\npublic void SetSpeed(int speed) {\r\n    this.speed = speed;\r\n}"
+  completedText: In this exercise you learned how to use public and private. This
+    is an extremely important part of programming that becomes more and more important
+    as you move onto the intermediate and advanced levels.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=RCkqY4RY5LQ

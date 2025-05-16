@@ -1,0 +1,20 @@
+{
+    "name": "1100_DataTypes",
+    "rootNamespace": "",
+    "references": [
+        "GUID:debf5dc287f5337428821b670f9f0db9",
+        "GUID:bb21c5eebde4d2b48b32c6773314f7fd",
+        "GUID:2ccd00fd103a18644bb0914ceb6f7f33",
+        "GUID:bcbb9f8900da03e4394093496317f00c",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

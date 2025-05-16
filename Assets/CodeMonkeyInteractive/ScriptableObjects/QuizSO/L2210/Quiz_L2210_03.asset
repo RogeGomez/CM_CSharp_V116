@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2210_03
+  m_EditorClassIdentifier: 
+  question: How do you subscribe to an event?
+  optionList:
+  - Using the += operator followed by the function name.
+  - Calling the event like a function with the subscriber function as a parameter.
+  - Using the implements keyword on the function that handles the event.
+  - Declaring a variable of the event type and assigning a function to it.
+  correctOptionIndex: 0
+  answer: 'You simple do myEvent += MyEventListener; to attach a listener to the
+    event.
+
+    When the event is fired, the listener function will run.
+
+'

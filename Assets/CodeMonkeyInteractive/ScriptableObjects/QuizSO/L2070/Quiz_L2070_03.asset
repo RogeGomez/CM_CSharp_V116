@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2070_03
+  m_EditorClassIdentifier: 
+  question: How does the execution order of nested loops work?
+  optionList:
+  - The inner loop completes all its iterations before the outer loop continues.
+  - The outer loop completes one iteration and then the inner loop starts from the
+    beginning.
+  - Both loops run simultaneously.
+  - The outer loop waits for the inner loop to complete all iterations before it
+    starts.
+  correctOptionIndex: 0
+  answer: 'For every iteration of the outer loop, the inner loop will run all its
+    iterations.
+
+'

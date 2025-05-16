@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2170_RefuelCar
+  m_EditorClassIdentifier: 
+  exerciseName: RefuelCar
+  exerciseTitle: Refuel just the Car
+  exerciseText: Write a function RefuelVehicle(); that takes in a Vehicle and calls
+    .Refuel(); on that vehicle but only if it's a car.
+  hintText: Check the type and cast it in order to use functions specific to that
+    type.
+  solutionText: "public void RefuelVehicle(Vehicle vehicle) {\r\n    if (vehicle
+    is Car) {\r\n        (vehicle as Car).Refuel();\r\n    }\r\n}"
+  completedText: Here you learned how to do some type checking and casting in order
+    to call specific functions on a specific type.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=gjip44L1JeE

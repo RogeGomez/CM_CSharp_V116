@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2050_ValidateSet
+  m_EditorClassIdentifier: 
+  exerciseName: ValidateSet
+  exerciseTitle: Validate Set
+  exerciseText: Add some validation logic on the 'set' to ensure you cannot set the
+    name to 'RudeWord', it should default to 'Code Monkey' instead.
+  hintText: Remember the 'value' keyword, then just do some logic on it.
+  solutionText: "public string PlayerName {\r\n    get {\r\n        return playerName;\r\n   
+    }\r\n    set {\r\n        if (value == \"RudeWord\") {\r\n            value =
+    \"Code Monkey\";\r\n        }\r\n        playerName = value;\r\n    }\r\n}"
+  completedText: In this exercise you learned how you can add some custom logic on
+    your property accessors, like doing some validation on the value received.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=ajrExl5C2Ao

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2130_01
+  m_EditorClassIdentifier: 
+  title: What are the main differences between value types and reference types in
+    C#?
+  text: 'The main difference is how value types store the data directly whereas reference
+    types store a pointer to the location in memory that actually contains the data.
+
+    So
+    when working with value types, if you call a function with a value type parameter
+    that function will receive a copy of that data.
+
+    Whereas with a reference
+    type, the function will receive the same pointer that points to the same data
+    in memory, not a copy.
+
+'

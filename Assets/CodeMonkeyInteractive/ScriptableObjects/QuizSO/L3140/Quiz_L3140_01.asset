@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3140_01
+  m_EditorClassIdentifier: 
+  question: What is the purpose of the Main function in a C# console application?
+  optionList:
+  - It serves as the entry point where the program starts executing.
+  - It is used to declare global variables.
+  - It manages memory allocation for the application.
+  - It is only used in Windows applications.
+  correctOptionIndex: 0
+  answer: The Main function is the main entry point where the code starts executing.
+    When the function completes or returns the program terminates.

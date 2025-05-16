@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L3070_sizeof
+  m_EditorClassIdentifier: 
+  lectureCode: 3070
+  lectureSectionNumber: 7
+  lectureName: sizeof
+  lectureTitle: sizeof
+  frequentlyAskedQuestionListSO: {fileID: 11400000, guid: f96fbc8fe6f662248a13fb4bd97903b1,
+    type: 2}
+  quizListSO: {fileID: 11400000, guid: f5f22cf8f8d63234b9a1ca058b7f049d, type: 2}
+  exerciseListSO: {fileID: 11400000, guid: bf795dc5170daa9488d88fc3192c7d63, type: 2}

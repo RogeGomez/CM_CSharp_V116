@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2210_03
+  m_EditorClassIdentifier: 
+  title: Can you show an example of subscribing to and unsubscribing from an event?
+  text: "If a player class has some Action OnDamaged event, you can write code on
+    some HealthBarUI class to listen to that event:\n##REF##code,\r\nplayer.OnDamaged
+    += Player_OnDamaged;\r\n\r\nprivate void Player_OnDamaged() {\r\n    // Player
+    was damaged\r\n}\r\n\r##REF##\nTo unsubscribe you just do the reverse\n##REF##code,\r\nplayer.OnDamaged
+    -= Player_OnDamaged;\r\n##REF##"

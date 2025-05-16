@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3210_01
+  m_EditorClassIdentifier: 
+  question: What happens to a value type when it is boxed?
+  optionList:
+  - It is converted into a stack type.
+  - It is converted into a reference type.
+  - It remains a value type.
+  - It is converted into a string.
+  correctOptionIndex: 1
+  answer: When you box a value type, like an int, you convert it into a reference
+    type that holds an object which points to a reference in memory where the boxed
+    int is stored.

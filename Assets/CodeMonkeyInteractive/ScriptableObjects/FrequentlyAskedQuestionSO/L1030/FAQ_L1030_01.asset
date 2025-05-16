@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1030_01
+  m_EditorClassIdentifier: 
+  title: What should I do if I don't understand a concept or lecture?
+  text: 'It''s normal to find some concepts confusing at first so don''t feel bad
+    about yourself. Programming is a complex skill and learning it takes time, I''ve
+    been writing code for 25 years and I''m still learning new things.
+
+    Make
+    sure to read through the Frequently Asked Questions for each lecture, do the
+    Quizzes, and all the Interactive Exercises.
+
+    The more you actively try to
+    learn, the more you actually put your knowledge into practice, the more you will
+    actually learn.
+
+    And of course if you do all that and still don''t understand
+    anything feel free to post a question in the Lecture Comments, I read and answer
+    those every day so if you have some question I''ll do my best to help.
+
+'

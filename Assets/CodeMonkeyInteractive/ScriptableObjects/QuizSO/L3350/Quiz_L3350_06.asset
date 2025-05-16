@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3350_06
+  m_EditorClassIdentifier: 
+  question: What is the purpose of the ThreadPool class in C#?
+  optionList:
+  - To manually create and manage multiple threads.
+  - To create a pool of threads that can be reused for short-lived tasks.
+  - To ensure that threads run in a specific order.
+  - To handle exceptions in multithreaded applications.
+  correctOptionIndex: 1
+  answer: 'ThreadPool is a simple easy way to write some multithreaded code, you
+    don''t have to manage keeping threads by yourself, you just pass in some code
+    to the ThreadPool and it will be executed by a pool of worker threads managed
+    by the .NET Runtime.
+
+'

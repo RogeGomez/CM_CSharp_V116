@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2290_06
+  m_EditorClassIdentifier: 
+  title: What is [SerializeField]?
+  text: 'This is an attribute that is used, specifically in Unity, to make a private
+    field show up in the editor. Without it the private field does not appear in
+    the inspector.
+
+    What beginners tend to do is make the field public which
+    will make it show up in the editor, but like I covered in the lecture on Clean
+    Code Guidelines, this is a terrible practice because it enables read/write access
+    to that field from any class in your entire codebase. So the workaround is to
+    make it private and add the [SerializeField] attribute.
+
+    I made an entire
+    video on why you should not make everything public, and in there I talk about
+    this workaround.
+
+    ##REF##video_small, pD27YuJG3L8, Why you should NOT make
+    everything PUBLIC!###REF##'

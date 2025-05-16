@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2160_06
+  m_EditorClassIdentifier: 
+  title: What are some practical use cases for using interfaces?
+  text: 'One common one is some damage system, you can define a IDamageable interface
+    that has some TakeDamage(); function. Then you can make some bullets that work
+    with IDamageable objects and call TakeDamage(); on collision.
+
+    With that
+    set up you can then have those bullets deal damage to anything that implements
+    that interface. It could be a Player or an Enemy or a Barrel or anything.
+
+    
+
+    Another
+    common example is an interaction system. You can define an IInteractable interface
+    with an Interact(); function and then you can make an interaction system that
+    works with that interface, and by implementing that interface in various types
+    you can enable the player to open doors, push buttons, talk to NPCs, etc.
+
+'

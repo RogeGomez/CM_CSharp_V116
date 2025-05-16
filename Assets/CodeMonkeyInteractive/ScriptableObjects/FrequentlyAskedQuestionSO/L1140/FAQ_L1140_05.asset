@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1140_05
+  m_EditorClassIdentifier: 
+  title: Is it possible to keep a variable's value after its scope ends?
+  text: 'No, when the scope ends the variable is destroyed. If you want to keep the
+    data you need to somehow pass that data to another variable/function/class with
+    the scope that you need.
+
+'

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1130_10
+  m_EditorClassIdentifier: 
+  title: Can you return multiple pieces of data from a function?
+  text: "Technically no, the return type has to be a single type.\nSo this is not
+    valid code\n##REF##code,\nstring, int GetNumber(); // Error\r\n##REF##\nHowever
+    you can make a class/struct that holds multiple pieces of data and return that\n##REF##code,\nstruct
+    NumberName {\n    public string name;\n    public int number;\n}\nNumberName
+    GetNumber() {\n    return new NumberName {\n        name = \"Code Monkey\",\n       
+    number = 56,\n    }\n}\r\n##REF##\nOr alternatively for a more advanced method
+    you can use Tuples\n##REF##code,\n(string, int) GetNumber() {\n    return (\"Code
+    Monkey\", 56);\n}\r\n##REF##\nI cover Tuples in detail in the Advanced section
+    of the course.\n"

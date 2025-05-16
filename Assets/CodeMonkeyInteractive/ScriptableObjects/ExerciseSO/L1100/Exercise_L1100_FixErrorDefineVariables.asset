@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1100_FixErrorDefineVariables
+  m_EditorClassIdentifier: 
+  exerciseName: FixErrorDefineVariables
+  exerciseTitle: Fix Errors (define variables)
+  exerciseText: Define variables to fix the errors.
+  hintText: 'The names should give a hint as to what types they should be.
+
+    If
+    you see type errors make sure you are defining the correct types.'
+  solutionText: "You need to define variables and give them some value so they can
+    be used in the function.\nThe funtcion takes in different types for each parameter
+    so the variables need to be defined with the correct type:\n bool myBool = false;\r\n
+    int myInt = 1;\r\n float myFloat = 3.5f;\r\n string myString = \"Code Monkey\";"
+  completedText: Here you learned how to define variables of multiple types like
+    int, string, bool, etc
+  videoWalkthroughLink: https://www.youtube.com/watch?v=rGV9ERQl-Hk

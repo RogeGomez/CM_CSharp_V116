@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1160_DefineArrayAndList
+  m_EditorClassIdentifier: 
+  exerciseName: DefineArrayAndList
+  exerciseTitle: Define Array and List
+  exerciseText: 'Define and create an Array of ints and a List of strings, fill them
+    with at least one element.
+
+    Then call the function ExerciseSceneTester.Instance.Result(intArray,
+    stringList);'
+  hintText: 'Arrays and Lists have different syntax, one requires square brackets
+    [] whereas the other one requires creating an object.
+
+    Same thing for adding
+    elements, one has an Add(); function whereas the other you must construct it
+    with a certain size.'
+  solutionText: 'int[] intArray = new int[] { 1, 2, 3 };
+
+    List<string> stringList
+    = new List<string>() { "1", "2", "3" };'
+  completedText: 'Here you learned how to define Arrays and Lists.
+
+    These are
+    two of the most useful data structures that you will use all the time.'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=bF98pnhKAm0

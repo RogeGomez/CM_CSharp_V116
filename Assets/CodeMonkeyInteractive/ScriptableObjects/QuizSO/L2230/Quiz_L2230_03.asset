@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2230_03
+  m_EditorClassIdentifier: 
+  question: How does the readonly keyword differ from const?
+  optionList:
+  - readonly variables can have their values changed at runtime.
+  - readonly variables must be static.
+  - readonly variables can be set during runtime, but only once either at declaration
+    or in a class constructor.
+  - readonly variables are evaluated at compile-time.
+  correctOptionIndex: 2
+  answer: 'Constants have to have their value defined at compile time, whereas readonly
+    can have it''s value set at runtime, either in the definition itself or the class
+    constructor.
+
+    After being defined the value cannot change.
+
+    Readonly
+    fields can also be static or non-static.
+
+'

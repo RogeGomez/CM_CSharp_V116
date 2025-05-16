@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3110_05
+  m_EditorClassIdentifier: 
+  question: What is a requirement for using the null conditional operator with a
+    data type?
+  optionList:
+  - The data type must be a reference type or a nullable value type.
+  - The data type must be an array or a list.
+  - The data type must implement the IEnumerable interface.
+  - The data type must be a struct.
+  correctOptionIndex: 0
+  answer: 'Since these operators do an automatic null check, the types they can be
+    used on are only nullable types. So either reference types like any class or
+    types explicitly defined as Nullable.
+
+    ##REF##code,
+
+    Player playerObject
+    = new Player();
+
+    playerObject?.Attack(); // valid
+
+    int age = 35;
+
+    age?.ToString();
+    // error, int is not nullable
+
+    int? damageAmount = null;
+
+    damageAmount?.ToString();
+    // valid, int? is a nullable int
+
+    ##REF##'

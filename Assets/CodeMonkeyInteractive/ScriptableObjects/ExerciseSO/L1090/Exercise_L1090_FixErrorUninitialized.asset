@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1090_FixErrorUninitialized
+  m_EditorClassIdentifier: 
+  exerciseName: FixErrorUninitialized
+  exerciseTitle: Fix the Error (Uninitialized)
+  exerciseText: Fix the error in the console, variable is being used while unassigned.
+  hintText: Variables need to have some value assigned before they can be used.
+  solutionText: 'The variable needs to have some value in order to be used, so just
+    initialize it with something like:
+
+    int age = 35;'
+  completedText: 'Here you learned another common error, using variables before assigning
+    a value to them.
+
+    Always make sure a variable has a value, the best way to
+    avoid this error is to always give it a default value when you define a variable.'
+  videoWalkthroughLink: https://youtu.be/Rq48CHzKwDk

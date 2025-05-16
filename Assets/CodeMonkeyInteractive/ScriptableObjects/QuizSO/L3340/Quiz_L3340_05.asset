@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3340_05
+  m_EditorClassIdentifier: 
+  question: What does Task.Delay(3000) do in an asynchronous context?
+  optionList:
+  - Blocks the main thread for 3 seconds.
+  - Executes code for 3 seconds.
+  - Pauses the asynchronous function for 3 seconds without blocking the main thread.
+  - Cancels the task if it takes more than 3 seconds.
+  correctOptionIndex: 2
+  answer: This simply pauses the async function for 3 seconds, while paused the control
+    will return to the main thread that continues executing as normal.

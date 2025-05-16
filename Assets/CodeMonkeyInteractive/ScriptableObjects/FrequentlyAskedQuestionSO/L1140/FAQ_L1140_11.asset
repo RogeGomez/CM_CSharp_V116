@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1140_11
+  m_EditorClassIdentifier: 
+  title: Why is scope an important concept to master in programming?
+  text: 'Scope is extremely important in helping you minimize access, which is one
+    of the most important guidelines for writing good clean code.
+
+    The more you
+    limit the accessibility of some variable, the easier it is to keep in your mind
+    all the ways in which that variable can be accessed.
+
+    If you have a class
+    with a thousand functions, and you make a class variable (field), then you have
+    no idea which of those thousand functions might use that field.
+
+    However
+    if you have a thousand functions and in one of them you have a local variable,
+    you know for certain that nothing else can touch that variable, so it does not
+    matter if the class has a thousand or ten thousand functions. When working with
+    that variable you know for sure that only code within that function can access/modify
+    that variable.
+
+'

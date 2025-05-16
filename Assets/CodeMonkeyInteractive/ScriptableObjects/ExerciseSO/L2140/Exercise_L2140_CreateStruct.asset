@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2140_CreateStruct
+  m_EditorClassIdentifier: 
+  exerciseName: CreateStruct
+  exerciseTitle: Create a Struct
+  exerciseText: 'Define a struct named WorldPosition with int x and y fields
+
+    Then
+    define a field of that type.
+
+    On Start() create an object of that type with
+    x=1, y=2 and assign it to the field.'
+  hintText: 'Remember how structs are very similar to classes, just with the ''struct''
+    keyword.
+
+    Then define a field of that type, just like a class, and construct
+    it, also just like a class.'
+  solutionText: "private struct WorldPosition {\r\n    public int x;\r\n    public
+    int y;\r\n}\r\r\nprivate WorldPosition worldPosition;"
+  completedText: Here you learned how to define a struct. This is very similar to
+    a class but remember the one big difference, how structs are Value types whereas
+    classes are Reference types.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=VEi_qpfw_uE

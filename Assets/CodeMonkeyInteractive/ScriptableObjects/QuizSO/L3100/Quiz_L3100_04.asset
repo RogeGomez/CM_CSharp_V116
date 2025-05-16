@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3100_04
+  m_EditorClassIdentifier: 
+  question: Which keyword is used to create a new record based on an existing one
+    but with some properties modified?
+  optionList:
+  - modify
+  - update
+  - with
+  - change
+  correctOptionIndex: 2
+  answer: 'You write the ''with'' keyword which will construct a new record with
+    the exact same data, and then whatever specific properties you want to overwrite.
+
+    ##REF##code,
+
+    Person
+    person1 = new Person("Code", "Monkey");
+
+    Person person2 = person1 with {
+    LastName = "Gorilla" };
+
+    ##REF##'

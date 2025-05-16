@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2020_01
+  m_EditorClassIdentifier: 
+  title: Why are shortcuts important? How do they help coding efficiency?
+  text: 'Shortcuts help you by simply helping you take code from your head and put
+    it on screen.
+
+    One big way they help is by letting you keep your hands on
+    your keyboard as much as possible. The less time you waste on moving your hand
+    between your keyboard and your mouse the faster you will be.
+
+    Ideally you
+    just stare at your screen while your fingers and your brain does all the work.
+
+    And
+    in terms of why speed is important, the simplest answer is money. Time is money
+    and the faster you can build a project the cheaper it will be.
+
+    For example
+    I believe my speed is a very important reason as to why I have managed to make
+    so many profitable games, it''s because I can build in 6 months what takes someone
+    else 2 years.
+
+    If I need $1000 per month to live, then a project that takes
+    me 6 months to build will need to make $6000 to turn a profit. Whereas a project
+    that takes 2 years will need $24000, that''s a huge difference!
+
+'

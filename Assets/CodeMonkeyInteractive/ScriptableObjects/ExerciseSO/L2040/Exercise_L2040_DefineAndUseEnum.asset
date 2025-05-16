@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2040_DefineAndUseEnum
+  m_EditorClassIdentifier: 
+  exerciseName: DefineAndUseEnum
+  exerciseTitle: Define and use an Enum
+  exerciseText: Define an enum named PlayerAction and edit the function to return
+    enum instead of an int.
+  hintText: Remember the syntax for defining an enum along with all its values, and
+    then you can use it like any other type.
+  solutionText: "public enum PlayerAction {\r\n    NoEnemy,\r\n    AttackEnemy,\r\n   
+    MoveTowardsEnemy\r\n}\r\n\r\npublic PlayerAction GetNextPlayerAction() {\r\n   
+    if (enemy != null) {\r\n        // Has enemy\r\n        float attackDistance
+    = 5f;\r\n        if (distanceToEnemy < attackDistance) {\r\n            // Attack
+    enemy\r\n            return PlayerAction.AttackEnemy;\r\n        } else {\r\n           
+    // Move towards enemy\r\n            return PlayerAction.MoveTowardsEnemy;\r\n       
+    }\r\n    } else {\r\n        // Has no enemy\r\n        return PlayerAction.NoEnemy;\r\n   
+    }\r\n}"
+  completedText: Here you learned how to define an Enum type and use it to make some
+    logic more readable.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=SNQ7IvFYR_U

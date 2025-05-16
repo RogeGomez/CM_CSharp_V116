@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c605b6cbf8362a4ba238d0dfe3b7a89, type: 3}
+  m_Name: _FAQList_L1170
+  m_EditorClassIdentifier: 
+  frequentlyAskedQuestionSOList:
+  - {fileID: 11400000, guid: 035beab9bd45fe2418f90f57f6e3e6dc, type: 2}
+  - {fileID: 11400000, guid: c77fd8140b08e9b429d1e6558cb25180, type: 2}
+  - {fileID: 11400000, guid: cd016bb0a5f318b4fbac0c93f42f68d8, type: 2}
+  - {fileID: 11400000, guid: 7b81c7022ef83a947b768d408e173ba8, type: 2}
+  - {fileID: 11400000, guid: 4cda9c584438f1849bd7b5afaa4c9436, type: 2}
+  - {fileID: 11400000, guid: 709d25245142848478baedc414b5d9ee, type: 2}
+  - {fileID: 11400000, guid: 91c162ad7627cf34baebdd9f425b05d6, type: 2}
+  - {fileID: 11400000, guid: d6df3183b8e894443b5d00ba93d04849, type: 2}
+  - {fileID: 11400000, guid: 0be5124b44b82dc4e8076dd33d5a143e, type: 2}
+  - {fileID: 11400000, guid: 2db09d46bc2078342830e1af0f68a48e, type: 2}
+  - {fileID: 11400000, guid: 3022eed8782a55647a0b1aae56bec9e8, type: 2}
+  - {fileID: 11400000, guid: c1c24a7786106e145af5b6c3a0b24aeb, type: 2}
+  - {fileID: 11400000, guid: 2bfb93ec1d7f18b469fef6e4a60060ee, type: 2}
+  - {fileID: 11400000, guid: 89bb94d8a86914743a5bed1599c58f10, type: 2}
+  - {fileID: 11400000, guid: 69e2c58719b16224ebd11497faf6993a, type: 2}
+  - {fileID: 11400000, guid: 7a1bcce930d062b46baea3c60b5b7b9b, type: 2}
+  - {fileID: 11400000, guid: b84cc91f1ade18344a222a980e1a4e13, type: 2}
+  - {fileID: 11400000, guid: 690e2d9d63c10fc41bf4b8cd198f5afe, type: 2}
+  - {fileID: 11400000, guid: e7b27356f0cd23640862130668d007e9, type: 2}
+  - {fileID: 11400000, guid: 1c86ed52cd25780418d831039d512850, type: 2}
+  - {fileID: 11400000, guid: 33d019918adaf28459d2fdc8df484072, type: 2}
+  - {fileID: 11400000, guid: 7a07f82e30609574eb173eec4bb53d72, type: 2}

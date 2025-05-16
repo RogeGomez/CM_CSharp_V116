@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2240_CatchIndexException
+  m_EditorClassIdentifier: 
+  exerciseName: CatchIndexException
+  exerciseTitle: Catch Index Exception
+  exerciseText: Edit the function GetItem(int index); to not crash with an IndexOutOfRangeException,
+    it should return null if the index is invalid.
+  hintText: Use a try catch to catch the exception, and remember to use the correct
+    Exception type. Then you can run custom logic when an exception happens.
+  solutionText: "public Item GetItem(int index) {\r\n    // Catch the IndexOutOfRangeException,
+    return null instead\r\n    try {\r\n        return itemArray[index];\r\n    }
+    catch (IndexOutOfRangeException) {\r\n        return null;\r\n    }\r\n}"
+  completedText: Here you learned how to catch an exception to stop errors from completely
+    breaking your programs. You can catch when something goes wrong and try to handle
+    it gracefully.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=sSjOxjSnEoY

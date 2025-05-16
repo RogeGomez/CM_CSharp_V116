@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1220_02
+  m_EditorClassIdentifier: 
+  title: My code works, why should I care if my code is clean or dirty?
+  text: 'Because the dirtier your code the harder it is to work with.
+
+    For super
+    simple things "just works" might be enough, but as your projects grow in complexity
+    then "just works" isn''t enough. If something "just works" but it takes you one
+    hour to read the code to understand HOW it''s working then that is a hugely wasteful
+    time sink.
+
+    If you''re making some throwaway code then sure "just works"
+    will work, but if it''s some code that you want to be actually useful in the
+    future then make it work properly.
+
+'

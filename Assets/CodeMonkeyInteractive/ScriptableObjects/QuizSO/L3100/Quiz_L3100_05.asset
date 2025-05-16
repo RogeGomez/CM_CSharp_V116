@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3100_05
+  m_EditorClassIdentifier: 
+  question: If a record is declared as mutable, what must be included in its property
+    definition?
+  optionList:
+  - A get and set accessor must be explicitly defined in the properties.
+  - It must be marked with the mutable keyword.
+  - It must include an explicit constructor.
+  - A static constructor must be used.
+  correctOptionIndex: 0
+  answer: "You need to explicitly define the property with the accessors you want,
+    in order to make it mutable it needs a set;\r\n##REF##code,\r\npublic record
+    Person(string Name) {\r\n\tpublic Name { get; set; } = Name;\r\n}\n##REF##"

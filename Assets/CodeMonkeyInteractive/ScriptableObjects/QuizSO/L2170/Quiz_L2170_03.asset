@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2170_03
+  m_EditorClassIdentifier: 
+  question: What is the result of casting a float to an integer?
+  optionList:
+  - The decimal portion is rounded to the nearest whole number.
+  - The operation throws an exception if the number cannot be exactly represented
+    as an integer.
+  - The decimal portion is truncated, and only the whole number part is retained.
+  - The operation fails and returns null.
+  correctOptionIndex: 2
+  answer: 'If you forcefully cast a float onto an int then the result will ignore
+    anything after the decimal point. It will NOT round the value.
+
+'

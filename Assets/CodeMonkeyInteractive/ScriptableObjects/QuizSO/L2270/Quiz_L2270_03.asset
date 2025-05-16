@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2270_03
+  m_EditorClassIdentifier: 
+  question: What is a common way to ensure lazy instantiation of a Singleton?
+  optionList:
+  - By instantiating the Singleton instance in a static constructor.
+  - By checking if the instance is null and creating it if necessary, inside the
+    public static property getter.
+  - C# automatically handles lazy instantiation for all singletons.
+  correctOptionIndex: 1
+  answer: 'On the get logic you check if the singleton already exists, if not then
+    create it.
+
+    Doing this will ensure the singleton is only ever created when
+    it''s actually needed.
+
+'

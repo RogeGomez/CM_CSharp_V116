@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2290_03
+  m_EditorClassIdentifier: 
+  title: How long does a project like this take to build?
+  text: 'It really depends on your own skillset. For someone who is a complete beginner
+    to any kind of programming, I expect them to take several months until they reach
+    this lecture.
+
+    Maybe a bit faster if you already know some programming and
+    just need to learn the specifics for how Unity works.
+
+    And in my case, where
+    I already have all the knowledge covered in this course and I''m already very
+    experienced with Unity and Game Dev in general, for me it took me maybe 6-8 hours
+    to build this demo.
+
+    Experience is a very important thing, this is not the
+    first (or 10th) top down shooter game I''ve made, it''s not the first time I''ve
+    written a HealthSystem or used Interfaces to handle combat. Once you have the
+    knowledge and have a clear design in your head of what you are trying to build,
+    then everything gets done pretty quickly.
+
+'

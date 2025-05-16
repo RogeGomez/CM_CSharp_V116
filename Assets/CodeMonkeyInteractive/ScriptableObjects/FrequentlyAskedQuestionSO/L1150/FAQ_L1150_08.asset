@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1150_08
+  m_EditorClassIdentifier: 
+  title: What are some best practices for writing comments in C#?
+  text: 'The first best practice is simply first try to avoid them, try to choose
+    good names for your variables and functions to make your code clear just by reading
+    the code.
+
+    But sometimes even though the code is clear it could use some
+    extra clarification, this is where you can write a comment
+
+    So in general
+    don''t write comments that just explain what the code is doing, the code should
+    be readable enough that you understand what it''s doing just by reading the code.
+
+    Instead
+    comments should be used more to explain the why behind the code.
+
+'

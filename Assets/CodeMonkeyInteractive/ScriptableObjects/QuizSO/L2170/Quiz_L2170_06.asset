@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2170_06
+  m_EditorClassIdentifier: 
+  question: What is the purpose of overriding the ToString method in a class?
+  optionList:
+  - To change the way objects of the class are cast to other types.
+  - To provide a custom string representation of the object.
+  - To enable the class to be converted to a string using the as keyword.
+  - To ensure that the class meets all requirements of the interface it implements.
+  correctOptionIndex: 1
+  answer: 'The base object class has a ToString(); function which can be overriden
+    by any class.
+
+    Whenever you use your object in some kind of function that
+    converts it to a string, like Console.WriteLine(myObject); then it will call
+    the ToString(); function to convert it into a string.
+
+    If you don''t provide
+    a custom implemention then it will just say something like NameSpace-ClassName
+    but by overriding that function you can give it some more meaningful text.
+
+'

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2190_TimedAction
+  m_EditorClassIdentifier: 
+  exerciseName: TimedAction
+  exerciseTitle: Implement an Action Timer
+  exerciseText: Implement a timer function, on TickTimer(); it should do tick--;
+    and if tick <= 0 it should trigger the Action.
+  hintText: Store the action as a member variable, then call it when tick is under
+    0.
+  solutionText: "private void SetAction(Action action) {\r\n    this.action = action;\r\n}"
+  completedText: Here you learned to implement a simple timer logic where it is very
+    adaptable thanks to receiving an Action as a parameter which can then run any
+    code the calling function wants.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=w0Iev0_DSmU

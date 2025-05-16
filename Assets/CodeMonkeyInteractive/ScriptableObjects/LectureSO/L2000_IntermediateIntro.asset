@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L2000_IntermediateIntro
+  m_EditorClassIdentifier: 
+  lectureCode: 2010
+  lectureSectionNumber: 1
+  lectureName: IntermediateIntro
+  lectureTitle: Intermediate Intro
+  frequentlyAskedQuestionListSO: {fileID: 11400000, guid: 54312945501baf84a86ae9edbe4eda94,
+    type: 2}
+  quizListSO: {fileID: 11400000, guid: e57715a904fe87049958f84d72190907, type: 2}
+  exerciseListSO: {fileID: 11400000, guid: 4d4ca9a0facc72143a0f58c0fc826e4b, type: 2}

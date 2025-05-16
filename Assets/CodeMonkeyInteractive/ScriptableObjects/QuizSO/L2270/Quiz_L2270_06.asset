@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2270_06
+  m_EditorClassIdentifier: 
+  question: What is a potential drawback of using the Singleton Pattern?
+  optionList:
+  - It increases the memory usage for each instance created.
+  - It can lead to code that is tightly coupled and difficult to test.
+  - Singleton instances are slower to access than regular class instances.
+  - It requires additional syntax and language features not available in C#.
+  correctOptionIndex: 1
+  answer: 'If you abuse the singleton pattern and create tons and tons of singletons
+    for use all over your code, it can become really messy with tons of tighly coupled
+    classes making it really difficult to understand how all the code interacts with
+    one another and making it really difficult to test.
+
+'

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1080_03
+  m_EditorClassIdentifier: 
+  title: What are code blocks?
+  text: "That's the code within curly braces { }\nA code block basically groups together
+    some code. \nFor example all the code that belongs to a function will be in that
+    function's code block, all the code that belongs to an if will be in that if's
+    code block, etc.\nAlways pay close attention to where you are writing code. Depending
+    on where you are writing (which code block) will impact what code you can write.
+    \nFor example you cannot write a regular instruction like Console.WriteLine();
+    just inside a class code block, only inside a function code block.\n"

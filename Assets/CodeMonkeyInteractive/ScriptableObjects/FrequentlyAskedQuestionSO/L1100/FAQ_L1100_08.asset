@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1100_08
+  m_EditorClassIdentifier: 
+  title: What does the 'var' keyword do, and when should I use it?
+  text: 'The var keyword lets the compiler infer the type of a variable based on
+    what value you assign to it.
+
+    ##REF##code,
+
+    var i = 35; // int
+
+    var
+    name = "Code Monkey"; // string
+
+    var isEnemy = false; // bool
+
+    ##REF##
+
+    Some
+    people like how compact it is, but personally I am not a fan of var because it
+    obscures what type is actually being used. I like my code to be as explicit as
+    possible so I never have to question what types I''m working with.
+
+'

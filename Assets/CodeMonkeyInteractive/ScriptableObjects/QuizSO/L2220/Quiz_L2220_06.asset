@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2220_06
+  m_EditorClassIdentifier: 
+  question: What does the List<T> class in C# demonstrate about generics?
+  optionList:
+  - That generics can only be used with built-in types.
+  - The ability to create collections that can store any type of data.
+  - That all generics are inherently thread-safe.
+  - That generics do not support methods like addition or removal of items.
+  correctOptionIndex: 1
+  answer: 'List is an excellent example of the power of generics. With just one List
+    class you can create lists of any type, as opposed to having to define a ListInt,
+    ListString, ListFloat, etc.
+
+'

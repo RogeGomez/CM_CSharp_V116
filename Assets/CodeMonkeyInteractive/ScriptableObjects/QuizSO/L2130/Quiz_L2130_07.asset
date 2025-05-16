@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2130_07
+  m_EditorClassIdentifier: 
+  question: How does making a struct into a class change its behavior in terms of
+    value and reference types?
+  optionList:
+  - It becomes a reference type, meaning variables of this type will now store references
+    to the data instead of the data itself.
+  - It remains a value type but is now able to store complex objects.
+  - It becomes capable of being null without needing to be nullable.
+  - There is no change; structs and classes are functionally identical in C#.
+  correctOptionIndex: 0
+  answer: 'If you turn a struct onto a class then it goes from value type to reference
+    type.
+
+    Meaning if you had code like some function that worked with that type
+    as a parameter, as a struct that function would receive a copy but as a class
+    it receives a reference to the original object.
+
+    I cover Structs in detail
+    in the next lecture.
+
+'

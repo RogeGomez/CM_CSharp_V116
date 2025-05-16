@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2220_03
+  m_EditorClassIdentifier: 
+  title: Is the class List<T> using a generic?
+  text: 'Yes! That''s why you can make a list of any type, it''s thanks to the fact
+    that the List class was defined to work with generics.
+
+    If List was not
+    defined using generics then you would need to make a ListInt, ListString, ListPlayer,
+    etc, leading to a mountain of duplicated code.
+
+'

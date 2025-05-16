@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1220_10
+  m_EditorClassIdentifier: 
+  title: How can I learn more about writing good clean code?
+  text: 'I highly recommend the book Code Complete 2.
+
+    It is absolutely excellent
+    and reading through that whole book has increased my own programming skills 100x!
+
+    It''s
+    definitely a thick book with 800 pages so it will take you a while to get through
+    it, but if you do and you fully understand everytihng you will massively improve
+    your skills as a programmer.
+
+    Or if you want to see me apply my own rules
+    you can check out my courses, specifically my Kitchen Chaos course. It is targeted
+    at beginners but despite that the code quality is on the same level as my own
+    professional games, following all the code naming rules that I follow myself.
+
+'

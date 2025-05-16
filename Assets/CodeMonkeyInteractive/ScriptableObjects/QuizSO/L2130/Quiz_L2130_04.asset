@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2130_04
+  m_EditorClassIdentifier: 
+  question: What happens when you assign one variable of a value type to another?
+  optionList:
+  - The reference to the data is copied.
+  - A deep copy of the object is automatically performed.
+  - The data is copied directly, creating an independent copy.
+  correctOptionIndex: 2
+  answer: 'When you assign a value type to another you create a completely separate
+    copy that is assigned to that other variable.
+
+    After the assignment, the
+    two variables will have no relation to one another.
+
+'

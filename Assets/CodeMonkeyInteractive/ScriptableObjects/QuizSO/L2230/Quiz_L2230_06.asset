@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2230_06
+  m_EditorClassIdentifier: 
+  question: Why might you use a readonly field instead of a const?
+  optionList:
+  - When you need the field to change values multiple times.
+  - When the field's value is known only at runtime and it should not change after
+    the class instance is constructed.
+  - When you need to ensure the field value is evaluated at compile-time.
+  - When the field needs to hold an array or collection.
+  correctOptionIndex: 1
+  answer: 'Readonly is great for when you want a constant value but the type can
+    only be created at runtime.
+
+'

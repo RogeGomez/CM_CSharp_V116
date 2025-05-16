@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3100_DefineRecord
+  m_EditorClassIdentifier: 
+  exerciseName: DefineRecord
+  exerciseTitle: Define a Record
+  exerciseText: Create a basic Record named 'Person' that stores a 'FirstName' and
+    'LastName'
+  hintText: Remember the syntax for using the record keyword, how you write record,
+    then the name, then the properties in parenthesis with no code block.
+  solutionText: public record Person(string FirstName, string LastName);
+  completedText: Here you learned how to define a record, this is super useful when
+    you need a quick way to organize some simple data.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=IS2bztcf3oI

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1010_03
+  m_EditorClassIdentifier: 
+  question: 'Is there a problem with this code?
+
+    private void SetCameraFollowFunc(Func<Vector3>
+    cameraFollowFunc) { }
+
+    SetCameraFollowFunc(() => new Vector3(1, 0, 0));'
+  optionList:
+  - No
+  - 'Should be: SetCameraFollowFunc(() => return new Vector3(1, 0, 0));'
+  - 'Should be: SetCameraFollowFunc((Vector3(1, 0, 0)) => { });'
+  correctOptionIndex: 0
+  answer: 'There''s no error so A) is correct, but option B) is also valid.
+
+    
+
+    The
+    compiler automatically adds return when receiving a delegate into a Func parameter
+    so it''s not necessary but works both ways.
+
+    
+
+    The technical term for
+    the inline function is a Lambda expression, super useful and compact https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions
+
+    
+
+    Func
+    and Action are types of delegates which can be super useful, I covered them in
+    detail here:'

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2220_09
+  m_EditorClassIdentifier: 
+  question: How do type constraints enhance the functionality of generics?
+  optionList:
+  - By allowing generics to perform arithmetic operations on type parameters.
+  - By enabling runtime type conversion and casting of generic type parameters.
+  - By ensuring type safety and enabling specific operations on the generic type
+    parameters.
+  - Type constraints limit the usability of generics, making them less flexible.
+  correctOptionIndex: 2
+  answer: 'Adding constraints helps you by ensuring that while your class can be
+    used with almost any type, the types must match the constraints.
+
+    Meaning
+    while writing code inside your generic class you can make assumptions about the
+    type that is used.
+
+    For example you can assume the object is constructable
+    with the new() constraint allowing you to create objects with new T();
+
+    Or
+    you can make a constraint that T must implement some interface, and then in your
+    class you can write code against that interface.
+
+'

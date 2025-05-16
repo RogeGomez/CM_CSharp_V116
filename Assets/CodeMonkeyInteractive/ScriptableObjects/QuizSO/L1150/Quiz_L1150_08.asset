@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1150_08
+  m_EditorClassIdentifier: 
+  question: Is it a good practice to update comments when the corresponding code
+    changes?
+  optionList:
+  - No, comments should remain unchanged for historical reference.
+  - Yes, comments should be updated to reflect changes in the code.
+  - No, comments are optional and don't need to be maintained.
+  - Yes, but only for multi-line comments.
+  correctOptionIndex: 1
+  answer: "Yes if you modify some piece of code that has an accompanying comment
+    you should also update the comment.\r\nThis is also yet another reason why you
+    should avoid comments and make your code as self-documenting as possible. \r\nIf
+    the code is perfectly understood without comments, then when you need to modify
+    something you just need to modify the code.\r\nWhereas if the code relies on
+    comments to be understood then if you modify the code you need to remember to
+    also modify the comment.\r\n"

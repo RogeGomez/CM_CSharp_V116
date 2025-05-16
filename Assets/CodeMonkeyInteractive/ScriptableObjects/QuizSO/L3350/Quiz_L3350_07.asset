@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3350_07
+  m_EditorClassIdentifier: 
+  question: Which of the following describes a deadlock?
+  optionList:
+  - When two threads are waiting for each other to release a lock, causing both to
+    be stuck.
+  - When a thread runs longer than expected.
+  - When a thread finishes execution without releasing its resources.
+  - When a thread is created but never starts.
+  correctOptionIndex: 0
+  answer: 'If you have complex code that involves multiple threads and multiple locks
+    you might end up in a situation where 2 threads are waiting for each other to
+    release a lock. This leads to both threads waiting forever for the other one.
+
+'

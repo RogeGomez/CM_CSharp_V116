@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1110_06
+  m_EditorClassIdentifier: 
+  title: What is the difference between = and ==
+  text: 'The single equals = is the assignment operator, like when you assign a value
+    to a variable
+
+    ##REF##code,
+
+    bool b = true;
+
+    ##REF##
+
+    The double
+    equals == is the equality comparison, it tests whether two elements are equal
+
+    ##REF##code,
+
+    bool
+    b = 1 == 1; // true
+
+    ##REF##
+
+    Always remember to use double equals when
+    testing for equality otherwise you get some strange results
+
+    ##REF##code,
+
+    bool
+    b1 = false;
+
+    Console.WriteLine(b1 == true); // Comparing against true
+
+    Console.WriteLine(b1
+    = true); // Assigning b1 to true
+
+    ##REF##'

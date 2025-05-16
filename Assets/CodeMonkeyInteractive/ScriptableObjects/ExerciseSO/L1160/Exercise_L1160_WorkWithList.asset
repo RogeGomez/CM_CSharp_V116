@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1160_WorkWithList
+  m_EditorClassIdentifier: 
+  exerciseName: WorkWithList
+  exerciseTitle: Work with List
+  exerciseText: Create a List of strings, then use the list add function to add the
+    elements "Code Monkey" and "Iron Man" to the list, then remove the element "Iron
+    Man" and call ExerciseValidate(list);
+  hintText: You can write list. and Visual Studio will show you all the operations
+    you can do with a list, like and Add and Remove function.
+  solutionText: '// Create a List of strings
+
+    List<string> nameList = new List<string>();
+
+
+
+    //
+    Then use the list add function to add the elements "Code Monkey" and "Iron Man"
+    to the list
+
+    nameList.Add("Code Monkey");
+
+    nameList.Add("Iron Man");
+
+
+
+    //
+    Then remove the element "Iron Man"
+
+    nameList.Remove("Iron Man");
+
+
+
+    //
+    And call ExerciseValidate(list);
+
+    ExerciseValidate(nameList);'
+  completedText: In this exercise you learned how to work with lists. How to create,
+    add and remove elements.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=S8azE0uqzrM

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1050_10
+  m_EditorClassIdentifier: 
+  title: How do I attach a script to a GameObject?
+  text: 'After creating a script, you can attach it to a GameObject by dragging the
+    script from the Project window onto the GameObject in the Hierarchy window or
+    by adding it via the Add Component button in the Inspector window when the GameObject
+    is selected.
+
+    Remember how the script needs to extend MonoBehaviour in order
+    to be used as a component.
+
+'

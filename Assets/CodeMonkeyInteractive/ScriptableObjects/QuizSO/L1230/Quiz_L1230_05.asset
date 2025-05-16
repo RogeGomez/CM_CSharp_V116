@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1230_05
+  m_EditorClassIdentifier: 
+  question: According to the lecture, why are only a few comments used in the project's
+    script?
+  optionList:
+  - Comments are not supported in Unity C# scripts.
+  - The code is written with clear names for functions and variables, making it self-documenting.
+  - Comments are reserved for complex code only.
+  - The project is too simple to require comments.
+  correctOptionIndex: 1
+  answer: 'The code is all written with proper names that makes it very easy to understand
+    what the code is doing by just reading the code itself.
+
+    However there are
+    still some comments used when the code itself cannot be made easier to understand.
+
+    Remember
+    that comments are not bad. You should avoid them in favor of writing good clean
+    code, but in some cases they are a very useful tool.
+
+'

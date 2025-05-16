@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1090_03
+  m_EditorClassIdentifier: 
+  question: How can you modify the value of a variable?
+  optionList:
+  - By assigning a new value to the variable.
+  - By using the modify keyword.
+  - By re-declaring the variable with a new value.
+  correctOptionIndex: 0
+  answer: 'You can define a variable, and then assign an new value to replace the
+    previous value
+
+    ##REF##code,
+
+    int age = 35;
+
+    age = 25;
+
+    ##REF##
+
+    You
+    don''t redeclare it, if you do you get an error since you cannot define two variables
+    in the same scope with the exact same name
+
+    ##REF##code,
+
+    int age = 35;
+
+    int
+    age = 25; // Error! ''age'' is already defined!
+
+    ##REF##
+
+    However you
+    can have multiple variables of the same name as long as they are on completely
+    separate scopes, there is a detailed lecture on Scope later on in the course.
+
+'

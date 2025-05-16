@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1180_15
+  m_EditorClassIdentifier: 
+  title: When do you need to use this?
+  text: "It's particularly useful when you have multiple symbols with the same name,
+    like a class variable and a function parameter that has the exact same name.\r\nIn
+    that case if you just write the name the code will assume you are referring to
+    the function parameter and not the class variable.\r\nIn order to explicitly
+    refer to the class variable you use the this keyword to access the object directly
+    and reference the class variable.\n##REF##code,\r\nprivate float speed; // Class
+    variable\r\npublic void SetSpeed(float speed) {\r\n    this.speed = speed; //
+    Assign the class variable to the value received in the parameter\r\n}\r\n##REF##"

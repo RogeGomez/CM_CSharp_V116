@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2030_04
+  m_EditorClassIdentifier: 
+  title: How does refactoring affect the performance of my code?
+  text: 'It doesn''t, at least not inherently.
+
+    Refactoring isn''t usually about
+    performance, it''s about code readability. The goal is to help you manage your
+    code complexity so you can keep working and building upon your codebase.
+
+    So
+    that is the primary goal of refactoring although refactoring for performance
+    is also a valid option. But before you do, use the profiler to make sure you
+    do actually have performance issues in that specific part of code.
+
+    For
+    example there''s no point in refactoring and optimizing some part of your code
+    that only runs once. Instead focus on logic that runs every frame (after you''ve
+    identified the performance issues)
+
+'

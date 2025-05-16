@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3080_05
+  m_EditorClassIdentifier: 
+  question: In the context of C# switch statements, what does default represent?
+  optionList:
+  - A function that returns default values
+  - The case that executes when no other cases match
+  - A built-in method to handle exceptions
+  - A way to initialize variables
+  correctOptionIndex: 1
+  answer: 'The default in a switch defines the code block that will run if none of
+    the case''s match.
+
+'

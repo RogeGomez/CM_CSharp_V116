@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1100_10
+  m_EditorClassIdentifier: 
+  title: Why does dividing two integers not give a decimal result, and how can I
+    fix this?
+  text: 'Because when you divide an int by another int the result of that calculation
+    will be of the same type, int
+
+    And if the result is a decimal value then
+    it will simply be cast down into an int which will ignore anything after the
+    decimal point
+
+    ##REF##code,
+
+    int health = 1;
+
+    int healthMax = 10;
+
+    Console.WriteLine(health
+    / healthMax); // 0
+
+    ##REF##
+
+    The solution is to cast at least one of
+    the values onto a decimal type like float
+
+    ##REF##code,
+
+    int health =
+    1;
+
+    int healthMax = 10;
+
+    Console.WriteLine((float)health / healthMax);
+    // 0.1
+
+    ##REF##'

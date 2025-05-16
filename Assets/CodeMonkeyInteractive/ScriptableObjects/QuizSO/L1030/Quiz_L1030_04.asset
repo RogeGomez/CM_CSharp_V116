@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1030_04
+  m_EditorClassIdentifier: 
+  question: Why is adding logs in your code recommended when you encounter issues?
+  optionList:
+  - To make your code run faster.
+  - To help visualize exactly what the code is doing line by line.
+  - Logs are required for the course completion certificate.
+  - It automatically fixes the code errors.
+  correctOptionIndex: 1
+  answer: 'Adding various logs in your code helps you see what the code is doing
+    line by line.
+
+    Sometimes what the code is doing is not what you think it
+    is doing, so adding some logs can clear up that confusion and see exactly what
+    might be going wrong.
+
+    A more advanced method is using the Debugger which
+    I will cover in detail in a lecture in the Advanced section.
+
+'

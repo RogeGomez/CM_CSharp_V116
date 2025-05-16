@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1130_13
+  m_EditorClassIdentifier: 
+  title: Can variables defined inside a function be accessed outside of it?
+  text: 'No, variables that are defined in a function are local variables for that
+    function and as such they do not exist outside the function.
+
+    Same thing
+    for function parameters, those are also local variables and are also inaccessible
+    from outside.
+
+    If you want to get data from a function you need to use the
+    return type (or a reference type in a parameter, or an out parameter)
+
+'

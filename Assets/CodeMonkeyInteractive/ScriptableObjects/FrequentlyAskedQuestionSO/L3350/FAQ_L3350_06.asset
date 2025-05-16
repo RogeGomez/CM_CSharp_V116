@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3350_06
+  m_EditorClassIdentifier: 
+  title: "What\u2019s the difference between asynchronous programming and multithreading?"
+  text: 'Asynchronous programming and multithreading both allow tasks to be performed
+    in parallel with multiple code branches, but with a very big difference.
+
+    In
+    asynchronous programming you still have just one main thread, when you await
+    something that code is not running at the same time on a separate thread, it''s
+    just waiting for that code to finish executing and return a result, usually from
+    an external source.
+
+    Whereas with multithreading you do have multiple cores
+    running code at the exact same time.
+
+    Async is great for when some work
+    is being done somewhere else, like a web server, and multithreading is great
+    for when you want to use all CPU cores to the max.
+
+'

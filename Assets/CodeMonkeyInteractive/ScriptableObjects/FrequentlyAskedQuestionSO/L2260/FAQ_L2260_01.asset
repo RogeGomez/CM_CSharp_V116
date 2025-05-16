@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2260_01
+  m_EditorClassIdentifier: 
+  title: What is a Namespace in C#?
+  text: 'Namespaces are kind of like folders that allow you to organize your code
+    in a better way as opposed to having thousands of classes all in the same place.
+
+    There
+    are various built-in namespaces that have all kinds of classes inside it.
+
+    System
+    has lots of general system-wide classes, like Console
+
+    System.IO has various
+    classes about input-output like File
+
+    System.Collection.Generic contains
+    various generic collections like List<T>
+
+    UnityEngine.UI contains lots of
+    classes related to Unity UI
+
+'

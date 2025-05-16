@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1050_05
+  m_EditorClassIdentifier: 
+  question: How can you customize the Unity Editor layout?
+  optionList:
+  - By downloading a custom layout from the Unity Asset Store
+  - By clicking and dragging windows to rearrange or dock them
+  - It's not possible to customize the layout
+  - By changing the screen resolution
+  correctOptionIndex: 1
+  answer: 'You can move any window inside Unity and dock it wherever you want.
+
+    Once
+    you have a layout that you''re happy with you can go to the top right corner
+    and save/load that layout.
+
+'

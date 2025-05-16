@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1170_FixInfiniteLoopIMinusMinus
+  m_EditorClassIdentifier: 
+  exerciseName: FixInfiniteLoopIMinusMinus
+  exerciseTitle: Fix infinite loop (i--)
+  exerciseText: 'Fix this infinite loop.
+
+    Don''t remove the safety code or Unity
+    will crash!'
+  hintText: Remember the syntax for the 'for' loop, run the loop in your head to
+    see if it's headed towards an eventual end or not.
+  solutionText: i++; instead of i--;
+  completedText: Here you learned how to pay close attention to your for loops and
+    make sure you don't make a mistake in either the incrementer or condition.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=QnTEXvk-DoM

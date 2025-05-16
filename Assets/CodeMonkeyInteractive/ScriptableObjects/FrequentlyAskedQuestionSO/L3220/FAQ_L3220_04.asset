@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3220_04
+  m_EditorClassIdentifier: 
+  title: Can dynamic be used as a return type for functions?
+  text: Yes, functions can use dynamic as a return type. This allows a function to
+    return different types of objects based on runtime conditions, making it highly
+    flexible in terms of the data it can return. Although always remember to prioritize
+    code readability.

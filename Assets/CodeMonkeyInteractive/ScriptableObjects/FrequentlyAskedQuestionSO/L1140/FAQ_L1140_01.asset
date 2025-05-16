@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1140_01
+  m_EditorClassIdentifier: 
+  title: What does 'scope' mean in programming?
+  text: "It simply means the accessibility/lifetime of some symbol (variable/function/class)\nIf
+    you define a function local variable, the scope is only within that function.
+    As soon as the function ends the local variable is disposed of so nothing else
+    can access it.\nWhen it comes to scope, always remember to look at the curly
+    braces. If you define something within a curly brace (class, function, etc) then
+    that something is only accessible from within that code block and any child code
+    blocks.\n##REF##code,\r\nint a = 5;\nif (true) {\n\ta++; // Valid because a was
+    defined outside this code block\n\tint b = 3;\n}\nb++; // Error because b was
+    defined in a child code block that no longer exists.\n##REF##"

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2190_07
+  m_EditorClassIdentifier: 
+  title: What are some common use cases for delegates?
+  text: 'Common usecases are for any kind of asynchronous programming, so anything
+    where it will take some time to get a result but you don''t want to block the
+    execution of the program, like contacting a webserver.
+
+    Usually you will
+    contact the webserver and use a delegate for the callback that will be triggered
+    whenever the server responds, without blocking the main program while waiting.
+
+    Or
+    for something like Pathfinding where usually the algorithm is made to work in
+    a multithreaded manner and won''t immediately execute. You can add a callback
+    that will run later on when the path is calculated.
+
+'

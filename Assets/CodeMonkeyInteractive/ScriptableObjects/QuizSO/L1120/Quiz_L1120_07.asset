@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1120_07
+  m_EditorClassIdentifier: 
+  question: Can a switch statement be used with numerical values in C#?
+  optionList:
+  - Yes, but only with integers.
+  - Yes, with any numerical type.
+  - No, switch statements only work with strings.
+  correctOptionIndex: 1
+  answer: 'Yes you can use a float or double in a switch.
+
+    However because of
+    issues with precision you should probably avoid this.
+
+    For example this will
+    be false:
+
+    ##REF##code,
+
+    bool b = (1f / 3f) == 0.33f; // false
+
+    ##REF##
+
+    As
+    will this
+
+    ##REF##code,
+
+    float oneThird = 1f / 3f;
+
+    bool b = oneThird
+    + oneThird + oneThird == 1f; // false
+
+    ##REF##
+
+    It has to do with precision
+    which is limited. So while mathematically this should equal to 1, because it''s
+    an infinite number 0.33333(3) eventually the memory has to stop so the result
+    will not be exactly 1f
+
+    When working with decimals you should avoid direct
+    comparisons.
+
+'

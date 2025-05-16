@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0596a4b009226964a810aa8842024ccb, type: 3}
+  m_Name: CodeMonkeyInteractiveSO
+  m_EditorClassIdentifier: 
+  currentVersion: 1.14
+  quizStateList: []
+  frequentlyAskedQuestionStateList: []
+  exerciseStateList: []
+  lectureListSO: {fileID: 11400000, guid: c1af4d7cadebe754fa5ac3880e0890f9, type: 2}
+  defaultScene: {fileID: 102900000, guid: bb81c32a07e112643ac0b41e5f2d830a, type: 3}
+  activeExerciseSO: {fileID: 0}
+  lastSelectedLectureSO: {fileID: 11400000, guid: 9d9cb879b53f6a54e8e03167da5d65d4,
+    type: 2}
+  checkedLastUpdateTimestamp: 1747364122
+  lastUpdateVersion: 1.14
+  lastQOTDResponse:
+    questionId: 181
+    questionText: Can you modify transform.forward directly to rotate a transform?
+    answerA: Yes
+    answerB: No
+    answerC: 
+    answerD: 
+    answerE: 
+  lastQotdTimestamp: 1747364122
+  websiteLatestMessage:
+    text: 'Hi there!
+
+      Thanks for picking up the course, I hope it helps you
+      a ton in your learning journey!
+
+      I''m always available in the course
+      comments if you need help with anything.
+
+      - Code Monkey
+
+
+      <b>Private
+      Live Study Group Every Saturday</b> <a href=''https://cmonkey.co/csharpstudygroup''>cmonkey.co/csharpstudygroup</a>
+
+      (and
+      join the Discord)'
+  websiteLatestMessageTimestamp: 1747364122
+  websiteDynamicMessage:
+    text: <u>Fresh Assets on Sale!</u>
+    url: https://cmonkey.co/unityassetstore
+  websiteDynamicMessageTimestamp: 1747364122
+  websiteLatestVideos:
+    videos:
+    - youTubeId: XbtsbS7EfWM
+      title: Do Gamers care about AI?
+    - youTubeId: n7DWC5wtXTQ
+      title: TOP 10 NEW Games, Made with Unity! (APRIL 2025)
+    - youTubeId: bl9pc7xaH9Q
+      title: CHEAT SHEET for BOOSTING your GAMES!
+    - youTubeId: G9TfMVURn2U
+      title: Get FREE Awesome Assets EVERY WEEK! Do you know about this?
+  websiteLatestVideosTimestamp: 1747364122
+  lastChatAIQuestionAsked: What is the difference between Delegates and Events?
+  lastChatAIQuestionAnswer: "### Difference between Delegates and Events in C#\n\n####
+    Delegates\n- **Definition**: A delegate is a type that defines a method signature.
+    It allows you to store references to methods and pass them around like objects.\n-
+    **Usage**: Delegates are used to execute any method that matches the delegate's
+    signature. They allow methods to be assigned to variables, enabling dynamic method
+    invocation.\n- **Example**: \n  ```csharp\n  public delegate void AttackDelegate();\n\n 
+    public class Example {\n    public AttackDelegate attackDelegate;\n\n    public
+    void ExecuteAttack() {\n        attackDelegate?.Invoke();\n    }\n  }\n  \n 
+    Example example = new Example();\n  example.attackDelegate = MeleeAttack;\n 
+    example.ExecuteAttack();  // Calls MeleeAttack\n  ```\n- **Flexibility**: Delegates
+    can be multicast, meaning they can point to multiple methods and invoke them
+    all when called.\n  \n#### Events\n- **Definition**: An event is a specialized
+    delegate intended for use in a publisher-subscriber model. It allows a class
+    to notify other classes or objects when something of interest occurs.\n- **Usage**:
+    Events add an extra layer of encapsulation to delegates. They restrict the invocation
+    to the defining class, while other classes can only subscribe or unsubscribe.\n-
+    **Example**:\n  ```csharp\n  public class Example {\n    public event Action
+    OnPlayerDamaged;\n\n    public void DamagePlayer() {\n        OnPlayerDamaged?.Invoke();\n   
+    }\n  }\n  \n  Example example = new Example();\n  example.OnPlayerDamaged +=
+    UpdateUIHealthBar;  // Subscribing to event\n  example.DamagePlayer(); // This
+    will call UpdateUIHealthBar\n  ```\n- **Encapsulation**: Only the class that
+    declares an event can trigger it, preventing external classes from invoking the
+    event directly, which helps to maintain clean and decoupled code.\n\n#### Key
+    Points\n1. **Invocation Control**: \n   - **Delegates**: Any class or object
+    with access to a delegate can invoke it.\n   - **Events**: Only the class that
+    declares an event can invoke it; other classes can only subscribe/unsubscribe.\n\n2.
+    **Multicast vs. Single Invocation**:\n   - **Delegates**: Can point to and invoke
+    multiple methods.\n   - **Events**: Also use multicast delegates internally but
+    provide a safer way to subscribe multiple methods with controlled access.\n\n3.
+    **Syntax and Declaration**:\n   - **Delegates**: `public delegate void AttackDelegate();`\n  
+    - **Events**: `public event Action OnPlayerDamaged;`\n   \nBy adding limitations
+    through events, C# ensures better encapsulation and cleaner code structure compared
+    to using raw delegates directly.\n\nFor more details, see the sections on Delegates
+    and Events in the course transcript:\n- **Delegates**[SOURCE][SOURCE]\n- **Events**[SOURCE][SOURCE][SOURCE]\n\nThese
+    sections explain in greater detail what delegates and events are, how they are
+    defined, and how they operate within C#.\n\n[SOURCE]\nVideo Quote: \"\"[SOURCE]\nVideo
+    Quote: \"\"[SOURCE]\nVideo Quote: \"\"[SOURCE]\nVideo Quote: \"\"[SOURCE]\nVideo
+    Quote: \"\""
+  lastChatAIResponseAskSuccess:
+    code: 1
+    runId: run_cHZdGKdabRr62LohRYfaGrmg
+    threadId: thread_727EuVvHU2K7eJ8PoOjO0gnQ

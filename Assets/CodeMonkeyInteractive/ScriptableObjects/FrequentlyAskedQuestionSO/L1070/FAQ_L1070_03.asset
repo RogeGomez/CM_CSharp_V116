@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1070_03
+  m_EditorClassIdentifier: 
+  title: What does "type does not exist" mean, and how can I fix it?
+  text: 'This error usually means you''re trying to use a class or type that hasn''t
+    been defined or imported.
+
+    First check for typos to make sure you write
+    the class name perfectly exact.
+
+    Then ensure you''ve included the correct
+    using statements for namespaces where that class exists.
+
+    For example if
+    you try to define a variable of type List<int> you will get an error if you don''t
+    include using System.Collections.Generic;
+
+    Also when working with the top-level
+    statements template, it automatically includes some common using statements.
+
+'

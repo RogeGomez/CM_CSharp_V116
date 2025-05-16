@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2180_SwitchWhen
+  m_EditorClassIdentifier: 
+  exerciseName: SwitchWhen
+  exerciseTitle: Write Switch case with when
+  exerciseText: Do a switch on Unit, use the when clause to test if it's a player
+    with health < 50, if so call PlayerLowHealth(); and if it's an enemy with health
+    == 0 call EnemyDead();
+  hintText: Write the case, then cast a type, then add some condition with 'when'
+  solutionText: "switch (unit) {\r\n    case Player player when player.health < 50:\r\n       
+    PlayerLowHealth();\r\n        break;\r\n    case Enemy enemy when enemy.health
+    == 0:\r\n        EnemyDead();\r\n        break;\r\n}"
+  completedText: In this exercise you learned how to use the 'when' keyword to apply
+    conditions to your switch cases.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=fGcbDNIshuQ

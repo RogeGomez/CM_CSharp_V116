@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1150_10
+  m_EditorClassIdentifier: 
+  title: Can comments be used to temporarily disable parts of code?
+  text: 'Yup you can definitely do this. I do it all the time when writing some new
+    system and I want to try out various approaches.
+
+    However only do this temporarily.
+    After your code is solid and it''s doing exactly what you want it to do, after
+    that go back and remove the old commented code.
+
+    If you don''t, then later
+    on when you come back to that code you will not remember why you commented it
+    out.
+
+    So it''s okay to comment out code temporarily while trying out various
+    approaches, but remember to clean it up afterwards.
+
+'

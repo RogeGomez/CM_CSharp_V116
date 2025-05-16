@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3240_02
+  m_EditorClassIdentifier: 
+  title: How do you create a custom attribute?
+  text: "To create a custom attribute, you need to define a class that inherits from
+    System.Attribute.\r\nYou can then add constructors to receive whatever data you
+    want.\r\n\r\npublic class IsObjectTypeAttribute : Attribute {\r\n    public ObjectType
+    objectType;\r\n\r\n    public IsObjectTypeAttribute(ObjectType objectType) {\r\n       
+    this.objectType = objectType;\r\n    }\r\n}"

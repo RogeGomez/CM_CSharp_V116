@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L3190_01
+  m_EditorClassIdentifier: 
+  title: What is a preprocessor directive in C#?
+  text: 'Preprocessor directives are instructions that are processed by the compiler
+    before the actual compilation of code begins.
+
+    They start with a # symbol
+    and are not part of the C# language itself but are used to give special instructions
+    to the compiler.'

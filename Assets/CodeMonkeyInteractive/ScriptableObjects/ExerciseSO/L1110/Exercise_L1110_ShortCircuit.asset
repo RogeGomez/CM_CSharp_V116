@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1110_ShortCircuit
+  m_EditorClassIdentifier: 
+  exerciseName: ShortCircuit
+  exerciseTitle: Short-circuit
+  exerciseText: 'Write a condition that includes ReallyExpensiveFunction(); but doesn''t
+    actually run it
+
+    Hint: Short-circuit
+
+'
+  hintText: Remember how conditions can short-circuit, meaning some parts won't run
+    if they do not affect the final result.
+  solutionText: if (true || ReallyExpensiveFunction())
+  completedText: 'In this exercise you learned how condition short-circuits work.
+
+    If
+    you have an OR and the first condition is true it does not matter what the second
+    one is
+
+    If you have an AND and the first condition is false it does not matter
+    what the second one is.
+
+'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=QEUz-hNC4kw

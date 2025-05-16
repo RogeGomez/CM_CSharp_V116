@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2160_05
+  m_EditorClassIdentifier: 
+  question: In C# 8.0 and later, what feature allows interfaces to provide a default
+    implementation for a method?
+  optionList:
+  - Abstract methods in interfaces.
+  - Virtual methods in interfaces.
+  - Default interface methods.
+  - Sealed methods in interfaces.
+  correctOptionIndex: 2
+  answer: 'Previously interfaces could not have any implementation, but in recent
+    C# versions they added the ability for default implementations.
+
+    This is
+    excellent because it means you can update your code to add more functionality
+    to an interface and if you provide a default implementation it won''t break all
+    your other code already implementing that interface.
+
+'

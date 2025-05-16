@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L3120_06
+  m_EditorClassIdentifier: 
+  question: 'What is the result of combining the null conditional and null coalescing
+    operators in this context?
+
+    Player player = null;
+
+    string playerName
+    = player?.Name ?? "Unknown";'
+  optionList:
+  - playerName will be set to "Unknown" if player is null.
+  - playerName will be set to null.
+  - The code will throw a NullReferenceException.
+  - playerName will remain uninitialized.
+  correctOptionIndex: 0
+  answer: 'Remember how the result of the null conditional operator is null if the
+    object is null.
+
+    So when using it in combination with the null-coalescing
+    operator you can chain some interesting logic.
+
+'

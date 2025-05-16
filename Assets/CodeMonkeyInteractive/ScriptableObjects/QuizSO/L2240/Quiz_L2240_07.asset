@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2240_07
+  m_EditorClassIdentifier: 
+  question: When should you use a finally block?
+  optionList:
+  - When you need to catch additional exceptions not caught by previous catch blocks.
+  - When you want to execute cleanup code or ensure some actions are performed regardless
+    of exceptions.
+  - When you need to execute code before the try block.
+  - Finally blocks are optional and should never be used for clarity.
+  correctOptionIndex: 1
+  answer: 'The finally block is great for general clean up that you want to make
+    sure happens whether the code runs fine or runs into an exception, for example
+    closing an opened File stream.
+
+'

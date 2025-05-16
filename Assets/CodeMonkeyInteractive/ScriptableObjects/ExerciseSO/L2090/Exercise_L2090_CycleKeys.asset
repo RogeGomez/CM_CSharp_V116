@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2090_CycleKeys
+  m_EditorClassIdentifier: 
+  exerciseName: CycleKeys
+  exerciseTitle: Cycle through all Keys
+  exerciseText: Write a loop to cycle through all the Keys in the dictionary and
+    call ExerciseKey(); for each of them.
+  hintText: Look at the properties inside the Dictionary to see which ones it has.
+  solutionText: "foreach (ResourceType resourceType in resourceAmountDictionary.Keys)
+    {\r\n    ExerciseValidate(resourceType);\r\n}"
+  completedText: In this exercise you learned how to cycle through all possible Keys
+    of a dictionary, you can do the same with the Values or with the KeyValuePair's.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=9KRBDWY_VkI

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1020_05
+  m_EditorClassIdentifier: 
+  title: What does 'type safe' mean in programming?
+  text: 'It means the compiler enforces certain rules that mean your code will only
+    compile if it follows those rules.
+
+    For example if you do:
+
+    ##REF##code,
+    int a = 5;
+
+    string b = a; // Error!##REF##
+
+    You get a compile error because
+    you cannot automatically convert an ''int'' type onto a ''string'' type.
+
+    This
+    is great because it forces you to write proper code which helps you before compilation
+    which leads to fewer errors during runtime.
+
+    Whereas other non type safe
+    languages, like Javascript, you can have that kind of code, and then perhaps
+    it will work in runtime or it will throw an error.
+
+    Type safe forces you
+    to use the correct types which greatly reduces the odds of a runtime error.
+
+'

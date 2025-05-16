@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2080_SimpleRecursion
+  m_EditorClassIdentifier: 
+  exerciseName: SimpleRecursion
+  exerciseTitle: Implement a simple Recursive function
+  exerciseText: Implement a simple recursive function that runs 3 times, inside it,
+    in every iteration call ExerciseValidate();
+  hintText: Recursion is all about a function that calls itself, so in order to define
+    a limit you need to pass in all that data in the function parameters and do some
+    kind of empty return when you want the function call stack to end.
+  solutionText: "private void Recursion(int iteration) {\r\n    if (iteration <=
+    0) {\r\n        return;\r\n    } else {\r\n        ExerciseValidate();\r\n\r\n       
+    Recursion(iteration - 1);\r\n    }\r\n}\n-----------------------\nRecursion(3);"
+  completedText: Here you learned how to do simple recursion. If you are more of
+    a math person then doing recursion might be simpler than doing loops, although
+    personally I find it a lot more confusing so I only tend to use loops.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=XGCxbhOGwb4

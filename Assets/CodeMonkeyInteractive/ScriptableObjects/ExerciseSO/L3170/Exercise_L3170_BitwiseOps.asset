@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L3170_BitwiseOps
+  m_EditorClassIdentifier: 
+  exerciseName: BitwiseOps
+  exerciseTitle: Bitwise Operations
+  exerciseText: Implement the functions to do bitwise operations and return the result.
+  hintText: Remember the syntax for the bitwise operations and how they are different
+    form the logical operations.
+  solutionText: "public int BitwiseAnd(int a, int b) {\r\n    return a & b;\r\n}\r\n\r\npublic
+    int BitwiseOr(int a, int b) {\r\n    return a | b;\r\n}\r\n\r\npublic int BitwiseXor(int
+    a, int b) {\r\n    return a ^ b;\r\n}\r\n\r\npublic int BitwiseNot(int a) {\r\n   
+    return ~a;\r\n}"
+  completedText: In this exercise you learned how to do bitwise operations, this
+    is really important for building bitmasks/layermasks.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=T3MP6NosCak

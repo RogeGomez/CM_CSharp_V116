@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1210_09
+  m_EditorClassIdentifier: 
+  title: If I name a variable something, can I change the name later?
+  text: 'YES! Always remember that names are not set in stone. Sometimes you give
+    something a name that sounds good at the time, and later on you think of a better
+    name, that''s okay.
+
+    If that happens just take a few seconds to rename that
+    function to the new better name.
+
+    Code is NOT set in stone. Refactoring
+    is a perfectly normal and very important part of the process.
+
+    There is
+    a lecture dedicated to Refactoring on the Intermediate section because it is
+    a very important topic.
+
+'

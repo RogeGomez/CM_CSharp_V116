@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1100_10
+  m_EditorClassIdentifier: 
+  question: What is the result of dividing two int variables in C# like 1/10?
+  optionList:
+  - 0.1
+  - 1
+  - 0
+  - An error occurs
+  correctOptionIndex: 2
+  answer: 'If you divide an <b>int</b> by another <b>int</b> the result is an <b>int</b>
+
+    And
+    in this case while mathematically the answer is <b>0.1</b>, you cannot store
+    that value in an int, so the value is cast down to <b>0</b>
+
+    In order to
+    get the correct decimal value you need to cast one of the elements to a float/double/decimal.
+
+    ##REF##code,
+
+    float
+    healthNormalized = (float)1 / 10;
+
+    ##REF##'

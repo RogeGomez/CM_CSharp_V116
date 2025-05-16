@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1110_11
+  m_EditorClassIdentifier: 
+  title: Is it necessary to use curly braces {} in if statements?
+  text: "Technically no, if you have an if and inside that if you only want to do
+    a single instruction you can omit the curly braces.\n##REF##code,\nif (true)
+    \n    Console.WriteLine(\"Something\"); // Runs only when the if is true\n##REF##\nHowever
+    if you do that, it is very easy to make the mistake of forgetting to add curly
+    braces if you suddenly want to add more than one instruction\n##REF##code,\nif
+    (true) \n    Console.WriteLine(\"Something\"); // Runs only when the if is true\n   
+    Console.WriteLine(\"Another\"); // This one runs every time\n##REF##\nIn this
+    case the second instruction runs every time, regardless of the if result, it
+    is completely outside of the if even though visually the identation looks like
+    it's inside, but like I covered previously, remember how for the compiler the
+    identation does not exist, it does not matter, all that matters are code blocks.\nSo
+    technically you don't have to always include curly braces, but I highly recommend
+    you do to avoid these kinds of mistakes. Believe me I've made these mistakes
+    many times and caused me a ton of headaches before I decided to always use curly
+    braces.\n"

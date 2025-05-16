@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2290_08
+  m_EditorClassIdentifier: 
+  title: Can parts of this game be reused in a different game?
+  text: 'Yup!
+
+    This project is a great example of many clean code principles
+    in action, the main one being simply decoupling your classes as much as possible.
+
+    For
+    example the Inventory class, it is not tightly coupled with the specific Player
+    or Money or Weapons in this specific game. You can take that inventory class
+    along with the interface and use the exact same class on a completely different
+    project with completely different items. Same thing for the UI element, it also
+    has no coupling with any class specific to this game so it could be reused in
+    a completely different project.
+
+    Then the HealthSystem, this is another
+    class that is completely separated from anything else, you could use this same
+    class in a game that doesn''t even have any units. Same thing for the HealthBarUI.
+
+    Then
+    the GameAssets, this class with the singleton setup is something that I use in
+    every single one of my games. It''s a super simple way to reference assets from
+    anywhere in the code.
+
+    Then some parts of this minigame actually uses my
+    own Code Monkey Utilities package which I''ve been using in my own games for
+    a decade. I wrote a function to get a random direction 10 years ago and haven''t
+    looked at it since despite using it in tons of projects.
+
+    And in terms of
+    general logic design, you could reuse the combat logic, the Raycast logic + the
+    IAttackable interface + HealthSystem. I''ve handled combat in many games and
+    demos in this exact same way.
+
+    All these examples hopefully help you see
+    the value in writing good clean code. If you write it correctly you save yourself
+    tons of time by building elements you can reuse across multiple games.
+
+'

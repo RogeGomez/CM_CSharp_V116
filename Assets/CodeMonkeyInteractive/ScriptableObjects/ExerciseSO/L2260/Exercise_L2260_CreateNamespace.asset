@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2260_CreateNamespace
+  m_EditorClassIdentifier: 
+  exerciseName: CreateNamespace
+  exerciseTitle: Create a Namespace
+  exerciseText: Define a namespace called NamespaceExercise with the ExerciseNamespacesTest
+    class inside it
+  hintText: It's important to remember where you can define a namespace. You cannot
+    define it within a class, has to be outside it. You just use the namespace keyword
+    and then the name with any classes within that namespace code block.
+  solutionText: namespace NamespaceExercise { }
+  completedText: Here you learned how to define a namespace. This is one of the main
+    ways you have of organizing your code base.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=50JDq3Y4ovw

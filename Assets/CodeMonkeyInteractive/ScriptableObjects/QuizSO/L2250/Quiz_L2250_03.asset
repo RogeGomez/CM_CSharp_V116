@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2250_03
+  m_EditorClassIdentifier: 
+  question: How can you manually iterate over a collection implementing IEnumerable?
+  optionList:
+  - By using a while loop and calling the MoveNext() method of IEnumerable.
+  - By using a for loop and incrementing an index to access elements.
+  - By calling the GetEnumerator() method on the collection and then using a while
+    loop with MoveNext().
+  - By directly accessing elements using their index.
+  correctOptionIndex: 2
+  answer: 'To manually iterate through an IEnumerable you get the GetEnumerator();
+    and then call MoveNext(); and Current until you reach the end of the collection.
+
+    By
+    the way you can also implement index access to a custom type, there is a lecture
+    on the advanced section on how to do this.
+
+'

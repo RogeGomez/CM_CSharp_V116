@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1170_ForLogElementsArray
+  m_EditorClassIdentifier: 
+  exerciseName: ForLogElementsArray
+  exerciseTitle: Log all elements in array
+  exerciseText: Write a for loop that logs all the elements in an array with Debug.Log();
+  hintText: Remember the syntax of the 'for', cycle through it then call the Debug.Log();
+    function for each element.
+  solutionText: "for (int i = 0; i < nameArray.Length; i++) {\r\n    Debug.Log(nameArray[i]);\r\n}"
+  completedText: Here you learned how to cycle through an array with a 'for' loop.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=3QML9FRBTpA

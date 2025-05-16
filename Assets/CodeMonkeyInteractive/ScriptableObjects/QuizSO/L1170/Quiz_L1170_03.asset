@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1170_03
+  m_EditorClassIdentifier: 
+  question: What is the result of an infinite loop in a program?
+  optionList:
+  - The program will crash immediately.
+  - The loop will stop automatically after a set number of iterations.
+  - The loop will execute continuously until the program is forcibly stopped.
+  - The loop will execute a few times and then stop.
+  correctOptionIndex: 2
+  answer: 'An infinite loop will run infinitely.
+
+    On a console app this means
+    it will run forever until you stop it, either you close the window or press Ctrl
+    + C
+
+    In Unity, the game will be frozen while the infinite loop runs and
+    the only way to get out is to force quit which may imply loss of data so save
+    often and pay close attention to your loops!
+
+'

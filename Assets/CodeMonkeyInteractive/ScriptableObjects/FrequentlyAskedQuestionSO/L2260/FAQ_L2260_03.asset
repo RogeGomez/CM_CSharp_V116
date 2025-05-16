@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2260_03
+  m_EditorClassIdentifier: 
+  title: What is a namespace alias?
+  text: 'This is how you can create an alias, or second name, for some kind of namespace.
+    This can be really helpful if you have super long namespaces.
+
+    ##REF##code,
+
+    using
+    MyGame = CodeMonkey.Really.Long.Namespace.Game;
+
+    ##REF##
+
+    Then in the
+    code if I want to use classes from that namespace I can access them through MyGame.MyClass
+    instead of the super long name.
+
+    It also helps avoid naming conflicts where
+    you add using statements for multiple namespaces that have classes with the same
+    name.
+
+'

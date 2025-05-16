@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1010_02
+  m_EditorClassIdentifier: 
+  question: What is JSON and what is it useful for?
+  optionList:
+  - JavaScript Over Node, programming pattern
+  - JavaScript Object Notation, data format
+  - Jumping-Signal Over Nonce, crypto concept
+  correctOptionIndex: 1
+  answer: 'JSON is a very useful and widely used text based data format. And despite
+    the name it is not just used in JavaScript.
+
+    
+
+    It''s human readable
+    and easily editable with lots of libraries to handle it like Unity''s JsonUtility
+    which makes it great for Saving and Loading data and interacting with all kinds
+    of Web Services and REST APIs.
+
+    
+
+    I''ve used it in so many ways in
+    so many videos, I made an overview video, one where I used it for Saving and
+    Loading (which is how I always save data, even in my latest game Dinky Guardians),
+    I''ve used it to interact with Steam workshop, Azure and tons more.'

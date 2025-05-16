@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L2180_04
+  m_EditorClassIdentifier: 
+  title: How does switch type matching improve code readability compared to traditional
+    type checking methods?
+  text: "The same way that the regular switch improves when doing tons of ifs comparing
+    various values.\r\nInstead of tons of ifs testing if an object is of various
+    types, you just do a switch on type.\n##REF##code,\r\nswitch (unit) {\r\ncase
+    Player player:\r\n    // It's a Player\r\n    break;\r\ncase Enemy enemy:\r\n   
+    // It's an Enemy\r\n    break;\r\n}\r\n-------------------\r\nif (unit is Player)
+    {\r\n    Player player = unit as Player;\r\n}\r\nif (unit is Enemy) {\r\n   
+    Enemy enemy = unit as Enemy;\r\n}\r\n##REF##"

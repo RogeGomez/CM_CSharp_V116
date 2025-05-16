@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L1190_CallStaticAndNonStatic
+  m_EditorClassIdentifier: 
+  exerciseName: CallStaticAndNonStatic
+  exerciseTitle: Call Static and non-Static
+  exerciseText: 'Edit the Start() function to inside it call both the static and
+    the non-static functions
+
+'
+  hintText: Remember what static and non-static means, how one requires an object
+    instance of the type whereas the other one you access through the type itself.
+  solutionText: 'Player player = new Player();
+
+    player.NormalFunction();
+
+    Player.StaticFunction();'
+  completedText: Here you learned the difference between static and non-static and
+    how to interact with either.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=vrIfnt9G1TU

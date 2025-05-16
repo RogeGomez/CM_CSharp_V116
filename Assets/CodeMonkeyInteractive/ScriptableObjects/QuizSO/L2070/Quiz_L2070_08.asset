@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2070_08
+  m_EditorClassIdentifier: 
+  question: Why is caution advised when using deeply nested loops?
+  optionList:
+  - Because they can significantly slow down program execution.
+  - Because they can quickly become difficult to read and maintain.
+  - Because they are deprecated in modern programming languages.
+  - Because they can only loop a finite number of times before causing an error.
+  correctOptionIndex: 1
+  answer: 'Nested loops have no limit, in theory you can nest 100 levels deep and
+    it will work fine.
+
+    However the more you nest the harder it becomes to understand
+    what the code is doing, so in most cases you should only go about 2 levels deep.
+
+'

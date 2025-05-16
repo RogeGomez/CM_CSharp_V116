@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a93b863ca8314695b382c0c8c2b3d, type: 3}
+  m_Name: L2240_TryCatchExceptions
+  m_EditorClassIdentifier: 
+  lectureCode: 2240
+  lectureSectionNumber: 24
+  lectureName: TryCatchExceptions
+  lectureTitle: Try Catch Exceptions
+  frequentlyAskedQuestionListSO: {fileID: 11400000, guid: 22fb0a129d9e546459ea092c1f9bd18c,
+    type: 2}
+  quizListSO: {fileID: 11400000, guid: 51244a6e5f5aa7a4285d175e8b62e0d4, type: 2}
+  exerciseListSO: {fileID: 11400000, guid: 46c6722828e2a2a43b8906dbf9d1be29, type: 2}

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2270_ImplementSingleton
+  m_EditorClassIdentifier: 
+  exerciseName: ImplementSingleton
+  exerciseTitle: Implement a Singleton
+  exerciseText: 'Implement the singleton pattern through an Instance property
+
+    Also
+    implement the get; with lazy initialization, public get; and private set;
+
+    IMPORTANT:
+    In this case even though we''re working in Unity you should implement the C#
+    singleton method. The Exercise class does not extend MonoBehaviour, it''s a simple
+    C# class.'
+  hintText: 'Remember the syntax for a property, how you write the custom logic inside
+    the get and set.
+
+    Also remember what that logic needs to do for lazy initialization
+    to work. It needs to check if an instance already exists or not.'
+  solutionText: "private static Exercise instance;\r\npublic static Exercise Instance
+    {\r\n    get {\r\n        if (instance == null) {\r\n            instance = new
+    Exercise();\r\n        }\r\n        return instance;\r\n    }\r\n    private
+    set {\r\n        instance = value;\r\n    }\r\n}"
+  completedText: 'Here you learned how to implement one of the most useful design
+    patterns, the Singleton.
+
+    This is a great pattern whenever you have something
+    of which there only ever exists one instance of that thing.'
+  videoWalkthroughLink: https://www.youtube.com/watch?v=zqEOtsPjSZw

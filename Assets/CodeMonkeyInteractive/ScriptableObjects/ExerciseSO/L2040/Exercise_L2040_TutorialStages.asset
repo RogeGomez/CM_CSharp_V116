@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2040_TutorialStages
+  m_EditorClassIdentifier: 
+  exerciseName: TutorialStages
+  exerciseTitle: Tutorial Stages
+  exerciseText: 'Write the logic to handle Tutorial Stages, to go to the next one
+    until the last.
+
+    On the last stage it should stay there.
+
+'
+  hintText: You can do math with enum values, you can increment them.
+  solutionText: "public void StartTutorial() {\r\n    // Start the tutorial on stage
+    _1\r\n    tutorialStage = TutorialStage.TutorialStage_1;\r\n}\r\n\r\npublic void
+    GoToNextTutorialStage() {\r\n    // Do the logic to go to the next tutorial,
+    stay on the last stage\r\n    if (tutorialStage == TutorialStage.TutorialStage_COMPLETED)
+    {\r\n        return;\r\n    }\r\n\r\n    tutorialStage++;\r\n}"
+  completedText: In this exercise you learned another extremely powerful use for
+    enums, handling tutorial stages.
+  videoWalkthroughLink: https://www.youtube.com/watch?v=eR_ccIULWbY

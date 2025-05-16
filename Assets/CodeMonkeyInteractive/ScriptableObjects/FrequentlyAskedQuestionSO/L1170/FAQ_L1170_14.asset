@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77bfb2ebc4ee664ab63408f6b18e046, type: 3}
+  m_Name: FAQ_L1170_14
+  m_EditorClassIdentifier: 
+  title: What are the three components of a for loop?
+  text: "You have the Initializer where you usually create an initialize a iterator
+    variable.\r\nThen the condition that is tested every time the loop runs and stops
+    the loop when the condition is false.\r\nAnd the Incrementer where you usually
+    increment the loop iterator variable by one.\n##REF##code,\r\nfor (ITERATOR_INIT,
+    CONDITION, ITERATOR_INCREMENT) {\r\n    // Do something\r\n}\r\n##REF##"

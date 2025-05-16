@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L1150_07
+  m_EditorClassIdentifier: 
+  question: Why should code ideally be self-documented?
+  optionList:
+  - To avoid the use of comments.
+  - Because comments can slow down code execution.
+  - To make the code easier to read and understand without relying heavily on comments.
+  - Because self-documented code is a requirement in C#.
+  correctOptionIndex: 2
+  answer: "It's much easier to read just Code as opposed to Code + Comments. \r\nSo
+    the more you can make your intent clear through the code itself the easier it
+    is for someone to understand it.\r\n"

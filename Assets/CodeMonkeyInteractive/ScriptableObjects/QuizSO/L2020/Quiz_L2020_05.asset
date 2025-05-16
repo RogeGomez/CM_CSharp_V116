@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cf51161046453c40b9eaf63bfb19050, type: 3}
+  m_Name: Quiz_L2020_05
+  m_EditorClassIdentifier: 
+  question: Which shortcut is used for renaming symbols throughout the entire codebase
+    efficiently?
+  optionList:
+  - Ctrl + R + R
+  - Ctrl + X
+  - Ctrl + C
+  - Ctrl + V
+  correctOptionIndex: 0
+  answer: 'This is another super useful shortcut, it''s absolutely essential when
+    refactoring which is something you should be doing whenever needed.
+
+    If
+    you come up with a better name for a variable/function then just take an extra
+    second to use this shortcut to rename every instance of that symbol.
+
+'

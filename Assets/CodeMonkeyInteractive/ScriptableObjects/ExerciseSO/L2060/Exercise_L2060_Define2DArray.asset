@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e24839d78e00c4aa3ef4e0e593ae05, type: 3}
+  m_Name: Exercise_L2060_Define2DArray
+  m_EditorClassIdentifier: 
+  exerciseName: Define2DArray
+  exerciseTitle: Define and Create a 2D Array
+  exerciseText: 'Define a 2D array of ints with 3 length on first dimension and 4
+    on the second dimension
+
+    Then set the value on index [0,2] to 56
+
+    Return
+    the array from the function'
+  hintText: 'Remember the difference between multidimensional arrays and arrays of
+    arrays. Create a 2D multidimensional array with the correct dimension properties.
+
+    Then
+    access the index like in a normal array and set the new value.'
+  solutionText: 'int[,] int2DArray = new int[3, 4];
+
+    int2DArray[0, 2] = 56;'
+  completedText: Here you learned how to define a multidimensional array. This is
+    a really useful data type when you have something like a grid you want to represent.
+    And remember how you can have as many dimensions as you want!
+  videoWalkthroughLink: https://www.youtube.com/watch?v=xRUy3tZXZ5E
