@@ -64,6 +64,44 @@ MonoBehaviour:
     state: 2
   - quizSO: {fileID: 11400000, guid: 762a1348c6f789f4da4927fab8c14ab5, type: 2}
     state: 2
+  - quizSO: {fileID: 11400000, guid: e180ed18b565503428ca3032dab75768, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 2bf1374169c3bc84b95fb5ae09b47e64, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: fbf9f9a8364dd064eb22a455be6cc353, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: fd2412c692d0e624cbb36648c5c10253, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 35ed70c564e53124a900643dbbe269b9, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: fc04bb0e0e7325a429c4dd0bbc6198ac, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: e67957745950ba347bd93727d50d0080, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: aa27f0f0ce667b744a55bbfe8540d122, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 0374da7fdf0c96d4291c609962b83d87, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: b4311d8ecbb350f47be11fcf22a216b0, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 57b239a86ec312b47bc2db2582613466, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 87880ae9c39eff04fb225f065801821f, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: eb12815c6aa1c2c47911adcc28e80552, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 14d44ca23f1dd1b4a8cc666b19e823a8, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 8be4bdd692ab6bf4aa02c770f4f6cb71, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: ec0fa3ab25c1b8c4b840ccfa704ef036, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 30bb9880d0674a2438ee0ced468913f6, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: aa19e2ff04abd2742a2b6d470f91847a, type: 2}
+    state: 2
+  - quizSO: {fileID: 11400000, guid: 170d61aff38573f4eabebf36bc9c4dc5, type: 2}
+    state: 2
   frequentlyAskedQuestionStateList:
   - frequentlyAskedQuestionSO: {fileID: 11400000, guid: fb4e12c59579fd647a6b5e66c27b0437,
       type: 2}
@@ -197,13 +235,77 @@ MonoBehaviour:
   - frequentlyAskedQuestionSO: {fileID: 11400000, guid: a0fe082cfb5cc2746a7f0046b9bd83f3,
       type: 2}
     state: 2
-  exerciseStateList: []
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: fd45699922cd9da40ae4f19c73d4aabe,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 790d5910e94507d44b68beca58df9e42,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 0c2024d684d7d4749ade8f4f80f42bde,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 27191241e2b1a044d9053754eccdaf61,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 26cf9973ddc51264eaeacd229f9e48bf,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: be115bb6d461df140b75b3c75e2bb290,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 778d0e9cd5888bd4abad74c282e04842,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: eee5ae4f0074be24ba95f50a2791fb65,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: dde046801c6486a428f76b9620ae8d44,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: f92af2e3ace3b024fadc7473752cc7e7,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: f7d845d6a82ad60469a96e32ff9aaa79,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 119a077bbffe3764eba52b0f7231eb91,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 65be1d6f88bc66d47be874c97087403f,
+      type: 2}
+    state: 2
+  - frequentlyAskedQuestionSO: {fileID: 11400000, guid: 7a822ccbc232a2d408daee72ce967820,
+      type: 2}
+    state: 2
+  exerciseStateList:
+  - exerciseSO: {fileID: 11400000, guid: cac21e56a02208a4eb1eb861f4395b30, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 37b868e8e796f56459c493f18471af07, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 7eefed6efd8b1c5478e5f40717c2c816, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: d1aa9f10dff591e4f8dfaf5f1ca17a71, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 39cec5ccdc376c14e86a5d11e3bf590f, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: ce8db1a9143fc2b42bf8cbd1288ccf46, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 5635ab60d77b34b4d937153de674fd4e, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 0}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 503ab938e797e7d4bb5c1f17169964b7, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 785bf38ceed767e43b08c9319d442d29, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 8c5ffe42740af3241956b1b79d572a65, type: 2}
+    state: 2
   lectureListSO: {fileID: 11400000, guid: c1af4d7cadebe754fa5ac3880e0890f9, type: 2}
   defaultScene: {fileID: 102900000, guid: bb81c32a07e112643ac0b41e5f2d830a, type: 3}
   activeExerciseSO: {fileID: 0}
-  lastSelectedLectureSO: {fileID: 11400000, guid: e4cd3a5bd0af82942b53a278f8e1fb41,
+  lastSelectedLectureSO: {fileID: 11400000, guid: 9d34e04c9683e0249a68542d4e88741a,
     type: 2}
-  checkedLastUpdateTimestamp: 1747367931
+  checkedLastUpdateTimestamp: 1747371534
   lastUpdateVersion: 1.14
   lastQOTDResponse:
     questionId: 181
@@ -213,7 +315,7 @@ MonoBehaviour:
     answerC: 
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1747367931
+  lastQotdTimestamp: 1747371534
   websiteLatestMessage:
     text: 'Hi there!
 
@@ -231,11 +333,11 @@ MonoBehaviour:
 
       (and
       join the Discord)'
-  websiteLatestMessageTimestamp: 1747367931
+  websiteLatestMessageTimestamp: 1747371534
   websiteDynamicMessage:
     text: <u>Fresh Assets on Sale!</u>
     url: https://cmonkey.co/unityassetstore
-  websiteDynamicMessageTimestamp: 1747367931
+  websiteDynamicMessageTimestamp: 1747371534
   websiteLatestVideos:
     videos:
     - youTubeId: XbtsbS7EfWM
@@ -246,7 +348,7 @@ MonoBehaviour:
       title: CHEAT SHEET for BOOSTING your GAMES!
     - youTubeId: G9TfMVURn2U
       title: Get FREE Awesome Assets EVERY WEEK! Do you know about this?
-  websiteLatestVideosTimestamp: 1747367931
+  websiteLatestVideosTimestamp: 1747371534
   lastChatAIQuestionAsked: What is the difference between Delegates and Events?
   lastChatAIQuestionAnswer: "### Difference between Delegates and Events in C#\n\n####
     Delegates\n- **Definition**: A delegate is a type that defines a method signature.
