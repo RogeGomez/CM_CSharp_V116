@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "CM_CSharp_V114.sln"
+    "dotnet.defaultSolution": "CodeMonkey_CSharp_Course_V114.sln"
 }
