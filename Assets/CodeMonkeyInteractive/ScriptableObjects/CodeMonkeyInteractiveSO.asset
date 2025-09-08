@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0596a4b009226964a810aa8842024ccb, type: 3}
   m_Name: CodeMonkeyInteractiveSO
   m_EditorClassIdentifier: 
-  currentVersion: 1.14
+  currentVersion: 1.16
   quizStateList:
   - quizSO: {fileID: 11400000, guid: 482501a535acc754c93fba3af2777554, type: 2}
     state: 2
@@ -429,8 +429,6 @@ MonoBehaviour:
     state: 2
   - exerciseSO: {fileID: 11400000, guid: 5635ab60d77b34b4d937153de674fd4e, type: 2}
     state: 2
-  - exerciseSO: {fileID: 0}
-    state: 2
   - exerciseSO: {fileID: 11400000, guid: 503ab938e797e7d4bb5c1f17169964b7, type: 2}
     state: 2
   - exerciseSO: {fileID: 11400000, guid: 785bf38ceed767e43b08c9319d442d29, type: 2}
@@ -485,24 +483,31 @@ MonoBehaviour:
     state: 2
   - exerciseSO: {fileID: 11400000, guid: c5297c8bfcbf47e488b34cd49c2d4711, type: 2}
     state: 2
+  - exerciseSO: {fileID: 11400000, guid: b67c893a74c6687468f3c20e33266581, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: 478cf43bf3b12dd4b9c5f523bebeaebe, type: 2}
+    state: 2
+  - exerciseSO: {fileID: 11400000, guid: c64f221159d072449a1be7ec126ea178, type: 2}
+    state: 2
   lectureListSO: {fileID: 11400000, guid: c1af4d7cadebe754fa5ac3880e0890f9, type: 2}
   defaultScene: {fileID: 102900000, guid: bb81c32a07e112643ac0b41e5f2d830a, type: 3}
   activeExerciseSO: {fileID: 0}
-  lastSelectedLectureSO: {fileID: 11400000, guid: f2b59d3ab6ee8f9419f36ee437a36c78,
+  lastSelectedLectureSO: {fileID: 11400000, guid: 9d9cb879b53f6a54e8e03167da5d65d4,
     type: 2}
-  checkedLastUpdateTimestamp: 1747713812
-  lastUpdateVersion: 1.14
+  checkedLastUpdateTimestamp: 1757374306
+  lastUpdateVersion: 1.16
   lastQOTDResponse:
-    questionId: 182
-    questionText: Which of these are affected when you modify Time.timeScale?
-    answerA: Time.deltaTime, Time.realtimeSinceStartup, Time.unscaledDeltaTime, Time.timeSinceLevelLoad,
-      Time.fixedTime
-    answerB: Time.deltaTime, Time.realtimeSinceStartup, Time.timeSinceLevelLoad,
-      Time.fixedTime
-    answerC: Time.deltaTime, Time.timeSinceLevelLoad, Time.fixedTime
+    questionId: 219
+    questionText: 'Does this variable get reset when you load a different Scene?
+
+      <p>private
+      static int score;</p>'
+    answerA: Yes
+    answerB: No
+    answerC: Only when loading the Main Menu
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1747713812
+  lastQotdTimestamp: 1757374306
   websiteLatestMessage:
     text: 'Hi there!
 
@@ -520,22 +525,22 @@ MonoBehaviour:
 
       (and
       join the Discord)'
-  websiteLatestMessageTimestamp: 1747713812
+  websiteLatestMessageTimestamp: 1757374306
   websiteDynamicMessage:
     text: <u>Fresh Assets on Sale!</u>
     url: https://cmonkey.co/unityassetstore
-  websiteDynamicMessageTimestamp: 1747713812
+  websiteDynamicMessageTimestamp: 1757374306
   websiteLatestVideos:
     videos:
-    - youTubeId: 2qb92qCCKTA
-      title: TOP 10 NEW Systems and Tools MAY 2025! | Unity Asset Store
-    - youTubeId: KvVL-LIq28A
-      title: What is Unity AI? (and Unity 6.2)
-    - youTubeId: R-pqlx29MyE
-      title: TOP 10 FREE NEW Assets MAY 2025!
-    - youTubeId: XbtsbS7EfWM
-      title: Do Gamers care about AI?
-  websiteLatestVideosTimestamp: 1747713812
+    - youTubeId: ftVR1xwfO5g
+      title: AWESOME FREE Unity Best Practices Tutorials!
+    - youTubeId: mM8B9YPEC10
+      title: You NEED to do this exercise!
+    - youTubeId: 9EOhc8Kn1E0
+      title: 'Game Devs, don''t be AFRAID of Hollow Knight: Silksong!'
+    - youTubeId: 8Ym28WJUYnQ
+      title: The BIGGEST Problem in Game Dev!
+  websiteLatestVideosTimestamp: 1757374306
   lastChatAIQuestionAsked: What is the difference between Delegates and Events?
   lastChatAIQuestionAnswer: "### Difference between Delegates and Events in C#\n\n####
     Delegates\n- **Definition**: A delegate is a type that defines a method signature.

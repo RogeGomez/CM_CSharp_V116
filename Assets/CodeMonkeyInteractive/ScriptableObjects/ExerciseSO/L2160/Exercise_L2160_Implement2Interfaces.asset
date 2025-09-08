@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   exerciseName: Implement2Interfaces
   exerciseTitle: Implement two Interfaces
-  exerciseText: Implement both interfaces IAttackable and IMovable in the Player
+  exerciseText: Implement both interfaces IAttackable and IMoveable in the Player
     class.
   hintText: Use a comma to denote more interfaces to implement.
   solutionText: "public class Player : IAttackable, IMoveable {\r\n\r\n    public

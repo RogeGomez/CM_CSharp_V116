@@ -15,6 +15,7 @@ namespace CodeMonkey.CSharpCourse.Interactive {
         public FrequentlyAskedQuestionListSO frequentlyAskedQuestionListSO;
         public QuizListSO quizListSO;
         public ExerciseListSO exerciseListSO;
+        public bool isProject = false;
 
 
 

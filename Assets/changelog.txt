@@ -1,3 +1,11 @@
+#### v1.16 - 2025-08-25
+ * Fixed some typos
+
+
+#### v1.15 - 2025-06-28
+ * Added 10 Beginner C# Projects!
+
+
 #### v1.14 - 2024-07-26
  * Added remaining Advanced Exercises
  * Added all Advanced Exercises Video Walkthroughs

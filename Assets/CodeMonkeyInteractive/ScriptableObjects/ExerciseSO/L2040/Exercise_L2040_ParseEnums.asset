@@ -17,7 +17,7 @@ MonoBehaviour:
   exerciseText: Write the logic for the function to return a proper enum based on
     the string parameter. Default to returning idle if the string parameter does
     not match any enum value.
-  hintText: Enum.TryGetValue();
+  hintText: Enum.TryParse();
   solutionText: "if (Enum.TryParse(playerActionString, out PlayerAction playerAction))
     {\r\n    return playerAction;\r\n}\r\nreturn PlayerAction.Idle;"
   completedText: Here you learned how to parse an enum, meaning how to convert from

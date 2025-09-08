@@ -22,7 +22,7 @@ MonoBehaviour:
     the logic within the function, that data is usually received as a parameter.
 
     Technically
-    you could also use global variables like class variabels, however in order to
+    you could also use global variables like class variables, however in order to
     minimize complexity within your code you should avoid this if you can and make
     sure the function receives all the data it needs to do its work.
 

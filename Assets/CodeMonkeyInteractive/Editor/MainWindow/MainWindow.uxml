@@ -56,6 +56,7 @@
                 <ui:Button text="FAQ (2/10)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="frequentlyAskedQuestionButton" class="lectureButton" />
                 <ui:Button text="Quiz (0/15)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="quizButton" class="lectureButton" />
                 <ui:Button text="Exercises (0/12)" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exercisesButton" class="lectureButton" />
+                <ui:Button text="Start Project" parse-escape-sequences="true" display-tooltip-when-elided="true" name="startProjectButton" class="lectureButton" />
             </ui:VisualElement>
             <ui:Button text="Back to Lecture List" parse-escape-sequences="true" display-tooltip-when-elided="true" name="backButton" style="-unity-font-style: bold; height: 40px;" />
         </ui:VisualElement>

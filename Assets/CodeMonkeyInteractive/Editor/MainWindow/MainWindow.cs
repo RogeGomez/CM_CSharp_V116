@@ -1,6 +1,8 @@
 using System;
+using System.IO;
 using System.Linq;
 using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -397,6 +399,7 @@ namespace CodeMonkey.CSharpCourse.Interactive {
             }
 
             //PrintAllTitles();
+            //WriteFileAllTextData();
 
             if (CodeMonkeyInteractiveSO.TryLoad()) {
                 ShowMainMenu();
@@ -430,6 +433,31 @@ namespace CodeMonkey.CSharpCourse.Interactive {
                 Debug.Log(quiz);
                 Debug.Log("------------");
             }
+        }
+
+        private void WriteFileAllTextData() {
+            string text = "";
+            CodeMonkeyInteractiveSO codeMonkeyInteractiveSO = CodeMonkeyInteractiveSO.GetCodeMonkeyInteractiveSO();
+            foreach (LectureSO lectureSO in codeMonkeyInteractiveSO.lectureListSO.lectureSOList) {
+                text += "####### Lecture " + lectureSO.lectureName + "\n\n";
+                string faq = "";
+
+                foreach (FrequentlyAskedQuestionSO frequentlyAskedQuestionSO in lectureSO.frequentlyAskedQuestionListSO.frequentlyAskedQuestionSOList) {
+                    faq += "FAQ: " + frequentlyAskedQuestionSO.title + "\n";
+                    faq += frequentlyAskedQuestionSO.text + "\n\n\n";
+                }
+                /*
+                foreach (QuizSO quizSO in lectureSO.quizListSO.quizSOList) {
+                    quiz += "QUIZ: " + quizSO.question + "\n";
+                    quiz += quizSO.correctOptionIndex + "\n\n";
+                    quiz += quizSO.answer + "\n\n";
+                }*/
+                text += "#### FREQUENTLY ASKED QUESTIONS" + "\n";
+                text += faq;
+
+                text += "------------\n\n\n\n";
+            }
+            File.WriteAllText(Application.dataPath + "/courseCSharpFAQ.txt", text);
         }
 
         private void ShowLectureButtons() {
@@ -514,6 +542,21 @@ namespace CodeMonkey.CSharpCourse.Interactive {
             Button frequentlyAskedQuestionButton = selectedLectureVisualElement.Q<Button>("frequentlyAskedQuestionButton");
             Button quizButton = selectedLectureVisualElement.Q<Button>("quizButton");
             Button exercisesButton = selectedLectureVisualElement.Q<Button>("exercisesButton");
+            Button startProjectButton = selectedLectureVisualElement.Q<Button>("startProjectButton");
+
+            if (lectureSO.isProject) {
+                // Is project, hide other buttons
+                frequentlyAskedQuestionButton.style.display = DisplayStyle.None;
+                quizButton.style.display = DisplayStyle.None;
+                exercisesButton.style.display = DisplayStyle.None;
+                startProjectButton.style.display = DisplayStyle.Flex;
+            } else {
+                // Not a project, hide project button
+                frequentlyAskedQuestionButton.style.display = DisplayStyle.Flex;
+                quizButton.style.display = DisplayStyle.Flex;
+                exercisesButton.style.display = DisplayStyle.Flex;
+                startProjectButton.style.display = DisplayStyle.None;
+            }
 
             LectureSO.LectureStats lectureStats = lectureSO.GetLectureStats();
 
@@ -530,6 +573,29 @@ namespace CodeMonkey.CSharpCourse.Interactive {
             exercisesButton.RegisterCallback((ClickEvent clickEvent) => {
                 GetWindow<ExercisesWindow>().SetLectureSO(lectureSO);
             });
+
+            if (lectureSO.isProject) {
+                startProjectButton.RegisterCallback((ClickEvent clickEvent) => {
+                    string lectureFolder = $"{lectureSO.lectureCode}_{lectureSO.lectureName}";
+                    string projectFolderPath = Application.dataPath +
+                        $"/Projects/{lectureFolder}/";
+
+                    string filePath = projectFolderPath + lectureFolder + "_GameScene.unity";
+                    if (File.Exists(filePath)) {
+                        filePath = filePath.Substring(Application.dataPath.Length);
+                        filePath = "Assets" + filePath;
+                        EditorSceneManager.OpenScene(filePath);
+                    }
+
+                    filePath = projectFolderPath + lectureSO.lectureName + ".cs";
+                    if (File.Exists(filePath)) {
+                        filePath = filePath.Substring(Application.dataPath.Length);
+                        filePath = "Assets" + filePath;
+                        EditorGUIUtility.PingObject(AssetDatabase.LoadMainAssetAtPath(filePath));
+                        AssetDatabase.OpenAsset(AssetDatabase.LoadMainAssetAtPath(filePath));
+                    }
+                });
+            }
         }
 
     }

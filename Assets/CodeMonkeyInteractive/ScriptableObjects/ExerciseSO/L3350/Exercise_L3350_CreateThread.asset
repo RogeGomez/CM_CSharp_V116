@@ -26,6 +26,6 @@ MonoBehaviour:
     (int i = 0; i < threadArray.Length; i++) {\r\n    threadArray[i].Start();\r\n}\r\nfor
     (int i = 0; i < threadArray.Length; i++) {\r\n    threadArray[i].Join();\r\n}\r\n\r\nExerciseValidateMainThread();"
   completedText: Here you learned how to create a simple thread. As you can see the
-    basics are quite easy but definitely be carefuly when writing complex multithreaded
+    basics are quite easy but definitely be careful when writing complex multithreaded
     code.
   videoWalkthroughLink: https://www.youtube.com/watch?v=-Uh2SAgIY3M

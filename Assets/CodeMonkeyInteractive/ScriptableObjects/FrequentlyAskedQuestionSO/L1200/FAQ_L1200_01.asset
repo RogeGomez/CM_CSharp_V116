@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: FAQ_L1200_01
   m_EditorClassIdentifier: 
   title: What are access modifiers in C#, and why are they important?
-  text: 'This is what defines how accessible a certain field/function can be. If
+  text: 'This is what defines how accessible a certain field/function can be. It
     defines whether a different class can access that field or not.
 
-    Access
-    modifiers are extremely important because they help you limit access and you
-    should limit access as much as possible since that is one of the best ways to
-    manage complexity.
+    Access modifiers
+    are extremely important because they help you limit access and you should limit
+    access as much as possible since that is one of the best ways to manage complexity.
 
-    I talk about this topic in more detail in the Clean
-    Code Guidelines lecture in a bit.
+    I
+    talk about this topic in more detail in the Clean Code Guidelines lecture in
+    a bit.
 
 '

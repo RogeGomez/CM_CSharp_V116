@@ -20,7 +20,7 @@ MonoBehaviour:
   - .GetLength(int dimension)
   - .Size
   correctOptionIndex: 2
-  answer: 'This is how you get the lenght of a specific dimension in a multidimensional
+  answer: 'This is how you get the length of a specific dimension in a multidimensional
     array. If you just use .Length you get the total Length of all the dimensions.
 
 '
